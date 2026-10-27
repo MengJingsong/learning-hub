@@ -1,6 +1,6 @@
 # Session Instruction Router
 
-Use `/english-study/README.md` for repository-wide rules. Read only the task-specific instruction file needed for the current task.
+Use `/english/english-study/README.md` for English-category rules. Read only the task-specific instruction file needed for the current task.
 
 ## Supported session modes
 
@@ -20,7 +20,7 @@ When the user activates a named mode, read that mode's instruction file, then ap
 
 An explicit mode switch replaces the previous mode. `默认模式` clears the named mode and resumes per-message intent routing. A clear request for a different task takes precedence for that task; do not ignore explicit requests merely because a mode is active. A new conversation does not inherit the mode of another conversation.
 
-If the relevant instruction file cannot be accessed, do not claim to have loaded it. Use the already available repository-wide rules and explain material limitations where necessary.
+If the relevant instruction file cannot be accessed, do not claim to have loaded it. Use the already available English-category rules and explain material limitations where necessary.
 
 ## Default routing (no named mode active)
 
@@ -33,3 +33,7 @@ If the relevant instruction file cannot be accessed, do not claim to have loaded
 - Unquoted English input → proofread and rephrase naturally, unless another task was requested.
 
 Use the smallest relevant instruction set. The active task's instructions control formatting, including the English-only output rule for Listening Mode.
+
+## Learning Hub integration
+
+The root `/router.md` selects the category before this router runs. `默认模式` clears both category and task mode and returns to root routing. Generic study/review/test commands use this router only when English is selected or chosen by root routing.

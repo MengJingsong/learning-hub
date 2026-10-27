@@ -11,7 +11,7 @@ Translate it into appropriate Chinese and explain important vocabulary, phrases,
 For a single English word or phrase, also give IPA when useful, detailed meaning, common collocations, register, examples, and corrections if the input is wrong.
 
 ## Inbox rule
-If the input contains a reusable word, phrase, sentence pattern, or pronunciation target worth long-term study, check `/english-study/inbox.md` and append a normalized lightweight item if it is not already present.
+If the input contains a reusable word, phrase, sentence pattern, or pronunciation target worth long-term study, check `/english/english-study/inbox.md` and append a normalized lightweight item if it is not already present.
 
 Do **not** classify the item into final study-material files during normal lookup.
 

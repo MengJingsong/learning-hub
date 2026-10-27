@@ -1,61 +1,75 @@
-# English
+# Learning Hub
 
-This repository is a long-term English study corpus and learning-state tracker.
+Personal learning repository: `MengJingsong/learning-hub`.
 
-The goal is **active mastery**, not simple recognition: listening, speaking, writing, comprehension, and natural use in North American daily life, academic work, and computer-science research.
+This repository brings together English study, computer-science knowledge, and interview preparation. Each category has its own instructions and learning state.
 
-## Repository structure
+## Start here
 
-### `/study-materials/`
+Read [router.md](router.md) to choose a category, then load only its relevant instructions. Copy [project-instructions.md](project-instructions.md) into ChatGPT Project Instructions to use the shared entry point.
 
-This folder is the complete study corpus.
+| Category | Scope | Instructions |
+|---|---|---|
+| [english](english/README.md) | English vocabulary, expression, listening, speaking, reading, and writing | [English router](english/english-study/instructions/router.md) |
+| [CS](CS/README.md) | Computer-science foundations, research, and engineering concepts | [CS router](CS/instructions/router.md) |
+| [interview](interview/README.md) | Coding, system design, technical questions, and behavioral interview practice | [Interview router](interview/instructions/router.md) |
 
-- `vocabulary.md` — individual words worth mastering.
-- `phrases.md` — reusable phrases, collocations, phrasal verbs, and general-purpose chunks.
-- `sentence-patterns.md` — reusable sentence frames and structures.
-- `everyday-english.md` — North American daily conversation, workplace/campus interaction, and natural spoken expressions.
-- `academic-english.md` — academic writing, presentations, research discussion, evidence, argumentation, and conference/lab communication.
-- `cs-research-english.md` — computer-science and software/systems research terminology and technical expressions.
-- `pronunciation-listening.md` — listening-specific targets such as reductions, linking, stress, rhythm, and pronunciation patterns.
+## Structure
 
-Study-material entries should stay lightweight. Detailed meaning, register, context, pronunciation, collocations, and examples can be researched or generated dynamically when an item is studied. Add permanent notes only when a distinction is important for correct use.
+```text
+README.md
+router.md
+project-instructions.md
+english/
+  README.md
+  study-materials/
+  english-study/
+    README.md
+    instructions/
+    project-instructions.md
+    inbox.md
+    mastery.md
+    session-log.md
+CS/
+  README.md
+  instructions/
+    router.md
+    learning.md
+  study-materials/README.md
+  mastery.md
+  session-log.md
+interview/
+  README.md
+  instructions/
+    router.md
+    preparation.md
+  study-materials/README.md
+  mastery.md
+  session-log.md
+```
 
-### Priority tiers
+## Routing examples
 
-Every study-material file is organized into three priority tiers:
+- `英语模式` or `english` selects English; existing commands such as `查词模式` and `听力模式` remain available.
+- `CS模式` or `计算机模式` selects computer-science learning.
+- `面试模式` or `interview` selects interview preparation.
+- `默认模式` clears the active category and mode and resumes intent routing.
+- Explicit task requests take precedence for that request. Categories and modes persist only within the current conversation.
 
-- **Core** — high-frequency, highly transferable items that are especially valuable for a computer-science PhD in North American daily life, academic communication, and research. These should receive the most practice and should ideally reach spontaneous active use.
-- **Useful** — common and worthwhile items whose value is more context-dependent. Practice them regularly, but less heavily than Core items.
-- **Specialized** — lower-frequency, more technical, narrower, or context-specific items. Keep them available for targeted learning and periodic review rather than giving them equal review weight.
+Technical English belongs in English when the learning objective is language. Concepts and principles belong in CS. Timed answers, mock interviews, and job-oriented practice belong in interview. Link shared knowledge instead of duplicating it.
 
-Priority is separate from mastery. A Specialized item can still be weak or due for review, and a Core item can eventually require only occasional retention checks. When other factors are equal, use the order **Core > Useful > Specialized**.
+## Learning records
 
-### `/english-study/`
+The existing English corpus, inbox, mastery scores, and session history are preserved under `english/`. CS and interview begin with empty learning records; no knowledge or mastery is assumed.
 
-This folder stores learning-state metadata, task routing, and temporary intake rather than formal study material.
+## Repository migration
 
-- `README.md` — repository-wide study rules and workflow.
-- `project-instructions.md` — copy-ready ChatGPT Project Instructions with all seven mode commands and session persistence.
-- `inbox.md` — temporary queue for newly discovered items; not part of the formal study corpus until curated.
-- `instructions/` — task-specific instructions:
-  - `router.md`
-  - `lookup.md`
-  - `study.md`
-  - `review.md`
-  - `test.md`
-  - `listening.md`
-  - `curate-inbox.md`
+The intended repository name is `MengJingsong/learning-hub` (formerly `MengJingsong/English`). Existing repository content was moved beneath `english/`; internal paths now include that prefix. Once the GitHub rename is complete, the repository URL is https://github.com/MengJingsong/learning-hub.
 
-To activate a persistent mode in a new chat, send one of: `查词模式`, `学习模式`, `复习模式`, `测试模式`, `听力模式`, `整理模式`, or `默认模式`. Modes apply only to that chat; see `instructions/router.md`.
-- `mastery.md` — current mastery state for formal study items.
-- `session-log.md` — concise history of meaningful reviews and tests.
+For a local clone, update its remote after the rename:
 
-## Study workflow
+```sh
+git remote set-url origin https://github.com/MengJingsong/learning-hub.git
+```
 
-When studying or reviewing, use `study-materials` as the source corpus and `english-study/mastery.md` to choose what needs practice. Due/weak items take precedence; among items with similar mastery and review status, prefer Core over Useful over Specialized.
-
-When useful, outside resources may be consulted dynamically for authentic usage, pronunciation, register, technical context, and current examples.
-
-New candidate items discovered during ordinary lookup should first go to `english-study/inbox.md`. They enter the formal `study-materials` corpus only during inbox curation, when they are normalized, deduplicated, classified, and assigned a priority tier.
-
-The root `README.md` is documentation only and is not part of the study corpus.
+Saved ChatGPT Project settings are external to this repository. Replace their previous English-only instructions with the root `project-instructions.md`.

@@ -2,7 +2,7 @@
 
 Trigger: the user says “听力训练”.
 
-Generate English passages primarily from `/study-materials/`, favoring currently relevant Core and weak items.
+Generate English passages primarily from `/english/study-materials/`, favoring currently relevant Core and weak items.
 
 Use natural North American English and relatively fast conversational phrasing.
 

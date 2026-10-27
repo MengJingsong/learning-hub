@@ -3,9 +3,9 @@
 Trigger: the user says “复习” or clearly asks to review study materials.
 
 Read:
-- `/english-study/README.md`;
-- relevant files in `/study-materials/`;
-- `/english-study/mastery.md`.
+- `/english/english-study/README.md`;
+- relevant files in `/english/study-materials/`;
+- `/english/english-study/mastery.md`.
 
 Select review items in this order:
 1. due/overdue;

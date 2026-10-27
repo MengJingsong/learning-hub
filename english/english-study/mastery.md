@@ -2,7 +2,7 @@
 
 Last updated: 2026-09-29
 
-This file tracks current mastery of items in `/study-materials/`.
+This file tracks current mastery of items in `/english/study-materials/`.
 
 ## Status legend
 

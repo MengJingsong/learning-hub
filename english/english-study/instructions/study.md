@@ -1,6 +1,6 @@
 # Study Mode
 
-Teach new or selected material primarily from `/study-materials/`.
+Teach new or selected material primarily from `/english/study-materials/`.
 
 Focus on active mastery:
 - meaning and nuance;

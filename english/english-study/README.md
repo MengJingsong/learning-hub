@@ -4,24 +4,24 @@ This folder stores learning state, temporary study intake, task-specific instruc
 
 ## Repository structure
 
-- `/study-materials/` is the complete study corpus. Unless the user explicitly asks otherwise, items to teach/test should come from that folder.
-- `/study-materials/vocabulary.md` stores individual words.
-- `/study-materials/phrases.md` stores reusable phrases, collocations, phrasal verbs, and general-purpose chunks.
-- `/study-materials/sentence-patterns.md` stores reusable sentence frames and structures.
-- `/study-materials/everyday-english.md` stores North American daily, campus, workplace, and conversational English.
-- `/study-materials/academic-english.md` stores academic writing, presentations, research discussion, and evidence/argumentation language.
-- `/study-materials/cs-research-english.md` stores computer-science and technical research English.
-- `/study-materials/pronunciation-listening.md` stores listening-specific pronunciation targets such as reductions, linking, stress, and rhythm.
+- `/english/study-materials/` is the complete study corpus. Unless the user explicitly asks otherwise, items to teach/test should come from that folder.
+- `/english/study-materials/vocabulary.md` stores individual words.
+- `/english/study-materials/phrases.md` stores reusable phrases, collocations, phrasal verbs, and general-purpose chunks.
+- `/english/study-materials/sentence-patterns.md` stores reusable sentence frames and structures.
+- `/english/study-materials/everyday-english.md` stores North American daily, campus, workplace, and conversational English.
+- `/english/study-materials/academic-english.md` stores academic writing, presentations, research discussion, and evidence/argumentation language.
+- `/english/study-materials/cs-research-english.md` stores computer-science and technical research English.
+- `/english/study-materials/pronunciation-listening.md` stores listening-specific pronunciation targets such as reductions, linking, stress, and rhythm.
 - Study-material entries should remain lightweight. Detailed meaning, register, context, pronunciation, and examples may be researched or generated dynamically during study; preserve permanent notes only when they are important for correct use.
 - Every study-material file uses three priority tiers: **Core**, **Useful**, and **Specialized**.
 - **Core** items are high-frequency and highly transferable; prioritize active mastery.
 - **Useful** items are common but more context-dependent; review them regularly with lower weight.
 - **Specialized** items are narrower, more technical, or lower-frequency; review them mainly when due, weak, or relevant to the current task.
 - Priority and mastery are independent. Do not treat a Core label as evidence of mastery or a Specialized label as permission to ignore an overdue weak item.
-- `/english-study/inbox.md` is a temporary intake queue for promising new items discovered during lookup. Inbox items are not formal study material until curated.
-- `/english-study/instructions/` stores task-specific instructions. Use `router.md` to select the smallest relevant instruction file for the current task.
-- `/english-study/project-instructions.md` contains concise long-term Project-level routing instructions.
-- `/english-study/` stores learning state and study-system metadata. It is not itself part of the study corpus.
+- `/english/english-study/inbox.md` is a temporary intake queue for promising new items discovered during lookup. Inbox items are not formal study material until curated.
+- `/english/english-study/instructions/` stores task-specific instructions. Use `router.md` to select the smallest relevant instruction file for the current task.
+- `/english/english-study/project-instructions.md` contains concise long-term Project-level routing instructions.
+- `/english/english-study/` stores learning state and study-system metadata. It is not itself part of the study corpus.
 - The repository root `README.md` is documentation only and is not study material.
 
 ## Goal
@@ -66,7 +66,7 @@ For a balanced general review session, a useful default is roughly 60% Core, 30%
 
 ## Listening-training rule
 
-When the user says “听力训练”, output only the English passage(s) intended to be heard. Do not add headings, explanations, translations, instructions, or commentary, because all extra text may be read aloud. Base passages primarily on `/study-materials/` and use natural, relatively fast conversational English.
+When the user says “听力训练”, output only the English passage(s) intended to be heard. Do not add headings, explanations, translations, instructions, or commentary, because all extra text may be read aloud. Base passages primarily on `/english/study-materials/` and use natural, relatively fast conversational English.
 
 ## State files
 
@@ -82,7 +82,7 @@ At the beginning of a study/review session, read this README and the relevant st
 
 ## Instruction routing
 
-See `/english-study/instructions/router.md` for the authoritative mode map, activation rules, and default routing.
+See `/english/english-study/instructions/router.md` for the authoritative mode map, activation rules, and default routing.
 
 Named session modes:
 - `查词模式` → `lookup.md`
@@ -99,11 +99,11 @@ Load only the smallest relevant set of instruction files for the current task.
 
 ## Inbox workflow
 
-During ordinary quoted lookup, do not immediately classify new study candidates into `/study-materials/`.
+During ordinary quoted lookup, do not immediately classify new study candidates into `/english/study-materials/`.
 
 Instead:
 1. explain the language fully to the user;
-2. if the item is worth long-term study, normalize it and append it to `/english-study/inbox.md` after checking for duplicates;
+2. if the item is worth long-term study, normalize it and append it to `/english/english-study/inbox.md` after checking for duplicates;
 3. leave detailed classification and tiering for a later “整理 inbox” session.
 
 During inbox curation:

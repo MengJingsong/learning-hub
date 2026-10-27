@@ -2,7 +2,7 @@
 
 Trigger: the user says “整理 inbox” or explicitly asks to organize pending study items.
 
-Read `/english-study/inbox.md`, then process pending items in batch.
+Read `/english/english-study/inbox.md`, then process pending items in batch.
 
 For each item:
 1. correct or normalize it if necessary;
