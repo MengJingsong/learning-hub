@@ -1,6 +1,6 @@
 # English Study
 
-This folder stores learning state, temporary study intake, task-specific instructions, testing history, and the rules ChatGPT should use when helping with this repository.
+This folder stores learning state, temporary study intake, testing history, and English study rules. Task-specific instructions are stored separately in `/english/instructions/`.
 
 ## Repository structure
 
@@ -19,7 +19,7 @@ This folder stores learning state, temporary study intake, task-specific instruc
 - **Specialized** items are narrower, more technical, or lower-frequency; review them mainly when due, weak, or relevant to the current task.
 - Priority and mastery are independent. Do not treat a Core label as evidence of mastery or a Specialized label as permission to ignore an overdue weak item.
 - `/english/english-study/inbox.md` is a temporary intake queue for promising new items discovered during lookup. Inbox items are not formal study material until curated.
-- `/english/english-study/instructions/` stores task-specific instructions. Use `router.md` to select the smallest relevant instruction file for the current task.
+- `/english/instructions/` stores task-specific instructions. Use `router.md` to select the smallest relevant instruction file for the current task.
 - `/english/english-study/project-instructions.md` contains concise long-term Project-level routing instructions.
 - `/english/english-study/` stores learning state and study-system metadata. It is not itself part of the study corpus.
 - The repository root `README.md` is documentation only and is not study material.
@@ -82,7 +82,7 @@ At the beginning of a study/review session, read this README and the relevant st
 
 ## Instruction routing
 
-See `/english/english-study/instructions/router.md` for the authoritative mode map, activation rules, and default routing.
+See `/english/instructions/router.md` for the authoritative mode map, activation rules, and default routing.
 
 Named session modes:
 - `查词模式` → `lookup.md`

@@ -10,7 +10,7 @@ Read [router.md](router.md) to choose a category, then load only its relevant in
 
 | Category | Scope | Instructions |
 |---|---|---|
-| [english](english/README.md) | English vocabulary, expression, listening, speaking, reading, and writing | [English router](english/english-study/instructions/router.md) |
+| [english](english/README.md) | English vocabulary, expression, listening, speaking, reading, and writing | [English router](english/instructions/router.md) |
 | [CS](CS/README.md) | Computer-science foundations, research, and engineering concepts | [CS router](CS/instructions/router.md) |
 | [interview](interview/README.md) | Coding, system design, technical questions, and behavioral interview practice | [Interview router](interview/instructions/router.md) |
 
@@ -23,9 +23,9 @@ project-instructions.md
 english/
   README.md
   study-materials/
+  instructions/
   english-study/
     README.md
-    instructions/
     project-instructions.md
     inbox.md
     mastery.md

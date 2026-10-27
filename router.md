@@ -11,7 +11,7 @@ Default repository: `MengJingsong/learning-hub`. All slash-prefixed paths below 
 
 | Selection | Read first | Then read |
 |---|---|---|
-| `英语模式`, `English模式`, standalone `english` | `/english/english-study/README.md` | `/english/english-study/instructions/router.md` |
+| `英语模式`, `English模式`, standalone `english` | `/english/english-study/README.md` | `/english/instructions/router.md` |
 | `CS模式`, `计算机模式`, standalone `CS` | `/CS/README.md` | `/CS/instructions/router.md` |
 | `面试模式`, standalone `interview` | `/interview/README.md` | `/interview/instructions/router.md` |
 

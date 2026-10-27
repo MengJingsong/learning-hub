@@ -2,7 +2,7 @@
 
 Default repository: `MengJingsong/learning-hub`.
 
-For English-study tasks, read `english/english-study/README.md` for global rules and `english/english-study/instructions/router.md` for session routing. Read only the relevant task instruction file.
+For English-study tasks, read `english/english-study/README.md` for global rules and `english/instructions/router.md` for session routing. Read only the relevant task instruction file.
 
 ## Session modes
 - `查词模式` → `lookup.md`
