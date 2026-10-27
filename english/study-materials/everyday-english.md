@@ -66,6 +66,8 @@ FORMAT RULES:
 - kind of
 - sort of
 - I mean
+- check back soon
+- Way to go!
 
 ## Useful
 - Screw up

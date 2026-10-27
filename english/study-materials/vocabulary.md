@@ -108,6 +108,14 @@ FORMAT RULES:
 - self-contained
 - counterpart
 - negligible
+- splice
+- shakedown
+- creepy
+- sanctimonious
+- confound
+- inconclusive
+- rollover
+- cross-reference
 
 ## Specialized
 - Backticks
@@ -145,3 +153,4 @@ FORMAT RULES:
 - side channel
 - replicate
 - significance
+- doujinshi

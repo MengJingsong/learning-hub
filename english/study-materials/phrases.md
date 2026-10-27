@@ -54,6 +54,8 @@ FORMAT RULES:
 - remain an open question
 - in contrast to X
 - take a closer look at X
+- or so
+- reach capacity
 
 ## Useful
 - iron out
@@ -89,6 +91,11 @@ FORMAT RULES:
 - relative to X
 - under these conditions
 - beyond the scope of X
+- go down the drain
+- the elephant in the room
+- limited availability
+- terms apply
+- rejection upheld / rejection overturned
 
 ## Specialized
 - grounds for X

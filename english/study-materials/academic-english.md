@@ -61,6 +61,10 @@ FORMAT RULES:
 - point out
 - hold true
 - carry over to
+- null result
+- positive control
+- preregister a study
+- signal-to-noise ratio
 
 ## Specialized
 - Ad hoc

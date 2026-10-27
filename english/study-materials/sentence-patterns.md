@@ -42,6 +42,7 @@ FORMAT RULES:
 - The key idea here is that X.
 - Let's walk through X.
 - It turns out that X.
+- might as well + base verb
 
 ## Useful
 - X instead of Y
@@ -60,6 +61,7 @@ FORMAT RULES:
 - X ..., rather than Y ... .
 - X cannot be ruled out.
 - What happens if X?
+- wouldn't put it past someone to do something
 
 ## Specialized
 - This is X kicking in before Y
