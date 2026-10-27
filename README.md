@@ -64,9 +64,9 @@ The existing English corpus, inbox, mastery scores, and session history are pres
 
 ## Repository migration
 
-The intended repository name is `MengJingsong/learning-hub` (formerly `MengJingsong/English`). Existing repository content was moved beneath `english/`; internal paths now include that prefix. Once the GitHub rename is complete, the repository URL is https://github.com/MengJingsong/learning-hub.
+The repository is `MengJingsong/learning-hub` (formerly `MengJingsong/English`). Existing repository content was moved beneath `english/`; internal paths now include that prefix. The repository URL is https://github.com/MengJingsong/learning-hub.
 
-For a local clone, update its remote after the rename:
+For a local clone, update its remote:
 
 ```sh
 git remote set-url origin https://github.com/MengJingsong/learning-hub.git
