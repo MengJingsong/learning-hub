@@ -19,3 +19,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 ## Pending
 
 - [vocab] RTO
+- [vocab] curate
