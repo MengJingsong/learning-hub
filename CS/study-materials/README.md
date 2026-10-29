@@ -1,3 +1,14 @@
 # CS Study Materials
 
-No curated topics have been added yet. Add concise Markdown notes or question sets here as learning proceeds. Use stable topic identifiers, prerequisites, key ideas, pitfalls, and useful source references. Link shared concepts rather than duplicating them across categories.
+## 专题索引
+
+- [AI infrastructure 学习资料](ai-infrastructure-resources.md)：在线课程、官方文档、可下载资料、先修关系与实验建议。面试练习链接到 interview 类别。
+
+## 已有书籍
+
+- [Designing Data-Intensive Applications — Martin Kleppmann](<Designing Data-Intensive Applications - Martin Kleppmann.pdf>)
+- [Distributed Systems — Maarten van Steen & Andrew Tanenbaum](<Distributed Systems -- Maarten van Steen & Andrew Tanenbaum.pdf>)
+
+## 笔记原则
+
+Add concise Markdown notes or question sets as learning proceeds. Use stable topic identifiers, prerequisites, key ideas, pitfalls, and useful source references. Link shared concepts rather than duplicating them across categories. Resource inclusion is not evidence of mastery.
