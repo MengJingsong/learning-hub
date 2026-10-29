@@ -22,7 +22,7 @@
 | 资源 | 官方入口 / 下载入口 | 重点 | 保存建议 |
 |---|---|---|---|
 | Dive into Deep Learning / 动手学深度学习 | [英文](https://d2l.ai/) · [中文](https://zh.d2l.ai/) · [英文 PDF](https://d2l.ai/d2l-en.pdf) · [源仓库及许可](https://github.com/d2l-ai/d2l-en) | 自动求导、优化、Transformer、计算性能、多 GPU | 文本采用 CC BY-SA 4.0；转载时保留署名与许可，代码核对对应许可。优先保存自己的代码与笔记 |
-| Introduction to Machine Learning Systems | [官网](https://mlsysbook.ai/) · [Volume I](https://mlsysbook.ai/vol1/index.html) · [许可说明](https://mlsysbook.ai/about/) | 系统约束、硬件、优化与部署 | 官网提供 PDF；教材当前为 CC BY-NC-ND 4.0，教学材料另用 CC BY-NC-SA 4.0。满足条件时可保存未修改教材并附来源许可；不要混淆两种许可。Volume II 为 preview |
+| Introduction to Machine Learning Systems | [官网](https://mlsysbook.ai/) · [Volume I](https://mlsysbook.ai/vol1/index.html) · [许可说明](https://mlsysbook.ai/about/) | 系统约束、硬件、优化与部署 | 免费在线；下载格式以对应卷的官方入口为准。不同版本及材料的许可须逐项核对，不统一推断再分发权限；Volume II 为 preview。教材定位详见第 2.1 节 |
 | OSTEP | [作者网站及分章 PDF](https://pages.cs.wisc.edu/~remzi/OSTEP/) | 虚拟内存、线程、锁、条件变量、I/O | 可从作者网站下载阅读；本索引不主张已获得 GitHub 再分发权限，建议链接与自写笔记 |
 | CUDA Programming Guide | [在线](https://docs.nvidia.com/cuda/cuda-programming-guide/) · [PDF](https://docs.nvidia.com/cuda/cuda-programming-guide/pdf/cuda-programming-guide.pdf) | 执行模型、内存、streams、同步 | 可下载阅读；仓库优先保留官方链接及所用版本 |
 | Stanford CS336 | [课程与作业](https://cs336.stanford.edu/) | 模型实现、性能、训练系统、数据 | 课程提供讲义/作业资源；逐项检查许可，优先链接官方文件，自己的实现放独立目录 |
@@ -32,6 +32,41 @@
 | PagedAttention / vLLM (2023) | [论文页](https://arxiv.org/abs/2309.06180) · [PDF](https://arxiv.org/pdf/2309.06180) | KV cache、碎片与分页、共享 | 同上；论文设计与当前 vLLM 实现分开学习 |
 
 已有仓库 PDF：DDIA 与 Distributed Systems。用于补充复制、分区、容错、存储和通信等系统原理；不是 GPU/训练/推理专项教材。下载大文件后可通过本地 Git/GitHub Desktop 提交；当前连接器 16 MiB 请求限制还包含编码与封装开销，不能按原始文件 16 MB 判断能否上传。
+
+## 2.1 系统教材：主线与专项
+
+补充日期：2026-10-28（America/New_York）。以下四本按学习用途选择，不要求同时通读。OpenMLSys 与 Harvard MLSysBook 是两个独立项目；后者的 Volume I / Volume II 属于同一系列，不能与 OpenMLSys 混为一谈。
+
+| 教材 / 项目 | 官方入口与作者 | 学习范围 | 阅读方式与版本状态 | 本计划中的定位 |
+|---|---|---|---|---|
+| Machine Learning Systems: Design and Implementation /《机器学习系统：设计和实现》 | [在线教材](https://openmlsys.github.io/) · [OpenMLSys 源仓库](https://github.com/openmlsys/openmlsys)，OpenMLSys Team | Computational graph、Autograd、AI accelerators、Compiler / Runtime、Data pipeline、Distributed training、Model serving、RL systems、GPU cluster management | 免费在线。当前官网展示第二版九章目录，源仓库仍持续更新；记录实际阅读的版本或 commit，不把目录存在当作每章均已通读 | 建议主教材：先建立从框架到集群的知识结构，再选一个小知识点深入 |
+| Introduction to Machine Learning Systems | [Volume I](https://mlsysbook.ai/vol1/) · [系列官网](https://mlsysbook.ai/)，Vijay Janapa Reddi | 系统约束、硬件与软件的协同、构建、优化与部署的系统视角 | 免费在线；配套实验见官网。Volume II: Scaling Machine Learning Systems 当前仍为 preview；Volume III / IV 标为 in preparation，不计作已经定稿的完整教材 | 辅助主线：补全系统视角；不要求与 OpenMLSys 重复通读 |
+| Programming Massively Parallel Processors: A Hands-on Approach | [出版社第五版页面](https://shop.elsevier.com/books/programming-massively-parallel-processors/hwu/978-0-443-43900-1)，Wen-mei W. Hwu、David B. Kirk、Izzat El Hajj | GPU architecture、CUDA、Memory hierarchy / Locality、并行计算模式、Reduction / Scan、Matrix multiplication、Multi-GPU | 商业教材，通过购买或有权限的图书馆平台阅读。出版社当前列第五版；已有第四版也可用于核心基础，章节位置与新增内容需分别核对 | GPU / Kernel 专项：适合有基本 C/C++、数组与并发概念后学习 |
+| AI Systems Performance Engineering | [O'Reilly](https://www.oreilly.com/library/view/ai-systems-performance/9798341627772/) · [作者配套代码与实验](https://github.com/cfregly/ai-performance-engineering)，Chris Fregly | Profiling、CUDA kernel、Memory / Bandwidth、Networking / NCCL、PyTorch compiler、Distributed training、Inference serving、OS / Container / Kubernetes tuning | 商业教材，O'Reilly 标为中高级；配套仓库提供代码与实验，不等于免费全书。硬件特性和优化参数依赖平台与版本 | 性能工程进阶：以测量、瓶颈定位和可复现实验为主，不建议无基础直接逐页通读 |
+
+### 建议顺序与使用方式
+
+1. 若 Training step、Autograd、Optimizer 尚不熟，先用上表已有 D2L 条目补必要基础，再进入系统教材。
+2. 用 OpenMLSys 作为教材主干；从 Programming interfaces / Computational graphs 建立结构，按先修选当前需要的单个知识点。MLSysBook Volume I 用作补充解释和系统视角。
+3. GPU / Kernel 方向深入 PMPP；Training / Inference 性能方向在具备相关基础后使用 AI Systems Performance Engineering。
+4. 将书中的原理与本索引的 PyTorch Distributed、NCCL、vLLM、CUDA 等当前官方文档对照；教材不代替版本相关 API 文档。
+5. DDIA 与 Distributed Systems 用于补充通信、存储、复制、容错和恢复，不作为 GPU 或深度学习专项教材。
+
+### 单知识点复习规则
+
+- 每次只复习一个具体知识点，而不是一次学完整章。例如 Memory hierarchy 可继续拆为 Global memory、Shared memory、Coalesced access，分别学习。
+- 中文解释，关键术语和关键词使用 English；首次出现可附中文释义。
+- 先读取 CS 学习记录并核对相应教材原文，讲解、举例和答疑；仅在用户明确要求后测试，一次一题。
+- 有疑惑时继续当前点；用户明确要求进入下一个知识点后才推进。用户选择未经测试继续时，保留“未评估”，不自动判定掌握。
+- 记录具体知识点、来源章节与版本、讲解/测试阶段和实际证据，不从阅读或资料收录推断能力。
+
+可复制请求：
+
+- `知识点复习，机器学习系统：设计和实现。每次只选一个符合先修的知识点，中文讲解、关键术语用 English，等我要求后再测试。`
+- `CS模式，根据 AI infrastructure 索引和我的学习记录，从 PMPP 中选一个 GPU 基础知识点；先读取相关原文，讲解并答疑，等我说进入下一个再推进。`
+- `CS模式，按 AI Systems Performance Engineering 复习一个 Profiling 知识点；结合一个可测量的例子解释，等我要求后测试。`
+
+本次只添加教材信息、官方链接与阅读路线，没有下载或上传上述四本教材全文。完整在线阅读、平台内离线阅读、可下载 PDF 与获准公开再分发是不同权限，不能相互推断。
 
 ## 3. 在线主线：按需要选，不必全部通读
 
