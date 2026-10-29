@@ -2,6 +2,7 @@
 
 ## 专题索引
 
+- [AI infrastructure 岗位定位与学习方向](ai-infrastructure-role-focus.md)：结合分布式系统资源分配、configuration、throttling 研究，整理目标岗位、能力迁移和学习优先级。
 - [AI infrastructure 学习资料](ai-infrastructure-resources.md)：在线课程、官方文档、可下载资料、先修关系与实验建议。面试练习链接到 interview 类别。
 
 ## 已有书籍
