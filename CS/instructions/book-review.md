@@ -43,3 +43,10 @@ After meaningful testing, update `/CS/mastery.md` conservatively and finalize th
 Use the existing 0-5 CS scale: 0 unfamiliar, 1 recognized, 2 understood, 3 applied with help, 4 independently applied, 5 retained and transferred after delayed review. Unassessed is unknown, not zero. Preserve previous evidence and never lower an established level merely because the learner starts a new session. Distinguish exposure, immediate performance, and delayed retention. Update existing topic/session entries rather than duplicating them for every follow-up.
 
 Keep records exclusively in CS. Verify GitHub writes before claiming progress was saved; if a write fails, state that the record remains unsaved.
+
+## Source Retrieval Optimization
+
+- For each Knowledge Point, locate the relevant chapter/section first and retrieve only the necessary passages, rather than repeatedly fetching an entire PDF. Use the chapter index and previously verified references when available.
+- Prefer an accessible ChatGPT Project File for the selected book. If the Project File is unavailable or the required passage cannot be retrieved, fall back to the authorized Google Drive copy. If neither source is accessible, disclose the limitation and ask for the relevant excerpt; never pretend to have read it.
+- Minimize redundant retrieval across follow-up questions, while re-checking the source when accuracy or context requires it. Preserve chapter/edition attribution and distinguish source-supported statements from added explanations.
+- This is a retrieval-efficiency guideline, not a guarantee of lower token usage; token consumption depends on the actual material placed into model context.
