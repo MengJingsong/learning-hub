@@ -4,6 +4,7 @@ Study computer-science foundations, research topics, and engineering practice. T
 
 Read [instructions/router.md](instructions/router.md) and only the relevant task instructions.
 
+- [常用指令速查](instructions/commands.md)：按学习目标选择可复制的指令。
 - [study-materials/](study-materials/README.md): source books, curated concepts, and exercises.
 - [mastery.md](mastery.md): evidence of current understanding and weaknesses.
 - [session-log.md](session-log.md): concise meaningful practice history.
