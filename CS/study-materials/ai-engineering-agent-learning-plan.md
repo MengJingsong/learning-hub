@@ -8,7 +8,7 @@
 
 本计划属于 CS 概念与工程学习，与 [AI infrastructure 索引](ai-infrastructure-resources.md) 互补。后者侧重 GPU、训练、推理服务与集群；本计划侧重模型之上的应用逻辑、工具、数据与运行时。二者在延迟、成本、服务可靠性和可观测性方面有交集。
 
-- 使用中文讲解，保留必要英文术语。
+- 使用中文讲解；关键术语与关键词统一使用 English 表达，例如 Tool calling、Agent loop、Workflow、Context window、RAG、Checkpoint、Idempotency。首次出现时可附中文释义帮助理解，后续优先沿用英文术语；讲解、示例、提问、测试与反馈均遵循此规则。
 - 每次只学习一个知识点：直觉 → 定义与机制 → learning-hub 示例 → 工程取舍 → 答疑。
 - 等学习者明确要求后再测试；测试一次一题，先作答再反馈。
 - 选题前读取 [CS mastery](../mastery.md) 与 [session log](../session-log.md)，依据先修与实际证据调整深度，不因记录为空默认零基础。
