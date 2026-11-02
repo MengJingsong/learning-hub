@@ -7,6 +7,7 @@ Use `/english/english-study/README.md` for English-category rules. Read only the
 | Activation command | Mode | Instruction file |
 |---|---|---|
 | 查词模式 | Lookup | `lookup.md` |
+| 优化模式 / refine模式 | Refine | `refine.md` |
 | 学习模式 | Study | `study.md` |
 | 复习模式 | Review | `review.md` |
 | 测试模式 | Test | `test.md` |
