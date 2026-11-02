@@ -86,6 +86,7 @@ See `/english/instructions/router.md` for the authoritative mode map, activation
 
 Named session modes:
 - `查词模式` → `lookup.md`
+- `优化模式` / `refine模式` → `refine.md`
 - `学习模式` → `study.md`
 - `复习模式` → `review.md`
 - `测试模式` → `test.md`
