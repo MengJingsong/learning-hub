@@ -53,7 +53,7 @@ This folder stores task-specific instructions:
 - `listening.md`
 - `curate-inbox.md`
 
-To activate a persistent mode in a new chat, send one of: `查词模式`, `优化模式` / `refine模式`, `学习模式`, `复习模式`, `测试模式`, `听力模式`, `整理模式`, or `默认模式`. Modes apply only to that chat; see [instructions/router.md](instructions/router.md).
+To activate a persistent mode in a new chat, send one of: `查词模式` / `翻译模式`, `优化模式` / `refine模式`, `学习模式`, `复习模式`, `测试模式`, `听力模式`, `整理模式`, or `默认模式`. Modes apply only to that chat; see [instructions/router.md](instructions/router.md).
 
 ## Study workflow
 

@@ -50,7 +50,7 @@ interview/
 
 ## Routing examples
 
-- `英语模式` or `english` selects English; existing commands such as `查词模式` and `听力模式` remain available.
+- `英语模式` or `english` selects English; existing commands such as `查词模式` / `翻译模式` and `听力模式` remain available.
 - `CS模式` or `计算机模式` selects computer-science learning.
 - `面试模式` or `interview` selects interview preparation.
 - `默认模式` clears the active category and mode and resumes intent routing.

@@ -85,7 +85,7 @@ At the beginning of a study/review session, read this README and the relevant st
 See `/english/instructions/router.md` for the authoritative mode map, activation rules, and default routing.
 
 Named session modes:
-- `查词模式` → `lookup.md`
+- `查词模式` / `翻译模式` → `lookup.md`
 - `优化模式` / `refine模式` → `refine.md`
 - `学习模式` → `study.md`
 - `复习模式` → `review.md`
