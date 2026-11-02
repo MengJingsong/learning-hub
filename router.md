@@ -17,7 +17,7 @@ Default repository: `MengJingsong/learning-hub`. All slash-prefixed paths below 
 
 `知识点复习` explicitly selects CS and its book-based review workflow; read `/CS/README.md`, `/CS/instructions/router.md`, and `/CS/instructions/book-review.md`. This specific command takes precedence over generic review routing, including when another category is active. A book already named in the request need not be requested again.
 
-Legacy commands `查词模式`, `学习模式`, `复习模式`, `测试模式`, `听力模式`, and `整理模式` select English and activate its matching mode when no category is active. Within English they retain their existing meaning. Within CS or interview, generic learning/review/testing requests follow that category's router; English-specific lookup/listening/inbox commands explicitly select English.
+Legacy commands `查词模式`, `学习模式`, `复习模式`, `测试模式`, `听力模式`, and `整理模式` select English and activate its matching mode when no category is active. Within English they retain their existing meaning. Within CS or interview, generic learning/review/testing requests follow that category's router; English-specific lookup/listening/inbox commands explicitly select English. `优化模式` and `refine模式` always select English and activate `/english/instructions/refine.md`.
 
 ## Persistence and overrides
 
