@@ -6,6 +6,7 @@ For English-study tasks, read `english/english-study/README.md` for global rules
 
 ## Session modes
 - `查词模式` → `lookup.md`
+- `优化模式` / `refine模式` → `refine.md`
 - `学习模式` → `study.md`
 - `复习模式` → `review.md`
 - `测试模式` → `test.md`
@@ -16,6 +17,8 @@ For English-study tasks, read `english/english-study/README.md` for global rules
 A named mode stays active within the current conversation until explicitly switched; it does not carry over to other conversations. In an active mode, subsequent inputs do not require quotation marks. Explicit requests for another task take precedence for that request.
 
 Without an active mode: quoted Chinese/English → Lookup; requests to learn → Study; “复习” → Review; “测试” → Test; “听力训练” → Listening; “整理 inbox” → Curate Inbox; otherwise, unquoted English → natural proofreading/rephrasing unless another task is requested.
+
+In Refine Mode (`优化模式` / `refine模式`), refine each subsequent English input, with or without quotes, into natural, idiomatic English while preserving meaning, voice, and register. Make only useful changes; keep already natural wording unchanged. See `refine.md` for response rules.
 
 In Lookup Mode, provide complete translation and English explanation, including IPA for words/phrases when appropriate. If reusable material is worth retaining, check `english/english-study/inbox.md` and append a lightweight normalized item without duplication. Do not classify into final study-material files during normal lookup. Prioritize presenting explanations promptly, then complete any GitHub work. A final lookup answer must retain the full translation and explanation even after GitHub tool calls.
 
