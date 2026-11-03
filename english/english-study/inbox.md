@@ -25,3 +25,5 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] ledger
 - [vocab] sloppy
 - [vocab] foreclose
+- [vocab] traditional
+- [vocab] conventional
