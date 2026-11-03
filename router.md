@@ -19,7 +19,7 @@ Default repository: `MengJingsong/learning-hub`. All slash-prefixed paths below 
 | `分布式模式`, `Distributed System模式` | `/Job/Distributed System/README.md` | `/Job/Distributed System/instructions/router.md` |
 | `AI模式`, standalone `AI` | `/Job/AI/README.md` | `/Job/AI/instructions/router.md` |
 
-`知识点复习` explicitly selects CS and its book-based review workflow; read `/CS/README.md`, `/CS/instructions/router.md`, and `/CS/instructions/book-review.md`. This specific command takes precedence over generic review routing, including when another category is active. A book already named in the request need not be requested again.
+`知识点复习` explicitly selects CS and its book-based review workflow; read `/Job/CS/README.md`, `/Job/CS/instructions/router.md`, and `/Job/CS/instructions/book-review.md`. This specific command takes precedence over generic review routing, including when another category is active. A book already named in the request need not be requested again.
 
 `翻译模式` is an exact alias of `查词模式` in all routing and mode behavior; both activate `/english/instructions/lookup.md`.
 
@@ -43,4 +43,4 @@ Requests to manage the repository are repository tasks; do not proofread them or
 
 ## Job preparation entry
 
-`/Job/README.md` describes the four Job topics and instruction lookup. Use `/Job/instructions/router.md` to select a topic or career planning. Career goals, target-role and skill-gap planning, milestones, job-preparation plans, Networking actions, and career decisions/reviews route to `/Job/career-development.md`; do not invent personal information or completed actions. Distributed System and AI concept learning use their topic routers; interview drills use the interview router. Existing `/CS/` and `/interview/` files and learning records remain authoritative and are reused through the Job entries. All prior commands and specific workflow precedence remain in effect.
+`/Job/README.md` describes the four Job topics and instruction lookup. Use `/Job/instructions/router.md` to select a topic or career planning. Career goals, target-role and skill-gap planning, milestones, job-preparation plans, Networking actions, and career decisions/reviews route to `/Job/career-development.md`; do not invent personal information or completed actions. Distributed System and AI concept learning use their topic routers; interview drills use the interview router. All CS and interview instructions, materials, and learning records live under `/Job/CS/` and `/Job/interview/`. All prior commands and specific workflow precedence remain in effect.

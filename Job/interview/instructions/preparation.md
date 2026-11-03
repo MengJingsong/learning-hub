@@ -6,7 +6,7 @@ For mock interviews, ask one question at a time and withhold the solution until 
 
 - Coding: clarify inputs and constraints, reason about correctness and complexity, and test edge cases.
 - System design: establish requirements and scale assumptions, then examine architecture, data model, bottlenecks, reliability, and tradeoffs.
-- Technical fundamentals: test causal understanding with follow-ups; link conceptual notes in `/CS/`.
+- Technical fundamentals: test causal understanding with follow-ups; link conceptual notes in `/Job/CS/`.
 - Behavioral: help structure truthful examples using situation, task, action, and result; ask for missing facts rather than fabricating them.
 
-Use `/interview/study-materials/` and `/interview/mastery.md` to select due or weak practice. Save reusable question summaries and pitfalls without duplicating CS explanations. Update `/interview/mastery.md` and `/interview/session-log.md` only after meaningful practice, recording hints and whether answers were independent. Separate language fluency from technical correctness.
+Use `/Job/interview/study-materials/` and `/Job/interview/mastery.md` to select due or weak practice. Save reusable question summaries and pitfalls without duplicating CS explanations. Update `/Job/interview/mastery.md` and `/Job/interview/session-log.md` only after meaningful practice, recording hints and whether answers were independent. Separate language fluency from technical correctness.

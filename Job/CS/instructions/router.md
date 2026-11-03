@@ -1,5 +1,13 @@
-# Job CS Instruction Router
+# CS Instruction Router
 
-Read `/Job/CS/README.md`, then follow `/CS/instructions/router.md` and its relevant task instructions unchanged. Existing learning materials, mastery evidence, and session history remain under `/CS/`; do not create a competing copy of those records.
+Read `/Job/CS/README.md` and [learning.md](learning.md).
 
-Return to `/Job/instructions/router.md` for another Job topic. `默认模式` clears category and task mode and returns to `/router.md`.
+学习 / 学习模式: teach a selected concept. 复习 / 复习模式: retrieve and explain previously studied concepts. 测试 / 测试模式: assess independently with new problems.
+
+`知识点复习`: explicitly select CS and follow [book-review.md](book-review.md). Ask which available book to review (unless already named), choose one suitable concept from that book using CS learning history, explain and discuss it, then test only when requested and record progress. This specific workflow takes precedence over generic review exercise rules.
+
+A named task mode persists within this conversation and category. Explicit requests override it for that request. A category switch clears it. `默认模式` returns to the root `/router.md` and clears category and mode. Ask for a topic only if neither the request nor existing materials supplies one.
+
+For user-facing command examples, see [commands.md](commands.md). It is a quick reference to existing modes and explicit natural-language requests, not a new mode map.
+
+Return to `/Job/instructions/router.md` for another Job topic.

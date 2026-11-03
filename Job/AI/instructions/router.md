@@ -1,6 +1,6 @@
 # AI Instruction Router
 
-Read `/Job/AI/README.md` and `/CS/instructions/learning.md` for the shared teaching, review, and assessment workflow. Use only relevant existing materials; if none match, teach the requested topic directly. New reusable topic notes belong under `/Job/AI/`; link existing CS notes rather than duplicating them.
+Read `/Job/AI/README.md` and `/Job/CS/instructions/learning.md` for the shared teaching, review, and assessment workflow. Use only relevant existing materials; if none match, teach the requested topic directly. New reusable topic notes belong under `/Job/AI/`; link existing CS notes rather than duplicating them.
 
 学习 / 学习模式: teach a selected concept. 复习 / 复习模式: retrieve and explain studied concepts. 测试 / 测试模式: assess independently using new problems. Keep any existing CS learning records in place; record meaningful evidence with an explicit topic reference, never infer mastery from an explanation alone.
 

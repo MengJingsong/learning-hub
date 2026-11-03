@@ -2,7 +2,7 @@
 
 整理日期：2026-10-28（America/New_York）。目标：AI infrastructure 面试准备。链接经本次检索核对；软件文档持续变化，实践时记录框架、CUDA、驱动与硬件版本。
 
-本文件是资源目录与建议路线，不是已学习或已掌握的记录。概念学习记录在 /CS/mastery.md 和 /CS/session-log.md；面试练习见 [AI infrastructure 面试清单](../../interview/study-materials/ai-infrastructure.md)。本轮只保存网址与索引，未下载或上传下表中的第三方全文。
+本文件是资源目录与建议路线，不是已学习或已掌握的记录。概念学习记录在 /Job/CS/mastery.md 和 /Job/CS/session-log.md；面试练习见 [AI infrastructure 面试清单](../../interview/study-materials/ai-infrastructure.md)。本轮只保存网址与索引，未下载或上传下表中的第三方全文。
 
 ## 1. 先确定岗位分支
 

@@ -70,4 +70,4 @@
 - interview 面试表现保存在该类别的 mastery.md 与 session-log.md；不混写英语、CS 和面试状态。
 - 本文件只是指令参考；选题和评价仍需读取最新记录，不能从资源收录推断已掌握。
 
-权威流程：[根路由](../../router.md) · [CS 路由](router.md) · [学习与测试](learning.md) · [书籍复习](book-review.md)。
+权威流程：[根路由](../../../router.md) · [CS 路由](router.md) · [学习与测试](learning.md) · [书籍复习](book-review.md)。

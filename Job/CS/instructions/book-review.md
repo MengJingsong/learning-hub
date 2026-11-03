@@ -2,14 +2,14 @@
 
 ## Entry and book selection
 
-Trigger: `知识点复习`. This explicitly selects CS and activates book-based review for the current conversation. Read `/CS/README.md`, `/CS/instructions/router.md`, and `/CS/instructions/learning.md`.
+Trigger: `知识点复习`. This explicitly selects CS and activates book-based review for the current conversation. Read `/Job/CS/README.md`, `/Job/CS/instructions/router.md`, and `/Job/CS/instructions/learning.md`.
 
-At the start of each requested book-review session, ask which book's concepts the learner wants to review. List the actual available books in `/CS/study-materials/`; do not select a book silently. If the request already names the book, use it without asking again. Accept unambiguous short titles such as DDIA; clarify only genuinely ambiguous names. Preserve the selected book and topic through follow-up questions and the subsequent test within this conversation.
+At the start of each requested book-review session, ask which book's concepts the learner wants to review. List the actual available books in `/Job/CS/study-materials/`; do not select a book silently. If the request already names the book, use it without asking again. Accept unambiguous short titles such as DDIA; clarify only genuinely ambiguous names. Preserve the selected book and topic through follow-up questions and the subsequent test within this conversation.
 
 ## Select one suitable concept
 
 After book selection:
-1. Read the current `/CS/mastery.md`, `/CS/session-log.md`, relevant reusable notes, and the selected book's contents and relevant section. Use the actual available edition; cite its chapter/section and verified page location where useful. Do not invent source access or page numbers.
+1. Read the current `/Job/CS/mastery.md`, `/Job/CS/session-log.md`, relevant reusable notes, and the selected book's contents and relevant section. Use the actual available edition; cite its chapter/section and verified page location where useful. Do not invent source access or page numbers.
 2. Choose exactly one focused concept from that book using relevant learning history. Prioritize due/overdue review, unresolved misconceptions or failed topics, weak understanding, and topics not tested recently. Respect prerequisites, demonstrated ability, and the learner's stated goals; choose a manageable next step when no suitable previous topic exists. Cross-book evidence about the same concept may inform selection, but identify the selected book as the source and preserve book-specific progress.
 3. Briefly state the concept, source location, and why it fits the recorded evidence. Do not ask the learner to choose the concept after they have chosen a book.
 4. If history is empty or insufficient, say that prior mastery is unknown and choose an accessible foundational concept from the book. Do not infer that the learner knows nothing or require a preliminary test.
@@ -32,9 +32,9 @@ Use enough evidence to distinguish partial understanding from independent applic
 
 ## Record progress
 
-After meaningful explanation/discussion, add or update a concise dated entry in `/CS/session-log.md` with book/edition, source location, concept ID/title, covered material, observed questions or difficulties, and next step. If no test occurred, explicitly mark `explained/discussed; unassessed` and do not increase mastery.
+After meaningful explanation/discussion, add or update a concise dated entry in `/Job/CS/session-log.md` with book/edition, source location, concept ID/title, covered material, observed questions or difficulties, and next step. If no test occurred, explicitly mark `explained/discussed; unassessed` and do not increase mastery.
 
-After meaningful testing, update `/CS/mastery.md` conservatively and finalize the session-log entry. Record:
+After meaningful testing, update `/Job/CS/mastery.md` conservatively and finalize the session-log entry. Record:
 - concept ID/title and book/edition/chapter/section;
 - learning/review and test dates, brief answer evidence, errors, and hints;
 - independent versus prompted performance;

@@ -11,8 +11,8 @@ Read [router.md](router.md) to choose a category, then load only its relevant in
 | Category | Scope | Instructions |
 |---|---|---|
 | [english](english/README.md) | English vocabulary, expression, listening, speaking, reading, and writing | [English router](english/instructions/router.md) |
-| [CS](CS/README.md) | Computer-science foundations, research, and engineering concepts | [CS router](CS/instructions/router.md) |
-| [interview](interview/README.md) | Coding, system design, technical questions, and behavioral interview practice | [Interview router](interview/instructions/router.md) |
+| [CS](Job/CS/README.md) | Computer-science foundations, research, and engineering concepts | [CS router](Job/CS/instructions/router.md) |
+| [interview](Job/interview/README.md) | Coding, system design, technical questions, and behavioral interview practice | [Interview router](Job/interview/instructions/router.md) |
 
 ## Structure
 
@@ -30,22 +30,28 @@ english/
     inbox.md
     mastery.md
     session-log.md
-CS/
+Job/
   README.md
-  instructions/
-    router.md
-    learning.md
-  study-materials/README.md
-  mastery.md
-  session-log.md
-interview/
-  README.md
-  instructions/
-    router.md
-    preparation.md
-  study-materials/README.md
-  mastery.md
-  session-log.md
+  career-development.md
+  instructions/router.md
+  CS/
+    README.md
+    instructions/
+    study-materials/
+    mastery.md
+    session-log.md
+  interview/
+    README.md
+    instructions/
+    study-materials/
+    mastery.md
+    session-log.md
+  Distributed System/
+    README.md
+    instructions/router.md
+  AI/
+    README.md
+    instructions/router.md
 ```
 
 ## Routing examples
@@ -60,7 +66,7 @@ Technical English belongs in English when the learning objective is language. Co
 
 ## Learning records
 
-The existing English corpus, inbox, mastery scores, and session history are preserved under `english/`. CS and interview begin with empty learning records; no knowledge or mastery is assumed.
+The existing English corpus, inbox, mastery scores, and session history are preserved under `english/`. CS and interview learning records are preserved under `Job/CS/` and `Job/interview/`; mastery remains evidence-based.
 
 ## Repository migration
 
@@ -76,4 +82,4 @@ Saved ChatGPT Project settings are external to this repository. Replace their pr
 
 ## Job preparation
 
-[Job/](Job/README.md) is the entry point for job-oriented knowledge and interview preparation. Read the [Job router](Job/instructions/router.md) to choose [interview](Job/interview/README.md), [CS](Job/CS/README.md), [Distributed System](Job/Distributed%20System/README.md), or [AI](Job/AI/README.md). Use `Job模式` / `求职模式`, `分布式模式`, or `AI模式`; existing CS and interview commands remain available. Original root `CS/` and `interview/` content and records stay in place and are reused by these entries.
+[Job/](Job/README.md) is the entry point for job-oriented knowledge and interview preparation. Read the [Job router](Job/instructions/router.md) to choose [interview](Job/interview/README.md), [CS](Job/CS/README.md), [Distributed System](Job/Distributed%20System/README.md), or [AI](Job/AI/README.md). Use `Job模式` / `求职模式`, `分布式模式`, or `AI模式`; existing CS and interview commands remain available. All CS and interview content, instructions, and learning records are maintained under `Job/CS/` and `Job/interview/`.

@@ -22,6 +22,6 @@
 
 遵循 ../instructions/preparation.md，一次一题；先让学习者澄清需求、陈述假设并作答，再追问。评价技术正确性、定量估算、调试方法、工程取舍及表达，不因英语流利而推断技术掌握。
 
-围绕岗位只选少数主题深入；训练、推理、kernel 和平台题不要求每次全覆盖。能力证据不足时标为未知，不默认从零开始。面试表现记录在 /interview/mastery.md 与 /interview/session-log.md，概念知识引用 CS 记录，不复制两份主状态。
+围绕岗位只选少数主题深入；训练、推理、kernel 和平台题不要求每次全覆盖。能力证据不足时标为未知，不默认从零开始。面试表现记录在 /Job/interview/mastery.md 与 /Job/interview/session-log.md，概念知识引用 CS 记录，不复制两份主状态。
 
 可用启动语：“面试模式，AI infrastructure，推理方向；先进行一次不提示答案的诊断面试。”

@@ -167,7 +167,7 @@
 
 ## 5. 可直接使用的学习指令
 
-- `CS模式，按照 CS/study-materials/ai-engineering-agent-learning-plan.md，每次只复习一个具体知识点，先从工具调用请求与实际执行的区别开始。结合 learning-hub 举例，等我要求后再测试；充分理解后，等我说进入下一个再继续。`
+- `CS模式，按照 Job/CS/study-materials/ai-engineering-agent-learning-plan.md，每次只复习一个具体知识点，先从工具调用请求与实际执行的区别开始。结合 learning-hub 举例，等我要求后再测试；充分理解后，等我说进入下一个再继续。`
 - `CS模式，读取我的 CS 学习记录，从 AI engineering 与 Agent 学习计划中选择一个符合先修的知识点，说明理由，先讲解并答疑。`
 - `CS模式，学习 ae.rag，使用 DDIA 的一个章节说明检索、生成和引用如何配合。本次只复习文档分块这一个知识点，先讲解并答疑，等我要求后测试。`
 - `CS模式，继续上次的 Agent 系统开发学习；先读取计划和学习记录，不把已讲解等同于已掌握。`
