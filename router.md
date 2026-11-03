@@ -6,20 +6,23 @@ Default repository: `MengJingsong/learning-hub`. All slash-prefixed paths below 
 
 1. Follow an explicit category selection or clear task request.
 2. Otherwise continue the active category in this conversation.
-3. With no active category, infer the learning objective: language → English; computer-science concepts → CS; interview practice → interview.
+3. With no active category, infer the learning objective: language → English; computer-science concepts → CS; interview practice → interview; distributed-system concepts → Distributed System; AI concepts → AI; general job preparation → Job.
 4. If the objective is genuinely ambiguous, ask one brief clarification. Do not treat quoted code or an English technical question as vocabulary lookup merely because it contains quotes or English.
 
 | Selection | Read first | Then read |
 |---|---|---|
 | `英语模式`, `English模式`, standalone `english` | `/english/english-study/README.md` | `/english/instructions/router.md` |
-| `CS模式`, `计算机模式`, standalone `CS` | `/CS/README.md` | `/CS/instructions/router.md` |
-| `面试模式`, standalone `interview` | `/interview/README.md` | `/interview/instructions/router.md` |
+| `CS模式`, `计算机模式`, standalone `CS` | `/Job/CS/README.md` | `/Job/CS/instructions/router.md` |
+| `面试模式`, standalone `interview` | `/Job/interview/README.md` | `/Job/interview/instructions/router.md` |
+| `Job模式`, `求职模式`, standalone `Job` | `/Job/README.md` | `/Job/instructions/router.md` |
+| `分布式模式`, `Distributed System模式` | `/Job/Distributed System/README.md` | `/Job/Distributed System/instructions/router.md` |
+| `AI模式`, standalone `AI` | `/Job/AI/README.md` | `/Job/AI/instructions/router.md` |
 
 `知识点复习` explicitly selects CS and its book-based review workflow; read `/CS/README.md`, `/CS/instructions/router.md`, and `/CS/instructions/book-review.md`. This specific command takes precedence over generic review routing, including when another category is active. A book already named in the request need not be requested again.
 
 `翻译模式` is an exact alias of `查词模式` in all routing and mode behavior; both activate `/english/instructions/lookup.md`.
 
-Legacy commands `查词模式`, `学习模式`, `复习模式`, `测试模式`, `听力模式`, and `整理模式` select English and activate its matching mode when no category is active. Within English they retain their existing meaning. Within CS or interview, generic learning/review/testing requests follow that category's router; English-specific lookup/listening/inbox commands explicitly select English. `优化模式` and `refine模式` always select English and activate `/english/instructions/refine.md`.
+Legacy commands `查词模式`, `学习模式`, `复习模式`, `测试模式`, `听力模式`, and `整理模式` select English and activate its matching mode when no category is active. Within English they retain their existing meaning. Within CS, interview, Job, Distributed System, or AI, generic learning/review/testing requests follow that category's router; English-specific lookup/listening/inbox commands explicitly select English. `优化模式` and `refine模式` always select English and activate `/english/instructions/refine.md`.
 
 ## Persistence and overrides
 
@@ -36,3 +39,7 @@ Requests to manage the repository are repository tasks; do not proofread them or
 - Read only the relevant instructions and materials. Never claim a read or write succeeded without tool confirmation.
 - Learning state is evidence-based; do not infer mastery from explanations or migration.
 - Listening Mode outputs only the English passages intended to be heard, with no headings, translations, explanations, or commentary.
+
+## Job preparation entry
+
+`/Job/README.md` describes the four Job topics and instruction lookup. Use `/Job/instructions/router.md` to select a topic. Distributed System and AI concept learning use their topic routers; interview drills use the interview router. Existing `/CS/` and `/interview/` files and learning records remain authoritative and are reused through the Job entries. All prior commands and specific workflow precedence remain in effect.

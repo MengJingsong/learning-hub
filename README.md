@@ -73,3 +73,7 @@ git remote set-url origin https://github.com/MengJingsong/learning-hub.git
 ```
 
 Saved ChatGPT Project settings are external to this repository. Replace their previous English-only instructions with the root `project-instructions.md`.
+
+## Job preparation
+
+[Job/](Job/README.md) is the entry point for job-oriented knowledge and interview preparation. Read the [Job router](Job/instructions/router.md) to choose [interview](Job/interview/README.md), [CS](Job/CS/README.md), [Distributed System](Job/Distributed%20System/README.md), or [AI](Job/AI/README.md). Use `Job模式` / `求职模式`, `分布式模式`, or `AI模式`; existing CS and interview commands remain available. Original root `CS/` and `interview/` content and records stay in place and are reused by these entries.
