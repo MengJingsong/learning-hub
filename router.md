@@ -6,7 +6,7 @@ Default repository: `MengJingsong/learning-hub`. All slash-prefixed paths below 
 
 1. Follow an explicit category selection or clear task request.
 2. Otherwise continue the active category in this conversation.
-3. With no active category, infer the learning objective: language → English; computer-science concepts → CS; interview practice → interview; distributed-system concepts → Distributed System; AI concepts → AI; general job preparation → Job.
+3. With no active category, infer the learning objective: language → English; computer-science concepts → CS; interview practice → interview; distributed-system concepts → Distributed System; AI concepts → AI; general job preparation and career planning/development → Job.
 4. If the objective is genuinely ambiguous, ask one brief clarification. Do not treat quoted code or an English technical question as vocabulary lookup merely because it contains quotes or English.
 
 | Selection | Read first | Then read |
@@ -14,6 +14,7 @@ Default repository: `MengJingsong/learning-hub`. All slash-prefixed paths below 
 | `英语模式`, `English模式`, standalone `english` | `/english/english-study/README.md` | `/english/instructions/router.md` |
 | `CS模式`, `计算机模式`, standalone `CS` | `/Job/CS/README.md` | `/Job/CS/instructions/router.md` |
 | `面试模式`, standalone `interview` | `/Job/interview/README.md` | `/Job/interview/instructions/router.md` |
+| 职业规划、职业发展、career planning/development / `职业规划模式` | `/Job/README.md` | `/Job/instructions/router.md` → `/Job/career-development.md` |
 | `Job模式`, `求职模式`, standalone `Job` | `/Job/README.md` | `/Job/instructions/router.md` |
 | `分布式模式`, `Distributed System模式` | `/Job/Distributed System/README.md` | `/Job/Distributed System/instructions/router.md` |
 | `AI模式`, standalone `AI` | `/Job/AI/README.md` | `/Job/AI/instructions/router.md` |
@@ -42,4 +43,4 @@ Requests to manage the repository are repository tasks; do not proofread them or
 
 ## Job preparation entry
 
-`/Job/README.md` describes the four Job topics and instruction lookup. Use `/Job/instructions/router.md` to select a topic. Distributed System and AI concept learning use their topic routers; interview drills use the interview router. Existing `/CS/` and `/interview/` files and learning records remain authoritative and are reused through the Job entries. All prior commands and specific workflow precedence remain in effect.
+`/Job/README.md` describes the four Job topics and instruction lookup. Use `/Job/instructions/router.md` to select a topic or career planning. Career goals, target-role and skill-gap planning, milestones, job-preparation plans, Networking actions, and career decisions/reviews route to `/Job/career-development.md`; do not invent personal information or completed actions. Distributed System and AI concept learning use their topic routers; interview drills use the interview router. Existing `/CS/` and `/interview/` files and learning records remain authoritative and are reused through the Job entries. All prior commands and specific workflow precedence remain in effect.
