@@ -7,8 +7,10 @@
 
 ## 已有书籍
 
-- [Designing Data-Intensive Applications — Martin Kleppmann](<Designing Data-Intensive Applications - Martin Kleppmann.pdf>)
-- [Distributed Systems — Maarten van Steen & Andrew Tanenbaum](<Distributed Systems -- Maarten van Steen & Andrew Tanenbaum.pdf>)
+- Designing Data-Intensive Applications — Martin Kleppmann
+- Distributed Systems — Maarten van Steen & Andrew Tanenbaum
+
+以上为参考书目；当前仓库未包含对应 PDF。使用时需另行确认可访问的版本与来源。
 
 ## 笔记原则
 
