@@ -28,3 +28,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] traditional
 - [vocab] conventional
 - [phrase] memory-affecting configuration
+- [vocab] homotopy
