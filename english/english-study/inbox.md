@@ -29,3 +29,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] conventional
 - [phrase] memory-affecting configuration
 - [vocab] homotopy
+- [phrase] gloss over something
