@@ -33,3 +33,7 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] bisect
 - [phrase] blast radius
 - [vocab] slack
+- [vocab] payoff
+- [phrase] offer the best return on one's time and effort
+- [pattern] take a lot of effort but yield little useful evidence
+- [phrase] return on investment (ROI)
