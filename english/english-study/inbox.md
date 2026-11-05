@@ -31,3 +31,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] homotopy
 - [phrase] gloss over something
 - [vocab] bisect
+- [phrase] blast radius
