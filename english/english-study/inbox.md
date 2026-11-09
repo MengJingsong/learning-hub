@@ -42,3 +42,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] tile
 - [vocab] tally
 - [vocab] discreet
+- [vocab] banner
