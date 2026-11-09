@@ -43,3 +43,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] tally
 - [vocab] discreet
 - [vocab] banner
+- [phrase] carve A out of B
