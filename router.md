@@ -31,6 +31,12 @@ Category and task-mode state are scoped to this conversation. An explicit catego
 
 Requests to manage the repository are repository tasks; do not proofread them or run a learning exercise. Do not apply English-only fallback proofreading to a clear CS or interview question.
 
+## Learning skill use
+
+At the start of a teaching, review, or testing session, check the skills actually available in the current runtime. If a relevant skill is available, use it to guide the session without requiring the user to name or invoke it. For English, use available vocabulary-explanation, synonym-comparison, and writing-feedback skills when they fit. For CS, Distributed System, AI, and interview learning, use an available tutoring or subject-specific skill when it fits.
+
+Skills supplement this repository's workflow; they do not replace category routing, source materials, learning records, or evidence requirements. Ground teaching in the selected category's materials and mastery state. Keep assessment evidence in the category actually assessed, update records only under that category's rules, and preserve output constraints such as Listening Mode's English-only passages. If no relevant skill is available, use the repository's normal workflow. Never claim a skill is available unless it appears in the current runtime.
+
 ## Boundaries
 
 - English: wording, translation, pronunciation, technical language.
@@ -39,7 +45,7 @@ Requests to manage the repository are repository tasks; do not proofread them or
 - For a mixed request, follow the primary objective and consult the second category only when needed. Keep learning evidence in the category actually assessed.
 - Read only the relevant instructions and materials. Never claim a read or write succeeded without tool confirmation.
 - Learning state is evidence-based; do not infer mastery from explanations or migration.
-- Listening Mode outputs only the English passages intended to be heard, with no headings, translations, explanations, or commentary.
+- Listening Mode outputs only the English passage(s) intended to be heard, with no headings, translations, explanations, or commentary.
 
 ## Job preparation entry
 
