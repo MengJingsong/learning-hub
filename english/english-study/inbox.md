@@ -48,3 +48,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [pattern] notify someone of something
 - [phrase] pin down the cause
 - [phrase] keep pace with something
+- [phrase] park something for now
