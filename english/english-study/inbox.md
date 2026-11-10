@@ -53,3 +53,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] make something up
 - [pattern] attribute something to something
 - [vocab] fraternity
+- [vocab] historic
