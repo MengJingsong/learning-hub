@@ -46,3 +46,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] carve A out of B
 - [vocab] takeaway
 - [pattern] notify someone of something
+- [phrase] pin down the cause
