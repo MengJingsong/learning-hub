@@ -56,3 +56,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] historic
 - [vocab] composability
 - [vocab] provenance
+- [vocab] procession
