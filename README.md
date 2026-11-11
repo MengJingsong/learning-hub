@@ -1,85 +1,32 @@
 # Learning Hub
 
-Personal learning repository: `MengJingsong/learning-hub`.
-
-This repository brings together English study, computer-science knowledge, and interview preparation. Each category has its own instructions and learning state.
+`MengJingsong/learning-hub` is a personal repository for English study, technical learning, and job preparation.
 
 ## Start here
 
-Read [router.md](router.md) to choose a category, then load only its relevant instructions. Copy [project-instructions.md](project-instructions.md) into ChatGPT Project Instructions to use the shared entry point.
+Use the directory map below to find the relevant area. For learning tasks, read the [root router](router.md) to select a category and find its instructions. Each category's README describes its scope and materials. Its router and task files define the learning, review, and assessment workflows.
 
-| Category | Scope | Instructions |
-|---|---|---|
-| [english](english/README.md) | English vocabulary, expression, listening, speaking, reading, and writing | [English router](english/instructions/router.md) |
-| [CS](Job/CS/README.md) | Computer-science foundations, research, and engineering concepts | [CS router](Job/CS/instructions/router.md) |
-| [interview](Job/interview/README.md) | Coding, system design, technical questions, and behavioral interview practice | [Interview router](Job/interview/instructions/router.md) |
+| Directory | Responsibility |
+|---|---|
+| [`english/`](english/README.md) | English vocabulary, expression, pronunciation, listening, speaking, reading, and writing. |
+| [`Job/`](Job/README.md) | Job preparation and career development, including role selection and skill planning. |
+| [`Job/CS/`](Job/CS/README.md) | Computer-science foundations, research concepts, and engineering principles. |
+| [`Job/Distributed System/`](Job/Distributed%20System/README.md) | Distributed-systems concepts, including consistency, replication, fault tolerance, and consensus. |
+| [`Job/AI/`](Job/AI/README.md) | AI and machine learning concepts, LLMs, RAG, agents, evaluation, and AI infrastructure. |
+| [`Job/interview/`](Job/interview/README.md) | Interview practice, including coding, system design, and behavioral questions. |
 
-## Structure
+## ChatGPT project setup
 
-```text
-README.md
-router.md
-project-instructions.md
-english/
-  README.md
-  study-materials/
-  instructions/
-  english-study/
-    README.md
-    project-instructions.md
-    inbox.md
-    mastery.md
-    session-log.md
-Job/
-  README.md
-  career-development.md
-  instructions/router.md
-  CS/
-    README.md
-    instructions/
-    study-materials/
-    mastery.md
-    session-log.md
-  interview/
-    README.md
-    instructions/
-    study-materials/
-    mastery.md
-    session-log.md
-  Distributed System/
-    README.md
-    instructions/router.md
-  AI/
-    README.md
-    instructions/router.md
-```
+Use this short text as the project's Custom Instructions:
 
-## Routing examples
-
-- `英语模式` or `english` selects English; existing commands such as `查词模式` / `翻译模式` and `听力模式` remain available.
-- `CS模式` or `计算机模式` selects computer-science learning.
-- `面试模式` or `interview` selects interview preparation.
-- `默认模式` clears the active category and mode and resumes intent routing.
-- Explicit task requests take precedence for that request. Categories and modes persist only within the current conversation.
-
-Technical English belongs in English when the learning objective is language. Concepts and principles belong in CS. Timed answers, mock interviews, and job-oriented practice belong in interview. Link shared knowledge instead of duplicating it.
-
-## Learning records
-
-The existing English corpus, inbox, mastery scores, and session history are preserved under `english/`. CS and interview learning records are preserved under `Job/CS/` and `Job/interview/`; mastery remains evidence-based.
+> `MengJingsong/learning-hub` 是我的个人学习仓库，涵盖英语、技术学习和求职准备。处理与 Learning Hub 有关的任务时，先读取该仓库默认分支的根目录 `README.md`。
 
 ## Repository migration
 
-The repository is `MengJingsong/learning-hub` (formerly `MengJingsong/English`). Existing repository content was moved beneath `english/`; internal paths now include that prefix. The repository URL is https://github.com/MengJingsong/learning-hub.
+The repository was formerly `MengJingsong/English`. The original English materials and learning records now live under `english/`.
 
-For a local clone, update its remote:
+To update the remote for an existing local clone, run:
 
 ```sh
 git remote set-url origin https://github.com/MengJingsong/learning-hub.git
 ```
-
-Saved ChatGPT Project settings are external to this repository. Replace their previous English-only instructions with the root `project-instructions.md`.
-
-## Job preparation
-
-[Job/](Job/README.md) is the entry point for job-oriented knowledge and interview preparation. Read the [Job router](Job/instructions/router.md) to choose [interview](Job/interview/README.md), [CS](Job/CS/README.md), [Distributed System](Job/Distributed%20System/README.md), or [AI](Job/AI/README.md). Use `Job模式` / `求职模式`, `分布式模式`, or `AI模式`; existing CS and interview commands remain available. All CS and interview content, instructions, and learning records are maintained under `Job/CS/` and `Job/interview/`.
