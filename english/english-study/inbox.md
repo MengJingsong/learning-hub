@@ -8,10 +8,10 @@ Items here are **not yet part of the formal study corpus** and should not be use
 
 - Use one item per line.
 - Prefer a lightweight type tag when obvious:
-  - `[vocab]`
-  - `[phrase]`
-  - `[pattern]`
-  - `[pronunciation]`
+  - [vocab]
+  - [phrase]
+  - [pattern]
+  - [pronunciation]
 - Use standard English casing.
 - Do not add meanings, examples, or long explanations here.
 - Avoid duplicates when possible.
@@ -59,3 +59,8 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] procession
 - [vocab] adapt
 - [vocab] adopt
+- [phrase] distributed system
+- [phrase] decentralized system
+- [pattern] processes and resources are spread across multiple computers
+- [phrase] sufficiently spread
+- [phrase] necessarily spread
