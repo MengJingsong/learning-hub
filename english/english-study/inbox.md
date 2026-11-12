@@ -69,3 +69,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] off by default
 - [vocab] eligible
 - [phrase] leave out something
+- [vocab] intervention
