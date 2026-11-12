@@ -66,3 +66,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] necessarily spread
 - [vocab] weigher
 - [vocab] caveat
+- [phrase] off by default
