@@ -70,3 +70,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] eligible
 - [phrase] leave out something
 - [vocab] intervention
+- [vocab] thrash
