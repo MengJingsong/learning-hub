@@ -67,3 +67,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] weigher
 - [vocab] caveat
 - [phrase] off by default
+- [vocab] eligible
