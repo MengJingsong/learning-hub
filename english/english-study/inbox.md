@@ -64,3 +64,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [pattern] processes and resources are spread across multiple computers
 - [phrase] sufficiently spread
 - [phrase] necessarily spread
+- [vocab] weigher
