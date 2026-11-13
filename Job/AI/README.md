@@ -5,5 +5,6 @@
 ## 推荐资料
 
 - [AI Agent Handbook 阅读地图](AI-Agent-Handbook-Reading-Map.md)：阿里云与社区共同维护的企业级 Agent 工程手册，涵盖架构、Harness、运行、治理、调优与实践案例。
+- [AI Agent Handbook 学习计划](AI-Agent-Handbook-Learning-Plan.md)：8 个模块的学习路线、每次学习流程和当前进度 checkpoint。
 
 从 [instructions/router.md](instructions/router.md) 查找学习、复习与测试指令。优先链接已有 [CS 资料](../CS/README.md)，新专题笔记可直接放在本目录；不自动复制或迁移旧资料。模拟面试及答题表现走 [interview](../interview/README.md)。返回 [Job](../README.md)。
