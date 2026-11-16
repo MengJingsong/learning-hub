@@ -1,6 +1,6 @@
 # CS Instruction Router
 
-Read `/Job/CS/README.md` and [learning.md](learning.md).
+Read `/Job/CS/README.md` and the shared [technical learning guidance](../../instructions/learning.md).
 
 学习 / 学习模式: teach a selected concept. 复习 / 复习模式: retrieve and explain previously studied concepts. 测试 / 测试模式: assess independently with new problems.
 
