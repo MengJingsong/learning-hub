@@ -3,7 +3,7 @@
 **主要资料：** [AI Agent Handbook 阅读地图](AI-Agent-Handbook-Reading-Map.md)  
 **原始手册：** https://aliyun.github.io/ai-agent-handbook/  
 **全书目录：** https://aliyun.github.io/ai-agent-handbook/contents.html  
-**计划更新：** 2026-11-13
+**计划更新：** 2026-11-16
 
 ## 学习目标
 
@@ -41,6 +41,8 @@
 RAG 可以作为贯穿示例，用来讨论检索上下文、状态和工具行动；如果手册某章没有具体覆盖某个 RAG 机制，应明确标注为补充内容，而不把它归为手册结论。
 
 ## 每次学习的流程
+
+新建本计划时参考了 Learning Skill 与 Agent Tutor skill 中适用的学习设计和教学方法；本计划仍以 Learning Hub 的课程进度记录和英语 inbox 规则为准，不启用它们各自独立的记录系统。之后创建技术学习计划时，继续按 [CS 学习指引](../CS/instructions/learning.md)参考这两种方法，并将英语自然融入中文技术讲解。
 
 1. 从本计划的 checkpoint 恢复，必要时先用一个简短问题回忆已学概念。
 2. 定位在线手册的章节和小节，确认本次范围。
