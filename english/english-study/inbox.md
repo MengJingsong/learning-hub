@@ -74,3 +74,6 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] blob
 - [phrase] draw on something
 - [vocab] representative
+- [vocab] distinctive
+- [vocab] typical
+- [vocab] characteristic
