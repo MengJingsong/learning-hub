@@ -51,16 +51,13 @@ Explanations are in Chinese by default, with standard English technical terms. K
 
 At the next session, retrieve key concepts before explaining them again. Revisit weak or forgotten ideas in later sessions and record the review date and result here. Space reviews farther apart after successful independent recall and bring them closer after difficulty. Do not report precise FSRS intervals or mastery badges unless we use a verified scheduler; the reviewed Agent Tutor skill's included FSRS notes use approximate update rules and contain a conflicting correction.
 
-### Technical English alongside the systems material
+### English woven into technical teaching
 
-For each lesson, select a small set of useful English items from the book or discussion:
+English learning is a continuous support for the technical lesson, not a separate vocabulary block. While explaining each concept in Chinese, naturally weave in useful English words, collocations, grammar, and sentence patterns at the point where they clarify the idea. For example: “A distributed system coordinates processes across machines; the phrase *coordinate processes across machines* is a natural way to describe this responsibility.”
 
-- Technical nouns and verbs.
-- Natural collocations and phrases used in systems writing.
-- Reusable sentence patterns for describing mechanisms, assumptions, failures, and trade-offs.
-- Meaning, nuance, register, pronunciation when relevant, and a short example.
+Choose items that are key, central, or common for the current topic. Briefly explain their meaning and, when useful, part of speech, pronunciation, grammar, register, collocation, or sentence structure. Integrate the explanation into the flow of the technical explanation rather than adding a detached English section. Keep the technical lesson readable: include only a few high-value items, not every unfamiliar word, and do not force English into sentences where it does not help.
 
-After checking for duplicates, add worthwhile items to the English study inbox in the Learning Hub. Keep inbox entries lightweight. Later curation can move them into the appropriate formal vocabulary, phrase, sentence-pattern, or CS research English list. Do not add every unfamiliar word; prioritize language useful for reading, explaining, or writing about technical systems.
+Use the book's natural technical English as the primary source. When a useful word or phrase appears, show it beside the Chinese explanation and give a short, natural example grounded in the topic. After the lesson, add only genuinely reusable or unfamiliar expressions to the English study inbox; check for duplicates and follow that inbox's format. The inbox remains the long-term review list, while the teaching itself stays integrated with the technical content.
 
 ## Progress tracking and continuation
 
