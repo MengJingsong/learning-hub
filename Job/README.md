@@ -13,6 +13,10 @@
 
 | [career-development.md](career-development.md) | 长期职业目标、岗位与技能差距、里程碑、求职准备、Networking 行动及决策复盘 | [Job router](instructions/router.md) |
 
+## 共享技术学习指引
+
+CS、Distributed System 与 AI 共用 [technical learning guidance](instructions/learning.md)，其中包含创建学习计划、技术教学与英语融入的规则。各专题继续使用自己的资料和进度记录。
+
 ## 如何寻找指令
 
 1. 从仓库根目录 [router.md](../router.md) 选择学习类别；求职准备总入口是 [Job router](instructions/router.md)。
