@@ -77,3 +77,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] distinctive
 - [vocab] typical
 - [vocab] characteristic
+- [phrase] factors that affect resource usage
