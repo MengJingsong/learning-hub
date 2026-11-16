@@ -1,6 +1,6 @@
 # RAG 与知识检索
 
-本专题展开 [Agent 学习计划的模块 6](../CS/study-materials/ai-engineering-agent-learning-plan.md#模块-6rag-与知识检索)（`ae.rag`）。先修是 `ae.model-io`、`ae.context` 和基本搜索概念。每次选一个子知识点，先理解机制和取舍，再用新场景检验。清单用于安排学习，掌握程度以独立作答或实践证据为准。
+本专题展开 [Agent 学习计划的模块 6](Foundation/AI-Engineering-Agent-Learning-Plan.md#模块-6rag-与知识检索)（`ae.rag`）。先修是 `ae.model-io`、`ae.context` 和基本搜索概念。每次选一个子知识点，先理解机制和取舍，再用新场景检验。清单用于安排学习，掌握程度以独立作答或实践证据为准。
 
 ## 待学清单
 
