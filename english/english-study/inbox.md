@@ -80,3 +80,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] factors that affect resource usage
 - [vocab] clue
 - [vocab] lead
+- [vocab] dependency
