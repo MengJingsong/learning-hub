@@ -73,3 +73,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] thrash
 - [vocab] blob
 - [phrase] draw on something
+- [vocab] representative
