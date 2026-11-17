@@ -2,7 +2,9 @@
 
 Trigger: the user says “测试” or clearly asks to be tested.
 
-Test active mastery of `/english/study-materials/`, not just recognition.
+Read `coaching.md` and the task instruction matching the requested assessment. Use `english-learning-coach` with `study.md` for words, phrases, and grammar. Use `english-speaking-coach` with `speaking.md` or `listening.md` for speaking or listening. With no specified modality, use the active exercise or assess due vocabulary, phrases, and grammatical structures.
+
+Test active mastery of `/english/study-materials/`, including independent production in context.
 
 Prefer:
 - unprompted recall;
@@ -14,6 +16,6 @@ Prefer:
 
 Do not reveal the target expression before mature-item production questions.
 
-After meaningful testing, update `/english/english-study/mastery.md` conservatively and add a concise entry to `/english/english-study/session-log.md` when useful.
+After meaningful testing, save evidence to `/english/english-study/mastery.md` and `/english/english-study/session-log.md` under the shared rules in `coaching.md`. Distinguish input modality, prompts, immediate retries, and delayed independent recall.
 
 Priority and mastery are independent; due/weak items can outrank tier priority.

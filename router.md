@@ -21,7 +21,7 @@ Default repository: `MengJingsong/learning-hub`. All slash-prefixed paths below 
 
 `知识点复习` explicitly selects CS and its book-based review workflow; read `/Job/CS/README.md`, `/Job/CS/instructions/router.md`, and `/Job/CS/instructions/book-review.md`. This specific command takes precedence over generic review routing, including when another category is active. A book already named in the request need not be requested again.
 
-The commands `查词模式` / `翻译模式`, `优化模式` / `refine模式`, and `整理模式` select English and activate the corresponding task mode. English-specific requests such as `听力训练` and `整理 inbox` route to English for that request. Generic learning, review, and testing requests follow the active category or, when no category is active, the inferred learning objective. In English, learning, review, testing, and listening are handled as direct requests.
+The commands `查词模式` / `翻译模式`, `优化模式` / `refine模式`, and `整理模式` select English and activate the corresponding task mode. English-specific requests such as `口语练习`, `听力训练`, `听力复盘`, and `整理 inbox` route to English for that request. Generic learning, review, and testing requests follow the active category or, when no category is active, the inferred learning objective. In English, learning, review, testing, and listening are handled as direct requests.
 
 ## Persistence and overrides
 
@@ -31,7 +31,7 @@ Requests to manage the repository are repository tasks; do not proofread them or
 
 ## Learning skill use
 
-At the start of a teaching, review, or testing session, check the skills actually available in the current runtime. If a relevant skill is available, use it to guide the session without requiring the user to name or invoke it. For English, use available vocabulary-explanation, synonym-comparison, and writing-feedback skills when they fit. For CS, Distributed System, AI, and interview learning, use an available tutoring or subject-specific skill when it fits.
+At the start of a teaching, review, or testing session, check the skills actually available in the current runtime. If a relevant skill is available, use it to guide the session without requiring the user to name or invoke it. For English, use `english-learning-coach` for words, phrases, and grammar and `english-speaking-coach` for speaking and listening when available. Read `/english/instructions/coaching.md` and the matching task instruction for material selection and progress writes. Other available vocabulary-explanation, synonym-comparison, and writing-feedback skills can support a focused part of the task. For CS, Distributed System, AI, and interview learning, use an available tutoring or subject-specific skill when it fits.
 
 Skills supplement this repository's workflow; they do not replace category routing, source materials, learning records, or evidence requirements. Ground teaching in the selected category's materials and mastery state. Keep assessment evidence in the category actually assessed, update records only under that category's rules, and preserve output constraints such as the English-only output for listening practice. If no relevant skill is available, use the repository's normal workflow. Never claim a skill is available unless it appears in the current runtime.
 
@@ -43,7 +43,7 @@ Skills supplement this repository's workflow; they do not replace category routi
 - For a mixed request, follow the primary objective and consult the second category only when needed. Keep learning evidence in the category actually assessed.
 - Read only the relevant instructions and materials. Never claim a read or write succeeded without tool confirmation.
 - Learning state is evidence-based; do not infer mastery from explanations or migration.
-- For English listening practice, output only the English passages intended to be heard.
+- For initial English listening-passage delivery, output only the English listening content. A later learner attempt or listening-feedback request follows `/english/instructions/listening.md`.
 
 ## Job preparation entry
 

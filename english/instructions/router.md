@@ -23,10 +23,11 @@ If the relevant instruction file cannot be accessed, do not claim to have loaded
 
 These requests apply to the current task.
 
-- `学习` with a topic or a request to learn new material → `study.md`.
-- `复习` → `review.md`.
-- `测试` → `test.md`.
-- `听力训练` → `listening.md`.
+- `学习` with a vocabulary, phrase, or grammar objective → `study.md` with `english-learning-coach`.
+- `口语练习`, spoken retelling, conversation, or shadowing → `speaking.md` with `english-speaking-coach`.
+- `听力训练`, dictation, or `听力复盘` → `listening.md` with `english-speaking-coach`.
+- `复习` → `review.md` plus the task instruction for the skill being practiced.
+- `测试` → `test.md` plus the task instruction for the skill being assessed.
 - `整理 inbox` → `curate-inbox.md`.
 
 ## Default routing (no named mode active)
@@ -34,7 +35,9 @@ These requests apply to the current task.
 - Quoted Chinese or English input, wrapped in `""`, `''`, `“”`, or `‘’` → `lookup.md`.
 - Unquoted English input → proofread and rephrase naturally, unless another task was requested.
 
-Use the smallest relevant instruction set. Follow the active task's output rules, including English-only passages for listening practice.
+Use `coaching.md` for shared material selection, skill use, and progress persistence. A named coaching skill explicitly invoked for a Learning Hub task follows the same objective-based routing. Follow-up answers continue the active exercise until completion or a new request.
+
+Use the smallest relevant instruction set. Initial listening-passage delivery outputs only English listening content. A subsequent listening attempt or feedback request follows the feedback section of `listening.md`.
 
 ## Learning Hub integration
 

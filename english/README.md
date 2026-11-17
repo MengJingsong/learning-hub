@@ -47,19 +47,23 @@ This folder stores task-specific instructions:
 - `router.md`
 - `lookup.md`
 - `refine.md`
-- `study.md`
+- `coaching.md` — shared coaching, material selection, and learning-record rules.
+- `study.md` — vocabulary, phrases, and grammar with `english-learning-coach`.
+- `speaking.md` — conversation and shadowing with `english-speaking-coach`.
 - `review.md`
 - `test.md`
-- `listening.md`
+- `listening.md` — listening passages and feedback with `english-speaking-coach`.
 - `curate-inbox.md`
 
-Use `查词模式` / `翻译模式`, `优化模式` / `refine模式`, or `整理模式` to activate a mode for the current chat. Send `默认模式` to clear the current category and mode. To study, review, test, or practice listening, ask directly, for example `学习这些短语`, `复习`, `测试`, or `听力训练`. See [instructions/router.md](instructions/router.md).
+Use `查词模式` / `翻译模式`, `优化模式` / `refine模式`, or `整理模式` to activate a mode for the current chat. Send `默认模式` to clear the current category and mode. To study, review, test, or practice listening, ask directly, for example `学习这些短语`, `复习`, `测试`, `口语练习`, `听力训练`, or `听力复盘`. See [instructions/router.md](instructions/router.md).
 
 ## Study workflow
 
 When studying or reviewing, use `english/study-materials/` as the source corpus and `english/english-study/mastery.md` to choose what needs practice. Due/weak items take precedence; among items with similar mastery and review status, prefer Core over Useful over Specialized.
 
 When useful, outside resources may be consulted dynamically for authentic usage, pronunciation, register, technical context, and current examples.
+
+`english-learning-coach` guides word, phrase, and grammar practice. `english-speaking-coach` guides speaking and listening. Read [coaching.md](instructions/coaching.md) for shared rules and source versions. Install these skills in the runtime where practice takes place. Learning Hub stores the authoritative learning progress under the learner's standing authorization, using `mastery.md`, `session-log.md`, and `inbox.md` after meaningful practice.
 
 New candidate items discovered during ordinary lookup should first go to `english/english-study/inbox.md`. They enter the formal `english/study-materials/` corpus only during inbox curation, when they are normalized, deduplicated, classified, and assigned a priority tier.
 

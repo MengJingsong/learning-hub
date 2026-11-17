@@ -66,7 +66,7 @@ For a balanced general review session, a useful default is roughly 60% Core, 30%
 
 ## Listening-training rule
 
-When the user says “听力训练”, output only the English passage(s) intended to be heard. Do not add headings, explanations, translations, instructions, or commentary, because all extra text may be read aloud. Base passages primarily on `/english/study-materials/` and use natural, relatively fast conversational English.
+For an initial “听力训练” request, output only the English passages intended to be heard. Base them on the selected material or formal corpus, using natural North American English. After the learner supplies an attempt or requests “听力复盘”, follow `/english/instructions/listening.md` for feedback and evidence-based progress updates.
 
 ## State files
 
@@ -74,6 +74,8 @@ When the user says “听力训练”, output only the English passage(s) intend
 - `session-log.md`: concise record of meaningful tests/reviews and notable errors or improvements.
 
 Update state after meaningful testing. Avoid bloating the log with every trivial interaction.
+
+English learning progress is authorized to be saved directly to this repository after meaningful practice. Follow `/english/instructions/coaching.md` for skill selection, evidence, inbox candidates, and write confirmation. New grammar structures use the sentence-pattern corpus and the same intake workflow.
 
 ## Default workflow for ChatGPT
 
@@ -89,7 +91,7 @@ Named session modes:
 - `优化模式` / `refine模式` → `refine.md`
 - `整理模式` → `curate-inbox.md`
 
-Send `默认模式` to clear the category and task mode. Request learning, review, testing, or listening directly with `学习` (with a topic or material), `复习`, `测试`, or `听力训练`.
+Send `默认模式` to clear the category and task mode. Request learning, review, testing, speaking, or listening directly with `学习` (with a topic or material), `复习`, `测试`, `口语练习`, `听力训练`, or `听力复盘`.
 
 A named mode persists only within its current conversation. While it is active, future messages do not require quotes. An explicit change of mode replaces it; clear requests for another task may override it for that request. Without an active mode, route each message by its intent and quotation marks.
 

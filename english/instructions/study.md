@@ -1,20 +1,15 @@
-# Study
+# Words, Phrases, and Grammar
 
-Trigger: the user asks to study new or selected English material.
+Trigger when the learner asks to learn, practice, review, or test English words, phrases, collocations, or grammar. Examples include `学习这些短语`, `练习冠词`, and `复习我容易忘的单词`.
 
-Teach new or selected material primarily from `/english/study-materials/`.
+Read `coaching.md` and use `english-learning-coach` for this task. For a review or test, also follow `review.md` or `test.md`. Speaking and listening objectives follow their corresponding task instructions.
 
-At the start of the session, check which skills are actually available. When present and relevant, use vocabulary-explanation skills for words and phrases, synonym-comparison skills for contrasts, and writing-feedback skills for the learner's written or spoken practice. The user does not need to invoke these skills manually. Ground skill use in the selected study-material items and this project's instructions; skills supplement rather than replace the English learning workflow.
+Use the learner's selected material or choose relevant formal items using the shared selection rules. Reuse known context and start with a focused task.
 
-Focus on active mastery:
-- meaning and nuance;
-- natural usage and collocations;
-- register and context;
-- listening/pronunciation when relevant;
-- speaking and writing production.
+For a new target, explain only what is needed for use. Cover meaning, useful collocations, and register for words or phrases. For grammar, explain the relevant structure and show a short contextual example.
 
-Prefer Core items unless the user's goal or mastery state indicates otherwise.
+Ask the learner to produce or distinguish the target through a sentence, short translation, completion, contrast, or correction. Wait for an attempt before feedback. Identify the main issue and ask for a second attempt in a new context. For established items, begin with active recall and keep target expressions and answers hidden until the attempt.
 
-Begin with active recall when reviewing established items; keep target expressions and answer keys hidden until the learner has attempted them. For new items, explain only what is needed, then ask the learner to use or distinguish the item. Give focused feedback and a second attempt in a new context.
+Use available word-explanation, synonym-comparison, or writing-feedback skills when they add value to a specific part of the lesson. Keep one coherent exercise and feedback flow.
 
-Detailed explanations may be generated dynamically; do not expand the study-material files with explanations unless a permanent distinction is necessary. Update mastery only after meaningful evidence, following `english/english-study/README.md`.
+Keep detailed explanations in the conversation. Follow `coaching.md` for learning records and new inbox candidates.

@@ -17,3 +17,5 @@ Select review items in this order:
 For a balanced session, roughly target 60% Core, 30% Useful, and 10% Specialized unless mastery data suggests otherwise.
 
 Use active recall rather than recognition whenever possible.
+
+Read `coaching.md`. Use `english-learning-coach` and `study.md` for vocabulary, phrases, and grammar. Use `english-speaking-coach` with `speaking.md` or `listening.md` for speaking or listening review. If the request gives no modality, continue the active exercise or begin with due vocabulary, phrases, and grammatical structures. Save meaningful evidence using the shared record rules.
