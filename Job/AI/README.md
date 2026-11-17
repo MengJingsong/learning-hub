@@ -10,6 +10,7 @@
 | [OpenAI](OpenAI/README.md) | 官方 Agent 开发文档与学习计划 |
 | [Anthropic](Anthropic/README.md) | 官方 Agent 工程文章、平台文档与学习计划 |
 | [Google](Google/README.md) | ADK、Agent Platform 文档与学习计划 |
+| [Open Models](Open-Models/README.md) | Pythia、OLMo、DeepSeek-V3 与 Llama 4 的架构、训练、评估资料与学习计划 |
 
 跨平台基础见 [AI Foundations](Foundation/README.md)，其中包含 [AI Engineering 与 Agent 系统开发计划](Foundation/AI-Engineering-Agent-Learning-Plan.md)。AI infrastructure 方向见 [Infrastructure](Infrastructure/README.md)，包括[岗位定位](Infrastructure/Role-Focus.md)和[学习资料索引](Infrastructure/Resources.md)。各学习记录统一维护在 [AI Mastery](mastery.md) 与 [AI Session Log](session-log.md)；RAG 专题见 [RAG 与知识检索](rag.md)。
 
