@@ -12,9 +12,9 @@ The previous police speed-limit translation retry is cancelled. On `继续`, exp
 
 ## Coverage order
 
-Complete the current related-item batch, then cover the remaining Core entries, followed by Useful and Specialized. Within each tier, follow the existing order in vocabulary, phrases, sentence patterns, everyday English, academic English, CS research English, and pronunciation/listening. Related entries can be grouped for a clearer explanation. Check coverage before repeating an item.
+Complete the current batch, then cover the remaining Core entries, followed by Useful and Specialized. Within each tier, follow the existing order in vocabulary, phrases, sentence patterns, everyday English, academic English, CS research English, and pronunciation/listening. Explain each entry individually and check coverage before repeating an item.
 
-The formal corpus snapshot contains 677 item-lines across seven files. Preserve entries at their authoritative source paths. Group overlapping expressions when useful while retaining their source references.
+The formal corpus snapshot contains 677 item-lines across seven files. Preserve entries at their authoritative source paths and explain each item individually.
 
 ## Consolidation queue
 
@@ -36,10 +36,12 @@ Earlier explanation batch on 2026-11-17
 - `phrases.md` — by default.
 - `phrases.md` — take effect.
 
-Current explanation batch on 2026-11-17
+Earlier explanation batch on 2026-11-17
 
 - `vocabulary.md` — Informative, Rigor, Fidelity, Hedging, Footprint, Hinge, Upshot, Boilerplate, Arguably, Triage, Verdict, Provenance, Caveat, Reconcile, and Conflate.
 
-The learner marked 14 items from the current explanation batch as needing consolidation: Rigor, Fidelity, Hedging, Footprint, Hinge on, Upshot, Boilerplate, Arguably, Triage, Verdict, Provenance, Caveat, Reconcile, and Conflate. Prioritize a direct explanation-led consolidation of these items on the next continuation. Explain each item separately, using fresh examples and useful distinctions. Do not group the items by theme, turn consolidation into a test, or require learner production. Keep this reinforcement queue separate from assessed mastery.
+Current explanation batch on 2026-11-17
 
-After this consolidation batch, continue with Corroboration, Counterfactual, and the next uncovered Core vocabulary entries. Check the corpus and latest conversation before selecting the next batch.
+- `vocabulary.md` — Corroboration, Counterfactual, allocation, backlog, throughput, latency, contention, transient, sustained, aggregate, propagate, implicit, explicit, empirical, and hypothesis.
+
+Continue next with infer, attribute, baseline, outlier, heuristic, criterion, fallback, backpressure, outage, robustness, scalability, deployment, workload, benchmark, and mitigate. Check the corpus and latest conversation before selecting the next batch.
