@@ -82,3 +82,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] lead
 - [vocab] dependency
 - [phrase] off the top of my head
+- [pattern] A comment on ...? (elliptical question)
