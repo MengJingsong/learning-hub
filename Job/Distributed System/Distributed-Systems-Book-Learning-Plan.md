@@ -108,10 +108,18 @@ Next action:
 - **English items added:** *partial failure*; *distribution transparency*.
 - **Next action:** Continue to §1.1.3, the book's perspectives for studying distributed systems.
 
+- **Date:** November 17, 2026
+- **Chapter/section:** Chapter 1, §1.1.3 — studying distributed systems through distinct perspectives.
+- **Concepts covered and status:** Architecture, processes, communication, coordination, naming, consistency and replication, fault tolerance, and security as connected analytical perspectives. Introduced.
+- **Evidence:** Detailed explanation only; no learner demonstration recorded.
+- **Gaps or questions to revisit:** How choices in one perspective constrain the others.
+- **English items added:** None.
+- **Next action:** Continue to §1.2, design goals, beginning with resource sharing and distribution transparency.
+
 ## Current checkpoint
 
 - **Latest session:** Previewed the table of contents across Chapters 1–9. The numbered textbook lesson resumes at Section 1.1.2.
-- **Status:** Chapter 1, §1.1.2 — why the distributed/decentralized distinction matters has been introduced.
+- **Status:** Chapter 1, §1.1.3 — the book's perspectives for studying distributed systems have been introduced.
 - **Evidence:** No learner explanation or application has been recorded; understanding is not yet checked.
-- **Next action:** Begin a detailed explanation of Chapter 1, Section 1.1.2. Briefly recap the distinction introduced in Section 1.1 if it helps explain the new material.
+- **Next action:** Begin a detailed explanation of Chapter 1, §1.2, design goals.
 - **English inbox:** Added the first-lesson expressions after checking for duplicates: *distributed system*, *decentralized system*, *processes and resources are spread across multiple computers*, *sufficiently spread*, and *necessarily spread*.
