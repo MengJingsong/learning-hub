@@ -44,4 +44,12 @@ Current explanation batch on 2026-11-17
 
 - `vocabulary.md` — Corroboration, Counterfactual, allocation, backlog, throughput, latency, contention, transient, sustained, aggregate, propagate, implicit, explicit, empirical, and hypothesis.
 
-Continue next with infer, attribute, baseline, outlier, heuristic, criterion, fallback, backpressure, outage, robustness, scalability, deployment, workload, benchmark, and mitigate. Check the corpus and latest conversation before selecting the next batch.
+Earlier explanation batch on 2026-11-17
+
+- `vocabulary.md` — Corroboration, Counterfactual, allocation, backlog, throughput, latency, contention, transient, sustained, aggregate, propagate, implicit, explicit, empirical, and hypothesis.
+
+Current explanation batch on 2026-11-17
+
+- `vocabulary.md` — infer, attribute, baseline, outlier, heuristic, criterion, fallback, backpressure, outage, robustness, scalability, deployment, workload, benchmark, and mitigate.
+
+Continue next with validate, uncertainty, traditional, conventional, eligible, representative, typical, characteristic, clue, Stash, Emit, Under-tested, Provably, Reclaim, and Overshoot. Check the corpus and latest conversation before selecting the next batch.
