@@ -1,4 +1,4 @@
-# Listening Mode
+# Listening Practice
 
 Trigger: the user says “听力训练”.
 

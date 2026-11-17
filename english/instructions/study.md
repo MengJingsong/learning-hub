@@ -1,4 +1,6 @@
-# Study Mode
+# Study
+
+Trigger: the user asks to study new or selected English material.
 
 Teach new or selected material primarily from `/english/study-materials/`.
 

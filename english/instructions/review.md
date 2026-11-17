@@ -1,4 +1,4 @@
-# Review Mode
+# Review
 
 Trigger: the user says “复习” or clearly asks to review study materials.
 

@@ -1,4 +1,4 @@
-# Test Mode
+# Test
 
 Trigger: the user says “测试” or clearly asks to be tested.
 

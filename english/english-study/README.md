@@ -87,12 +87,9 @@ See `/english/instructions/router.md` for the authoritative mode map, activation
 Named session modes:
 - `查词模式` / `翻译模式` → `lookup.md`
 - `优化模式` / `refine模式` → `refine.md`
-- `学习模式` → `study.md`
-- `复习模式` → `review.md`
-- `测试模式` → `test.md`
-- `听力模式` → `listening.md`
 - `整理模式` → `curate-inbox.md`
-- `默认模式` → clear the named mode; use `router.md`
+
+Send `默认模式` to clear the category and task mode. Request learning, review, testing, or listening directly with `学习` (with a topic or material), `复习`, `测试`, or `听力训练`.
 
 A named mode persists only within its current conversation. While it is active, future messages do not require quotes. An explicit change of mode replaces it; clear requests for another task may override it for that request. Without an active mode, route each message by its intent and quotation marks.
 

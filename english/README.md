@@ -35,7 +35,7 @@ Priority is separate from mastery. A Specialized item can still be weak or due f
 This folder stores learning-state metadata, study rules, and temporary intake rather than formal study material.
 
 - `README.md` — English-category study rules and workflow.
-- `project-instructions.md` — copy-ready ChatGPT Project Instructions with all eight mode commands and session persistence.
+- `project-instructions.md` — copy-ready ChatGPT Project Instructions for session modes and direct requests.
 - `inbox.md` — temporary queue for newly discovered items; not part of the formal study corpus until curated.
 - `mastery.md` — current mastery state for formal study items.
 - `session-log.md` — concise history of meaningful reviews and tests.
@@ -53,7 +53,7 @@ This folder stores task-specific instructions:
 - `listening.md`
 - `curate-inbox.md`
 
-To activate a persistent mode in a new chat, send one of: `查词模式` / `翻译模式`, `优化模式` / `refine模式`, `学习模式`, `复习模式`, `测试模式`, `听力模式`, `整理模式`, or `默认模式`. Modes apply only to that chat; see [instructions/router.md](instructions/router.md).
+Use `查词模式` / `翻译模式`, `优化模式` / `refine模式`, or `整理模式` to activate a mode for the current chat. Send `默认模式` to clear the current category and mode. To study, review, test, or practice listening, ask directly, for example `学习这些短语`, `复习`, `测试`, or `听力训练`. See [instructions/router.md](instructions/router.md).
 
 ## Study workflow
 

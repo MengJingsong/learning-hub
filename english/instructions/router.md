@@ -2,18 +2,14 @@
 
 Use `/english/english-study/README.md` for English-category rules. Read only the task-specific instruction file needed for the current task.
 
-## Supported session modes
+## Mode commands
 
-| Activation command | Mode | Instruction file |
+| Command | Action | Instruction file |
 |---|---|---|
 | 查词模式 / 翻译模式 | Lookup | `lookup.md` |
 | 优化模式 / refine模式 | Refine | `refine.md` |
-| 学习模式 | Study | `study.md` |
-| 复习模式 | Review | `review.md` |
-| 测试模式 | Test | `test.md` |
-| 听力模式 | Listening | `listening.md` |
 | 整理模式 | Curate Inbox | `curate-inbox.md` |
-| 默认模式 | Default | `router.md` |
+| 默认模式 | Clear the category and task mode | `router.md` |
 
 ## Mode activation and persistence
 
@@ -23,17 +19,22 @@ An explicit mode switch replaces the previous mode. `默认模式` clears the na
 
 If the relevant instruction file cannot be accessed, do not claim to have loaded it. Use the already available English-category rules and explain material limitations where necessary.
 
+## Direct requests
+
+These requests apply to the current task.
+
+- `学习` with a topic or a request to learn new material → `study.md`.
+- `复习` → `review.md`.
+- `测试` → `test.md`.
+- `听力训练` → `listening.md`.
+- `整理 inbox` → `curate-inbox.md`.
+
 ## Default routing (no named mode active)
 
 - Quoted Chinese or English input, wrapped in `""`, `''`, `“”`, or `‘’` → `lookup.md`.
-- A request to learn new material → `study.md`.
-- “复习” → `review.md`.
-- “测试” → `test.md`.
-- “听力训练” → `listening.md`.
-- “整理 inbox” → `curate-inbox.md`.
 - Unquoted English input → proofread and rephrase naturally, unless another task was requested.
 
-Use the smallest relevant instruction set. The active task's instructions control formatting, including the English-only output rule for Listening Mode.
+Use the smallest relevant instruction set. Follow the active task's output rules, including English-only passages for listening practice.
 
 ## Learning Hub integration
 
