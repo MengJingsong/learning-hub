@@ -152,10 +152,18 @@ Next action:
 - **English items added:** dependability; availability; reliability; safety; maintainability; mean time to failure (MTTF); mean time to repair (MTTR); mean time between failures (MTBF).
 - **Next action:** Continue to §1.2.5, security.
 
+- **Date:** November 17, 2026
+- **Chapter/section:** Chapter 1, §1.2.5 — security.
+- **Concepts covered and status:** Confidentiality, integrity, authorization, authentication, trust, cryptography; symmetric and public-key encryption; digital signatures, hashes, secure channels, blockchain linkage, delegation, and multiparty computation. Introduced.
+- **Evidence:** Detailed explanation only; no learner demonstration recorded.
+- **Gaps or questions to revisit:** Authentication establishes identity claims; authorization controls permitted actions. Public-key use depends on binding a key to the right identity.
+- **English items added:** confidentiality; integrity; authentication; authorization; cryptography; symmetric cryptosystem; public-key system; digital signature; hash function; delegation; multiparty computation.
+- **Next action:** Continue to §1.2.6, scalability.
+
 ## Current checkpoint
 
 - **Latest session:** Previewed the table of contents across Chapters 1–9. The numbered textbook lesson resumes at Section 1.1.2.
-- **Status:** Chapter 1, §1.2.4 — dependability has been introduced.
+- **Status:** Chapter 1, §1.2.5 — security has been introduced.
 - **Evidence:** No learner explanation or application has been recorded; understanding is not yet checked.
-- **Next action:** Begin a detailed explanation of Chapter 1, §1.2.5, security.
+- **Next action:** Begin a detailed explanation of Chapter 1, §1.2.6, scalability.
 - **English inbox:** Added the first-lesson expressions after checking for duplicates: *distributed system*, *decentralized system*, *processes and resources are spread across multiple computers*, *sufficiently spread*, and *necessarily spread*.
