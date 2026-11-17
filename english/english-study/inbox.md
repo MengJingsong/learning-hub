@@ -83,3 +83,5 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] dependency
 - [phrase] off the top of my head
 - [pattern] A comment on ...? (elliptical question)
+- [phrase] partial failure
+- [phrase] distribution transparency
