@@ -14,7 +14,7 @@ Read the selected skill from the current runtime's available skill source. Use a
 
 ## Materials and context
 
-Read `/english/english-study/README.md`, `/english/english-study/mastery.md`, and recent relevant entries in `/english/english-study/session-log.md` before choosing a task. Reuse known goals and preferences and collect only the missing context needed to start.
+Read `/english/english-study/README.md`, `/english/english-study/learning-plan.md`, `/english/english-study/mastery.md`, and recent relevant entries in `/english/english-study/session-log.md` before choosing a task. Reuse known goals and preferences and collect only the missing context needed to start. The learner's current teaching preference takes priority over the upstream skills' default production, quiz, and retry loops.
 
 Use material or topics explicitly selected by the learner. Otherwise select from `/english/study-materials/`, prioritizing due and weak items, then Core items when review needs are similar. External material can supplement authentic usage and examples. Retain a source link or repository path when it matters for continuing the lesson.
 
@@ -34,7 +34,9 @@ Use repository storage for the upstream skills' learning records, saved vocabula
 
 Read current state before writing, merge new evidence with existing records, and avoid duplicate entries on retry. Commit related record updates together when supported. Confirm successful writes. If writing fails, preserve the pending update in the reply and state what remains unsaved.
 
-Installation, planning, explanations, passage delivery, and simply revealing an answer provide no assessment evidence. Log learning only after an observed attempt or a clearly attributed learner report. Identify self-reported evidence as such.
+Track explanation coverage and the continuation point in `/english/english-study/learning-plan.md`. Record changes of learning preference there and note the change in `session-log.md` when needed for continuity.
+
+Installation, planning, explanations, passage delivery, and simply revealing an answer provide no assessment evidence. Update mastery only after an observed attempt or a clearly attributed learner report. Identify self-reported evidence as such.
 
 ## Audio and session boundaries
 

@@ -36,6 +36,7 @@ This folder stores learning-state metadata, study rules, and temporary intake ra
 
 - `README.md` — English-category study rules and workflow.
 - `project-instructions.md` — copy-ready ChatGPT Project Instructions for session modes and direct requests.
+- `learning-plan.md` — current learning preference, walkthrough order, and explanation coverage.
 - `inbox.md` — temporary queue for newly discovered items; not part of the formal study corpus until curated.
 - `mastery.md` — current mastery state for formal study items.
 - `session-log.md` — concise history of meaningful reviews and tests.

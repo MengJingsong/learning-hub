@@ -21,6 +21,7 @@ This folder stores learning state, temporary study intake, testing history, and 
 - `/english/english-study/inbox.md` is a temporary intake queue for promising new items discovered during lookup. Inbox items are not formal study material until curated.
 - `/english/instructions/` stores task-specific instructions. Use `router.md` to select the smallest relevant instruction file for the current task.
 - `/english/english-study/project-instructions.md` contains concise long-term Project-level routing instructions.
+- `/english/english-study/learning-plan.md` stores the learner's current teaching preference, corpus walkthrough order, and explanation coverage.
 - `/english/english-study/` stores learning state and study-system metadata. It is not itself part of the study corpus.
 - The repository root `README.md` is documentation only and is not study material.
 
@@ -46,7 +47,7 @@ Do not mark an item mastered from one immediate correct answer. Delayed, unpromp
 
 ## Testing principles
 
-Prefer active recall over recognition. Progress from meaning/recognition to contextual discrimination, translation or completion, unprompted production, listening recognition, and integrated situational use.
+For requested practice or assessment, prefer active recall over recognition. Progress from meaning/recognition to contextual discrimination, translation or completion, unprompted production, listening recognition, and integrated situational use.
 
 For mature items, hide the target word/phrase and test whether the learner independently retrieves it. Re-test items after delays. Give extra weight to unprompted correct use and to successful delayed review.
 
@@ -79,7 +80,7 @@ English learning progress is authorized to be saved directly to this repository 
 
 ## Default workflow for ChatGPT
 
-At the beginning of a study/review session, read this README and the relevant study materials plus `mastery.md`. Select exercises based on current mastery rather than randomly. After testing, update mastery conservatively and add a concise session-log entry when useful.
+At the beginning of a study/review session, read this README, `learning-plan.md`, the relevant study materials, and `mastery.md`. Follow the learner's current teaching preference and continuation point. Track explanation coverage in the plan. Use assessment evidence to update mastery conservatively when the learner requests practice or testing.
 
 
 ## Instruction routing

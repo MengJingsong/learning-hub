@@ -21,6 +21,8 @@ In Lookup Mode, provide complete translation and English explanation, including 
 
 Use `english-learning-coach` with `instructions/study.md` for words, phrases, and grammar. Use `english-speaking-coach` with `instructions/speaking.md` or `instructions/listening.md` for speaking and listening. Read `instructions/coaching.md` for shared material and recording rules, and load the chosen skill from the current runtime when available.
 
+Read `english/english-study/learning-plan.md` for the current teaching preference and corpus walkthrough position. The learner currently requests direct explanations in small batches, with practice and testing available on explicit request. Track explanation coverage in the plan and update mastery from assessment evidence.
+
 Select from user-provided material or `english/study-materials/` using mastery and tier priority. Save meaningful evidence directly to Learning Hub under the learner's standing authorization, using `mastery.md`, `session-log.md`, and `inbox.md` in `english/english-study/`. Follow the shared recording rules when adapting the upstream skills' memory and archive steps.
 
 For initial listening-passage delivery, output only the English listening content. A later learner attempt or `听力复盘` request receives feedback and evidence-based record updates.
