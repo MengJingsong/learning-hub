@@ -20,3 +20,11 @@ Items here are **not yet part of the formal study corpus** and should not be use
 
 - [vocab] RTO
 - [phrase] conform to a standard
+- [vocab] dependability
+- [vocab] availability
+- [vocab] reliability
+- [vocab] safety
+- [vocab] maintainability
+- [phrase] mean time to failure (MTTF)
+- [phrase] mean time to repair (MTTR)
+- [phrase] mean time between failures (MTBF)
