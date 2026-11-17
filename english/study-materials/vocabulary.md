@@ -58,6 +58,13 @@ FORMAT RULES:
 - mitigate
 - validate
 - uncertainty
+- traditional
+- conventional
+- eligible
+- representative
+- typical
+- characteristic
+- clue
 
 ## Useful
 - Stash
@@ -116,33 +123,19 @@ FORMAT RULES:
 - inconclusive
 - rollover
 - cross-reference
-- Curate
-- Convergence
-- Outright
-- Sloppy
-- Foreclose
-- Traditional
-- Conventional
-- Tile
-- Tally
-- Discreet
-- Banner
-- Takeaway
-- Fraternity
-- Historic
-- Composability
-- Procession
-- Weigher
-- Eligible
-- Intervention
-- Thrash
-- Blob
-- Representative
-- Distinctive
-- Typical
-- Characteristic
-- Dependency
-- Payoff
+- curate
+- convergence
+- outright
+- sloppy
+- slack
+- payoff
+- tile
+- tally
+- discreet
+- banner
+- historic
+- distinctive
+- lead (noun, investigative sense)
 
 ## Specialized
 - Backticks
@@ -181,4 +174,5 @@ FORMAT RULES:
 - replicate
 - significance
 - doujinshi
-- RTO
+- foreclose
+- procession

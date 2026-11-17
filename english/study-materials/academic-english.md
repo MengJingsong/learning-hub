@@ -47,6 +47,7 @@ FORMAT RULES:
 - beyond the scope of X
 - extrapolate to X
 - account for potential confounders
+- draw on X
 
 ## Useful
 - line up with
@@ -65,6 +66,7 @@ FORMAT RULES:
 - positive control
 - preregister a study
 - signal-to-noise ratio
+- intervention
 
 ## Specialized
 - Ad hoc

@@ -62,9 +62,10 @@ FORMAT RULES:
 - X cannot be ruled out.
 - What happens if X?
 - wouldn't put it past someone to do something
+- X takes a lot of effort but yields little Y.
 - notify X of Y
-- attribute X to Y
-- Processes and resources are spread across multiple computers.
+- X is spread across Y.
+- Any comments on X?
 
 ## Specialized
 - This is X kicking in before Y
@@ -84,4 +85,3 @@ FORMAT RULES:
 - In contrast to X, Y.
 - X raises the possibility that Y.
 - Suppose we have X.
-- A comment on X? (elliptical suggestion/request)

@@ -71,6 +71,9 @@ FORMAT RULES:
 - lock contention
 - cache hit rate
 - resource constraint
+- distributed system
+- dependency
+- partial failure
 
 ## Useful
 - kick in
@@ -92,7 +95,10 @@ FORMAT RULES:
 - round-trip
 - production cluster
 - bisect
-- factors that affect resource usage
+- blast radius
+- composability
+- decentralized system
+- blob
 
 ## Specialized
 - Escape hatch
@@ -135,3 +141,5 @@ FORMAT RULES:
 - I/O amplification
 - cron
 - band steering
+- thrash
+- distribution transparency

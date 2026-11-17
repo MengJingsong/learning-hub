@@ -68,6 +68,9 @@ FORMAT RULES:
 - I mean
 - check back soon
 - Way to go!
+- hard to follow
+- make X up
+- off the top of my head
 
 ## Useful
 - Screw up
@@ -93,7 +96,7 @@ FORMAT RULES:
 - commit to
 - lean toward
 - right away
-- park X for now
+- fraternity
 
 ## Specialized
 - It's on the house
