@@ -90,8 +90,17 @@ English items added:
 Next action:
 ```
 
+- **Date:** November 17, 2026
+- **Chapter/section:** Book-wide overview of Chapters 1–9 and their numbered subsections.
+- **Concepts covered and status:** Previewed the book's structure and how architecture, processes, communication, coordination, naming, replication, fault tolerance, and security fit together.
+- **Evidence:** Orientation only; no new section studied in depth and no assessment evidence.
+- **Gaps or questions to revisit:** Resume the distinction between distributed and decentralized systems in the next textbook lesson.
+- **English items added:** *partial failure* and *distribution transparency*.
+- **Next action:** Begin Chapter 1, Section 1.1.2, on why the distinction matters.
+
 ## Current checkpoint
 
+- **Latest session:** Previewed the table of contents across Chapters 1–9. The numbered textbook lesson resumes at Section 1.1.2.
 - **Status:** Chapter 1, Section 1.1 — the distinction between distributed and decentralized systems has been introduced.
 - **Evidence:** No learner explanation or application has been recorded; understanding is not yet checked.
 - **Next action:** Begin a detailed explanation of Chapter 1, Section 1.1.2. Briefly recap the distinction introduced in Section 1.1 if it helps explain the new material.
