@@ -18,9 +18,7 @@ The formal corpus snapshot contains 677 item-lines across seven files. Preserve 
 
 ## Consolidation queue
 
-Marked for reinforcement on 2026-11-17 in response to the learner's annotations. These items were explained already; this queue tracks requested consolidation, separately from explanation coverage and mastery.
-
-- `vocabulary.md` — Rigor, Fidelity, Hedging, Footprint, Hinge, Upshot, Boilerplate, Arguably, Triage, Verdict, Provenance, Caveat, Reconcile, and Conflate.
+Track requested reinforcement in [`consolidation-queue.md`](consolidation-queue.md). Keep one item per line with its source corpus entry. Explain queued items individually, using fresh examples and useful distinctions. Mark an item complete only after its consolidation explanation has been delivered. This queue is separate from explanation coverage and assessed mastery.
 
 ## Explanation coverage
 
