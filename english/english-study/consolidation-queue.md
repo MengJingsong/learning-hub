@@ -4,19 +4,23 @@ This file tracks items the learner wants to revisit for stronger understanding. 
 
 ## Pending
 
-Added 2026-11-17 after the learner marked these already-explained items for consolidation.
+No items currently pending.
 
-- [ ] Rigor — source: `study-materials/vocabulary.md`
-- [ ] Fidelity — source: `study-materials/vocabulary.md`
-- [ ] Hedging — source: `study-materials/vocabulary.md`
-- [ ] Footprint — source: `study-materials/vocabulary.md`
-- [ ] Hinge — source: `study-materials/vocabulary.md`
-- [ ] Upshot — source: `study-materials/vocabulary.md`
-- [ ] Boilerplate — source: `study-materials/vocabulary.md`
-- [ ] Arguably — source: `study-materials/vocabulary.md`
-- [ ] Triage — source: `study-materials/vocabulary.md`
-- [ ] Verdict — source: `study-materials/vocabulary.md`
-- [ ] Provenance — source: `study-materials/vocabulary.md`
-- [ ] Caveat — source: `study-materials/vocabulary.md`
-- [ ] Reconcile — source: `study-materials/vocabulary.md`
-- [ ] Conflate — source: `study-materials/vocabulary.md`
+## Completed
+
+Consolidated individually on 2026-11-17 with fresh examples and usage notes. These explanations do not change assessed mastery.
+
+- [x] Rigor — source: `study-materials/vocabulary.md`
+- [x] Fidelity — source: `study-materials/vocabulary.md`
+- [x] Hedging — source: `study-materials/vocabulary.md`
+- [x] Footprint — source: `study-materials/vocabulary.md`
+- [x] Hinge — source: `study-materials/vocabulary.md`
+- [x] Upshot — source: `study-materials/vocabulary.md`
+- [x] Boilerplate — source: `study-materials/vocabulary.md`
+- [x] Arguably — source: `study-materials/vocabulary.md`
+- [x] Triage — source: `study-materials/vocabulary.md`
+- [x] Verdict — source: `study-materials/vocabulary.md`
+- [x] Provenance — source: `study-materials/vocabulary.md`
+- [x] Caveat — source: `study-materials/vocabulary.md`
+- [x] Reconcile — source: `study-materials/vocabulary.md`
+- [x] Conflate — source: `study-materials/vocabulary.md`
