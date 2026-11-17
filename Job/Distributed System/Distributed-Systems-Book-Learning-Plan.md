@@ -52,9 +52,11 @@ When helpful, briefly summarize earlier concepts and explain how they connect to
 
 ### English woven into technical teaching
 
-English learning is part of every technical explanation. Explain in Chinese and give the English term and its Chinese equivalent or plain Chinese meaning together on first use in each explanation. Apply this to every English word, term, abbreviation, or expression relevant to the topic, including those in examples and follow-up explanations. For example, write “副本（replica）” and “故障转移（failover）”. For an abbreviation, give the English expansion and the Chinese meaning on first use, as in “远程过程调用（RPC, remote procedure call）”.
+English learning is part of every technical explanation. Pair a substantially larger share of the topic-relevant English vocabulary with Chinese translations than ordinary technical prose would. Aim for at least one translated English term or phrase in each explanatory paragraph, and translate the main technical nouns, verbs, adjectives, and recurring phrases when they first appear. Repeat the Chinese equivalent when a term reappears after a long gap or in a new context. Keep the Chinese explanation natural and readable.
 
-Use the book's technical English where available. Give a short explanation of usage, collocations, or grammar when it helps clarify the term in context. Add reusable or unfamiliar expressions to the English study inbox after checking for duplicates and following its format.
+Give the English expression and Chinese meaning together, for example “副本（replica）”, “复制（replicate）”, “可用的（available）”, and “故障转移（failover，故障后切换到备用服务）”. For abbreviations, provide the expansion and Chinese meaning on first use, such as “远程过程调用（RPC, remote procedure call）”. Translate important words in examples and follow-up clarifications too. Do not leave a topic-relevant English term unexplained merely because it is familiar or already appeared in an earlier lesson.
+
+Use the book's technical English where available. Briefly explain collocations, usage, or grammar when it clarifies the concept. At the end of each lesson, add only reusable or unfamiliar expressions to the English study inbox after checking for duplicates and following its format.
 
 ## Progress tracking and continuation
 
