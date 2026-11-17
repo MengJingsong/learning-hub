@@ -1,6 +1,6 @@
 # Distributed Systems Book Learning Plan
 
-**Last updated:** November 13, 2026
+**Last updated:** November 17, 2026
 
 ## Source
 
@@ -16,7 +16,7 @@ By the end of this course of study, I should be able to:
 - Analyze failure modes, fault-tolerance mechanisms, and consensus protocols.
 - Recognize core security mechanisms and their trade-offs.
 - Apply these ideas to real systems, including distributed databases and resource-usage investigations.
-- Understand and use natural technical English from the book in discussion and writing.
+- Understand English technical terms alongside their Chinese equivalents and use the book's technical English in discussion and writing.
 
 ## Roadmap
 
@@ -39,11 +39,11 @@ This plan is the single source of truth for course progress. We will borrow effe
 1. **Resume:** Read this checkpoint and start with one short recall question about a previously covered concept when review is due.
 2. **Set scope:** Choose one small section or one connected concept. Keep the book's chapter and section visible.
 3. **Ground the lesson:** Teach from the uploaded book first. Separate what the book states from added explanation or examples; verify or label material that goes beyond the source.
-4. **Explain:** Build from intuition and first principles, then give the precise definition, assumptions, and limits.
+4. **Explain:** Build from intuition and first principles, then give the precise definition, assumptions, and limits. Pair each topic-relevant English term or expression with its Chinese equivalent or meaning where it appears.
 5. **Work through an example:** Trace a concrete scenario, mechanism, or failure. Connect it to a real system or my distributed-systems research when useful.
 6. **Practice retrieval and transfer:** Ask one question at a time, then wait for my answer. Have me explain, compare, trace, or apply the concept in a new scenario.
 7. **Give feedback:** Identify what is correct and any specific gap. Re-explain a gap from a different angle, then let me try again.
-8. **Close the session:** Update this document with evidence, unresolved questions, English items added, and the exact next step.
+8. **Save progress after each explanation:** Before ending a reply that teaches, reviews, or clarifies course material, update and verify the session log and current checkpoint in this document.
 
 Explanations are in Chinese by default, with standard English technical terms. Keep lessons in manageable chunks; pause for my questions and adjust depth to my answers. A question can check understanding during teaching; a formal quiz or graded assessment happens only if I ask for one.
 
@@ -53,17 +53,15 @@ At the next session, retrieve key concepts before explaining them again. Revisit
 
 ### English woven into technical teaching
 
-English learning is a continuous support for the technical lesson, not a separate vocabulary block. While explaining each concept in Chinese, naturally weave in useful English words, collocations, grammar, and sentence patterns at the point where they clarify the idea. For example: “A distributed system coordinates processes across machines; the phrase *coordinate processes across machines* is a natural way to describe this responsibility.”
+English learning is part of every technical explanation. Explain in Chinese and give the English term and its Chinese equivalent or plain Chinese meaning together on first use in each explanation. Apply this to every English word, term, abbreviation, or expression relevant to the topic, including those in examples and follow-up explanations. For example, write “副本（replica）” and “故障转移（failover）”. For an abbreviation, give the English expansion and the Chinese meaning on first use, as in “远程过程调用（RPC, remote procedure call）”.
 
-Choose items that are key, central, or common for the current topic. Briefly explain their meaning and, when useful, part of speech, pronunciation, grammar, register, collocation, or sentence structure. Integrate the explanation into the flow of the technical explanation rather than adding a detached English section. Keep the technical lesson readable: include only a few high-value items, not every unfamiliar word, and do not force English into sentences where it does not help.
-
-Use the book's natural technical English as the primary source. When a useful word or phrase appears, show it beside the Chinese explanation and give a short, natural example grounded in the topic. After the lesson, add only genuinely reusable or unfamiliar expressions to the English study inbox; check for duplicates and follow that inbox's format. The inbox remains the long-term review list, while the teaching itself stays integrated with the technical content.
+Use the book's technical English where available. Give a short explanation of usage, collocations, or grammar when it helps clarify the term in context. Add reusable or unfamiliar expressions to the English study inbox after checking for duplicates and following its format.
 
 ## Progress tracking and continuation
 
-Maintain course progress in this document only. The English study inbox remains the separate intake queue for English items; it is not a second distributed-systems progress tracker.
+Maintain course progress in this document. After every explanation, including a review explanation or a follow-up clarification, commit the update to GitHub before ending the reply. Update the current checkpoint and add to the current session log entry as the session continues. Record an explanation with no learner demonstration as **Introduced** if the concept is new, and preserve any higher status already supported by evidence. Verify that the update was saved and report any save failure to the learner.
 
-At the end of each meaningful session, record:
+For each explanation, record:
 
 - Chapter/section and concepts covered.
 - Status for each concept:
@@ -71,7 +69,7 @@ At the end of each meaningful session, record:
   - **Practiced:** attempted during the current lesson; any gap is noted.
   - **Demonstrated:** independently explained, traced, compared, or applied with evidence.
   - **Retention checked:** recalled or applied independently in a later session.
-- Brief evidence from my own explanation or application; do not infer mastery from reading or agreement alone.
+- Brief evidence from my own explanation or application, if available. Mark the concept as unassessed when there is no learner evidence.
 - Misconceptions or prerequisites to revisit.
 - English items added to the inbox.
 - Review date/result, when applicable.
@@ -81,7 +79,7 @@ Use delayed recall to strengthen evidence of retention. Do not create extra note
 
 ## Session log
 
-Use this compact entry after each meaningful session:
+Start one compact entry per session and update it after each explanation in that session:
 
 ```text
 Date:
