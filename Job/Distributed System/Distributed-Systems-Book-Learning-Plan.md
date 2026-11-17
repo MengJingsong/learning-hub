@@ -136,10 +136,18 @@ Next action:
 - **English items added:** *open system*; *interface definition language*; *interoperability*; *portability*; *extensibility*; *policy*; *mechanism*.
 - **Next action:** Continue to §1.2.4, dependability.
 
+- **Date:** November 17, 2026
+- **Chapter/section:** Chapter 1, §1.2.3 — follow-up explanation of policy and mechanism.
+- **Concepts covered and status:** Mechanism provides operations; policy chooses rules and parameters. Examined browser-cache storage, eviction, sharing, and refresh policies; flexibility, configuration complexity, defaults, and self-configuration. Introduced.
+- **Evidence:** Follow-up explanation requested; no learner demonstration recorded.
+- **Gaps or questions to revisit:** How to expose policy choices without overwhelming system operators.
+- **English items added:** *conform to a standard*.
+- **Next action:** Continue to §1.2.4, dependability.
+
 ## Current checkpoint
 
 - **Latest session:** Previewed the table of contents across Chapters 1–9. The numbered textbook lesson resumes at Section 1.1.2.
-- **Status:** Chapter 1, §1.2.3 — openness has been introduced.
+- **Status:** Chapter 1, §1.2.3 — openness, including policy and mechanism, has been introduced.
 - **Evidence:** No learner explanation or application has been recorded; understanding is not yet checked.
-- **Next action:** Begin a detailed explanation of Chapter 1, §1.2.4, dependability.
+- **Next action:** Continue the detailed explanation of Chapter 1, §1.2.4, dependability.
 - **English inbox:** Added the first-lesson expressions after checking for duplicates: *distributed system*, *decentralized system*, *processes and resources are spread across multiple computers*, *sufficiently spread*, and *necessarily spread*.
