@@ -4,18 +4,17 @@ This file tracks items the learner wants to revisit for stronger understanding. 
 
 ## Pending
 
-Added 2026-11-17 from the learner's annotations. Explain each item individually.
-
-- [ ] Corroboration — source: `study-materials/vocabulary.md`
-- [ ] Backlog — source: `study-materials/vocabulary.md`
-- [ ] Transient — source: `study-materials/vocabulary.md`
-- [ ] Propagate — source: `study-materials/vocabulary.md`
-- [ ] Empirical — source: `study-materials/vocabulary.md`; clarify `empirical` versus `based on experience`.
+No items currently pending.
 
 ## Completed
 
 Consolidated individually on 2026-11-17 with fresh examples and usage notes. These explanations do not change assessed mastery.
 
+- [x] Corroboration — source: `study-materials/vocabulary.md`
+- [x] Backlog — source: `study-materials/vocabulary.md`
+- [x] Transient — source: `study-materials/vocabulary.md`
+- [x] Propagate — source: `study-materials/vocabulary.md`
+- [x] Empirical — source: `study-materials/vocabulary.md`; clarified `empirical` versus `based on experience`.
 - [x] Rigor — source: `study-materials/vocabulary.md`
 - [x] Fidelity — source: `study-materials/vocabulary.md`
 - [x] Hedging — source: `study-materials/vocabulary.md`
