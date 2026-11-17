@@ -4,7 +4,14 @@ This file tracks items the learner wants to revisit for stronger understanding. 
 
 ## Pending
 
-No items currently pending.
+Added 2026-11-17 from learner annotations. Explain items individually; include a short contrast only where a specific confusion is noted.
+
+- [ ] Conventional — source: `study-materials/vocabulary.md`; contrast with traditional.
+- [ ] Eligible — source: `study-materials/vocabulary.md`.
+- [ ] Stash — source: `study-materials/vocabulary.md`.
+- [ ] Emit — source: `study-materials/vocabulary.md`; contrast with omit.
+- [ ] Under-tested — source: `study-materials/vocabulary.md`; clarify that it means insufficiently tested, not currently being tested.
+- [ ] Overshoot — source: `study-materials/vocabulary.md`.
 
 ## Completed
 
