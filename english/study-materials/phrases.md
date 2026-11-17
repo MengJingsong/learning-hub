@@ -96,6 +96,23 @@ FORMAT RULES:
 - limited availability
 - terms apply
 - rejection upheld / rejection overturned
+- memory-affecting configuration
+- gloss over X
+- blast radius
+- return on investment (ROI)
+- carve A out of B
+- leave out X
+- draw on X
+- off by default
+- factors that affect resource usage
+- partial failure
+- distribution transparency
+- decentralized system
+- sufficiently spread
+- necessarily spread
+- off the top of my head
+- make X up
+- hard to follow
 
 ## Specialized
 - grounds for X
@@ -122,3 +139,4 @@ FORMAT RULES:
 - in the wild
 - at peak
 - in line with X
+- distributed system
