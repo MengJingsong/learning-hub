@@ -144,10 +144,18 @@ Next action:
 - **English items added:** *conform to a standard*.
 - **Next action:** Continue to §1.2.4, dependability.
 
+- **Date:** November 17, 2026
+- **Chapter/section:** Chapter 1, §1.2.4 — dependability.
+- **Concepts covered and status:** Availability, reliability, safety, maintainability; MTTF, MTTR, MTBF; fault, error, failure; transient, intermittent, and permanent faults; fault tolerance. Introduced.
+- **Evidence:** Detailed explanation only; no learner demonstration recorded.
+- **Gaps or questions to revisit:** Availability and reliability measure different aspects; failure detection can be ambiguous in a network.
+- **English items added:** dependability; availability; reliability; safety; maintainability; mean time to failure (MTTF); mean time to repair (MTTR); mean time between failures (MTBF).
+- **Next action:** Continue to §1.2.5, security.
+
 ## Current checkpoint
 
 - **Latest session:** Previewed the table of contents across Chapters 1–9. The numbered textbook lesson resumes at Section 1.1.2.
-- **Status:** Chapter 1, §1.2.3 — openness, including policy and mechanism, has been introduced.
+- **Status:** Chapter 1, §1.2.4 — dependability has been introduced.
 - **Evidence:** No learner explanation or application has been recorded; understanding is not yet checked.
-- **Next action:** Continue the detailed explanation of Chapter 1, §1.2.4, dependability.
+- **Next action:** Begin a detailed explanation of Chapter 1, §1.2.5, security.
 - **English inbox:** Added the first-lesson expressions after checking for duplicates: *distributed system*, *decentralized system*, *processes and resources are spread across multiple computers*, *sufficiently spread*, and *necessarily spread*.
