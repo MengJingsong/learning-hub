@@ -16,9 +16,13 @@ Complete the current batch, then cover the remaining Core entries, followed by U
 
 The formal corpus snapshot contains 677 item-lines across seven files. Preserve entries at their authoritative source paths and explain each item individually.
 
-## Consolidation queue
+## Consolidation queue and confusing items
 
-Track requested reinforcement in [`consolidation-queue.md`](consolidation-queue.md). Keep one item per line with its source corpus entry. Explain queued items individually, using fresh examples and useful distinctions. Mark an item complete only after its consolidation explanation has been delivered. This queue is separate from explanation coverage and assessed mastery.
+Track requested reinforcement in [`consolidation-queue.md`](consolidation-queue.md). Keep one item per line with its source corpus entry and a short note when the learner identifies a specific confusion.
+
+Resolve pending queue items before moving on to new corpus entries. Explain every item individually with fresh examples, common usage, and a concise usage cue. Do not group items by theme. When the learner explicitly identifies confusion between particular terms, add a focused contrast between those terms with distinct examples; do not invent extra confusing pairs. Mark an item complete only after its explanation has been delivered.
+
+Do not add quizzes or require learner production during consolidation. This queue records requested reinforcement, not assessed mastery; keep it separate from explanation coverage and mastery scores.
 
 ## Explanation coverage
 
