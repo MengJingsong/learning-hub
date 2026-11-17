@@ -116,10 +116,18 @@ Next action:
 - **English items added:** None.
 - **Next action:** Continue to §1.2, design goals, beginning with resource sharing and distribution transparency.
 
+- **Date:** November 17, 2026
+- **Chapter/section:** Chapter 1, §1.2.1–§1.2.2 — resource sharing and distribution transparency.
+- **Concepts covered and status:** Resource-sharing benefits; distribution transparency and its seven forms; limits caused by latency, failures, performance, and context. Introduced.
+- **Evidence:** Detailed explanation only; no learner demonstration recorded.
+- **Gaps or questions to revisit:** How the different transparency forms map to concrete APIs and middleware.
+- **English items added:** *resource sharing*; *access transparency*; *location transparency*; *relocation transparency*; *migration transparency*; *replication transparency*; *concurrency transparency*; *failure transparency*.
+- **Next action:** Continue Chapter 1, §1.2.3, openness.
+
 ## Current checkpoint
 
 - **Latest session:** Previewed the table of contents across Chapters 1–9. The numbered textbook lesson resumes at Section 1.1.2.
-- **Status:** Chapter 1, §1.1.3 — the book's perspectives for studying distributed systems have been introduced.
+- **Status:** Chapter 1, §1.2.1–§1.2.2 — resource sharing and distribution transparency have been introduced.
 - **Evidence:** No learner explanation or application has been recorded; understanding is not yet checked.
-- **Next action:** Begin a detailed explanation of Chapter 1, §1.2, design goals.
+- **Next action:** Begin a detailed explanation of Chapter 1, §1.2.3, openness.
 - **English inbox:** Added the first-lesson expressions after checking for duplicates: *distributed system*, *decentralized system*, *processes and resources are spread across multiple computers*, *sufficiently spread*, and *necessarily spread*.
