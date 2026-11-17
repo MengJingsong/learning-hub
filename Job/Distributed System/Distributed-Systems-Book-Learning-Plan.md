@@ -128,10 +128,18 @@ Next action:
 - **English items added:** *resource sharing*; *access transparency*; *location transparency*; *relocation transparency*; *migration transparency*; *replication transparency*; *concurrency transparency*; *failure transparency*.
 - **Next action:** Continue Chapter 1, §1.2.3, openness.
 
+- **Date:** November 17, 2026
+- **Chapter/section:** Chapter 1, §1.2.3 — openness.
+- **Concepts covered and status:** Standard interfaces, syntax versus semantics, completeness and neutrality, interoperability, portability, extensibility, and separating policy from mechanism. Introduced.
+- **Evidence:** Detailed explanation only; no learner demonstration recorded.
+- **Gaps or questions to revisit:** How service contracts describe behavior beyond function signatures.
+- **English items added:** *open system*; *interface definition language*; *interoperability*; *portability*; *extensibility*; *policy*; *mechanism*.
+- **Next action:** Continue to §1.2.4, dependability.
+
 ## Current checkpoint
 
 - **Latest session:** Previewed the table of contents across Chapters 1–9. The numbered textbook lesson resumes at Section 1.1.2.
-- **Status:** Chapter 1, §1.2.1–§1.2.2 — resource sharing and distribution transparency have been introduced.
+- **Status:** Chapter 1, §1.2.3 — openness has been introduced.
 - **Evidence:** No learner explanation or application has been recorded; understanding is not yet checked.
-- **Next action:** Begin a detailed explanation of Chapter 1, §1.2.3, openness.
+- **Next action:** Begin a detailed explanation of Chapter 1, §1.2.4, dependability.
 - **English inbox:** Added the first-lesson expressions after checking for duplicates: *distributed system*, *decentralized system*, *processes and resources are spread across multiple computers*, *sufficiently spread*, and *necessarily spread*.
