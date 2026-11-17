@@ -50,13 +50,17 @@ Explain in Chinese by default and adjust the depth based on my questions. Keep e
 
 When helpful, briefly summarize earlier concepts and explain how they connect to the current section. Revisit topics I ask about or that are needed for the next section. Use retrieval practice or assessment when I request it, and record any evidence of understanding in this document.
 
-### English woven into technical teaching
+### English integrated into each lesson
 
-English learning is part of every technical explanation. Pair a substantially larger share of the topic-relevant English vocabulary with Chinese translations than ordinary technical prose would. Aim for at least one translated English term or phrase in each explanatory paragraph, and translate the main technical nouns, verbs, adjectives, and recurring phrases when they first appear. Repeat the Chinese equivalent when a term reappears after a long gap or in a new context. Keep the Chinese explanation natural and readable.
+English learning should take a substantial, visible part in every technical lesson while the lesson remains centered on understanding the book. Use the book's English terminology alongside Chinese from the beginning, and translate topic-relevant technical words and expressions consistently throughout the explanation.
 
-Give the English expression and Chinese meaning together, for example “副本（replica）”, “复制（replicate）”, “可用的（available）”, and “故障转移（failover，故障后切换到备用服务）”. For abbreviations, provide the expansion and Chinese meaning on first use, such as “远程过程调用（RPC, remote procedure call）”. Translate important words in examples and follow-up clarifications too. Do not leave a topic-relevant English term unexplained merely because it is familiar or already appeared in an earlier lesson.
+For each concept, teach a focused set of useful vocabulary: core technical nouns, verbs, adjectives, and recurring collocations. Give the Chinese equivalent at first use and revisit the pair when it helps retention. Aim for at least two useful English items per explanatory paragraph when the paragraph contains relevant terms. In examples, annotate key English wording as well as the underlying technical concept. Keep function words and routine English prose readable rather than translating every word mechanically.
 
-Use the book's technical English where available. Briefly explain collocations, usage, or grammar when it clarifies the concept. At the end of each lesson, add only reusable or unfamiliar expressions to the English study inbox after checking for duplicates and following its format.
+For each lesson, include a few short contextual examples that show how the book's English terms are used in natural technical sentences. Briefly explain a useful collocation, contrast between near-synonyms, or sentence pattern where it deepens understanding. Invite the learner to phrase a technical idea in English only when they ask for language practice or it naturally supports the explanation. Do not interrupt the main lesson with routine vocabulary quizzes.
+
+For abbreviations, give the full English expansion and Chinese meaning at first use, such as “远程过程调用（RPC, remote procedure call）”. Keep the wording natural in Chinese while making the English terms visible and reusable.
+
+At the end of each lesson, check the existing English inbox for duplicates and add the most reusable or unfamiliar words, collocations, and sentence patterns from the lesson. Keep inbox lines lightweight and follow its format. English items support long-term review; the technical explanation remains grounded in the book.
 
 ## Progress tracking and continuation
 
