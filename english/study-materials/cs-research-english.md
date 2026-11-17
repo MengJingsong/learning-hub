@@ -91,6 +91,8 @@ FORMAT RULES:
 - state of the art
 - round-trip
 - production cluster
+- bisect
+- factors that affect resource usage
 
 ## Specialized
 - Escape hatch
