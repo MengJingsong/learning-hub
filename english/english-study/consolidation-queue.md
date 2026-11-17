@@ -4,7 +4,13 @@ This file tracks items the learner wants to revisit for stronger understanding. 
 
 ## Pending
 
-No items currently pending.
+Added 2026-11-17 from the learner's annotations. Explain each item individually.
+
+- [ ] Corroboration — source: `study-materials/vocabulary.md`
+- [ ] Backlog — source: `study-materials/vocabulary.md`
+- [ ] Transient — source: `study-materials/vocabulary.md`
+- [ ] Propagate — source: `study-materials/vocabulary.md`
+- [ ] Empirical — source: `study-materials/vocabulary.md`; clarify `empirical` versus `based on experience`.
 
 ## Completed
 
