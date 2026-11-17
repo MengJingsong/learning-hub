@@ -93,6 +93,7 @@ FORMAT RULES:
 - commit to
 - lean toward
 - right away
+- park X for now
 
 ## Specialized
 - It's on the house
