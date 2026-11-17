@@ -6,7 +6,7 @@ Updated 2026-11-17.
 
 Explain the formal study entries directly in Chinese with natural North American English examples. The learner requested an explanation-led walkthrough. Use this preference for ordinary learning and review until the learner changes it. Assessment or production exercises are opt-in through an explicit later request.
 
-Continue the corpus walkthrough in batches of about five entries. Give the meaning and useful senses, pronunciation when helpful, register, common collocations or structures, translated examples, and essential usage distinctions. Grammar entries receive a structural explanation and worked examples. Adjust depth to the entry and the learner's follow-up questions.
+Continue the corpus walkthrough in batches of 15 entries. Give the meaning and useful senses, pronunciation when helpful, register, common collocations or structures, translated examples, and essential usage distinctions. Grammar entries receive a structural explanation and worked examples. Adjust depth to the entry and the learner's follow-up questions.
 
 The previous police speed-limit translation retry is cancelled. On `继续`, explain the next uncovered batch.
 
@@ -24,7 +24,7 @@ Earlier explanation on 2026-11-17
 
 - `vocabulary.md` — enforce, including its distinction from implement.
 
-Current explanation batch on 2026-11-17
+Earlier explanation batch on 2026-11-17
 
 - `vocabulary.md` — threshold.
 - `vocabulary.md` — ceiling.
@@ -32,4 +32,8 @@ Current explanation batch on 2026-11-17
 - `phrases.md` — by default.
 - `phrases.md` — take effect.
 
-Continue next with the first uncovered Core entry in `vocabulary.md`, currently Informative, then Rigor, Fidelity, Hedging, and Footprint. Check the corpus and latest conversation before selecting the next batch.
+Current explanation batch on 2026-11-17
+
+- `vocabulary.md` — Informative, Rigor, Fidelity, Hedging, Footprint, Hinge, Upshot, Boilerplate, Arguably, Triage, Verdict, Provenance, Caveat, Reconcile, and Conflate.
+
+Continue next with Corroboration, Counterfactual, and the next uncovered Core vocabulary entries. Check the corpus and latest conversation before selecting the next batch.
