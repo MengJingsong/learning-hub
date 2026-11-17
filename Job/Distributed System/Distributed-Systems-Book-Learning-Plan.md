@@ -98,10 +98,18 @@ Next action:
 - **English items added:** *partial failure* and *distribution transparency*.
 - **Next action:** Begin Chapter 1, Section 1.1.2, on why the distinction matters.
 
+- **Date:** November 17, 2026
+- **Chapter/section:** Chapter 1, §1.1.2 — why the distinction between distributed and decentralized systems matters.
+- **Concepts covered and status:** Complexity from dependencies, partial failures, dynamic membership, and security exposure; simplicity and sufficiency as design principles. Introduced.
+- **Evidence:** Detailed explanation only; no learner demonstration recorded.
+- **Gaps or questions to revisit:** How partial failure affects observing remote operations.
+- **English items added:** *partial failure*; *distribution transparency*.
+- **Next action:** Continue to §1.1.3, the book's perspectives for studying distributed systems.
+
 ## Current checkpoint
 
 - **Latest session:** Previewed the table of contents across Chapters 1–9. The numbered textbook lesson resumes at Section 1.1.2.
-- **Status:** Chapter 1, Section 1.1 — the distinction between distributed and decentralized systems has been introduced.
+- **Status:** Chapter 1, §1.1.2 — why the distributed/decentralized distinction matters has been introduced.
 - **Evidence:** No learner explanation or application has been recorded; understanding is not yet checked.
 - **Next action:** Begin a detailed explanation of Chapter 1, Section 1.1.2. Briefly recap the distinction introduced in Section 1.1 if it helps explain the new material.
 - **English inbox:** Added the first-lesson expressions after checking for duplicates: *distributed system*, *decentralized system*, *processes and resources are spread across multiple computers*, *sufficiently spread*, and *necessarily spread*.
