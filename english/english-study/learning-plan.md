@@ -42,6 +42,6 @@ Current explanation batch on 2026-11-17
 
 - `vocabulary.md` — Informative, Rigor, Fidelity, Hedging, Footprint, Hinge, Upshot, Boilerplate, Arguably, Triage, Verdict, Provenance, Caveat, Reconcile, and Conflate.
 
-The learner marked 14 items from the current explanation batch as needing consolidation: Rigor, Fidelity, Hedging, Footprint, Hinge on, Upshot, Boilerplate, Arguably, Triage, Verdict, Provenance, Caveat, Reconcile, and Conflate. Prioritize a direct explanation-led consolidation of these items on the next continuation, using fresh examples and useful distinctions. Do not turn consolidation into a test or require learner production. Keep this reinforcement queue separate from assessed mastery.
+The learner marked 14 items from the current explanation batch as needing consolidation: Rigor, Fidelity, Hedging, Footprint, Hinge on, Upshot, Boilerplate, Arguably, Triage, Verdict, Provenance, Caveat, Reconcile, and Conflate. Prioritize a direct explanation-led consolidation of these items on the next continuation. Explain each item separately, using fresh examples and useful distinctions. Do not group the items by theme, turn consolidation into a test, or require learner production. Keep this reinforcement queue separate from assessed mastery.
 
 After this consolidation batch, continue with Corroboration, Counterfactual, and the next uncovered Core vocabulary entries. Check the corpus and latest conversation before selecting the next batch.
