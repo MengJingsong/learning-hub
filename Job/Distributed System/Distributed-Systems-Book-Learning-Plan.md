@@ -36,20 +36,19 @@ This plan is the single source of truth for course progress. We will borrow effe
 
 ### Session cycle
 
-1. **Resume:** Read this checkpoint and start with one short recall question about a previously covered concept when review is due.
-2. **Set scope:** Choose one small section or one connected concept. Keep the book's chapter and section visible.
-3. **Ground the lesson:** Teach from the uploaded book first. Separate what the book states from added explanation or examples; verify or label material that goes beyond the source.
-4. **Explain:** Build from intuition and first principles, then give the precise definition, assumptions, and limits. Pair each topic-relevant English term or expression with its Chinese equivalent or meaning where it appears.
-5. **Work through an example:** Trace a concrete scenario, mechanism, or failure. Connect it to a real system or my distributed-systems research when useful.
-6. **Practice retrieval and transfer:** Ask one question at a time, then wait for my answer. Have me explain, compare, trace, or apply the concept in a new scenario.
-7. **Give feedback:** Identify what is correct and any specific gap. Re-explain a gap from a different angle, then let me try again.
-8. **Save progress after each explanation:** Before ending a reply that teaches, reviews, or clarifies course material, update and verify the session log and current checkpoint in this document.
+1. **Resume from the checkpoint.** Start with the next book section or concept. Briefly recap prerequisite ideas when helpful.
+2. **Set scope.** Choose one small section or one connected concept. Keep the book's chapter and section visible.
+3. **Ground the lesson in the book.** Follow the book's treatment and identify supplementary explanations or examples.
+4. **Explain in detail.** Build from intuition to precise definitions. Walk through how the mechanism works, its assumptions, and its limits. Pair topic-relevant English terms and expressions with their Chinese meanings where they appear.
+5. **Work through examples.** Trace a concrete scenario, mechanism, or failure step by step. Connect it to a real system or my distributed-systems research when useful.
+6. **Let me lead the discussion.** Finish the explanation at a natural stopping point and let me raise my own questions. Ask me a question only when clarification is essential to proceed or when I request practice or assessment. Keep learning and review focused on explanation, with no routine warm-up questions, comprehension checks, or end-of-lesson exercises.
+7. **Save progress after each explanation.** Before ending a reply that teaches, reviews, or clarifies course material, update and verify the session log and current checkpoint in this document.
 
-Explanations are in Chinese by default, with standard English technical terms. Keep lessons in manageable chunks; pause for my questions and adjust depth to my answers. A question can check understanding during teaching; a formal quiz or graded assessment happens only if I ask for one.
+Explain in Chinese by default and adjust the depth based on my questions. Keep each lesson focused while giving enough detail to understand the reasoning behind the topic.
 
-### Review spacing
+### Reviewing earlier material
 
-At the next session, retrieve key concepts before explaining them again. Revisit weak or forgotten ideas in later sessions and record the review date and result here. Space reviews farther apart after successful independent recall and bring them closer after difficulty. Do not report precise FSRS intervals or mastery badges unless we use a verified scheduler; the reviewed Agent Tutor skill's included FSRS notes use approximate update rules and contain a conflicting correction.
+When helpful, briefly summarize earlier concepts and explain how they connect to the current section. Revisit topics I ask about or that are needed for the next section. Use retrieval practice or assessment when I request it, and record any evidence of understanding in this document.
 
 ### English woven into technical teaching
 
@@ -73,9 +72,9 @@ For each explanation, record:
 - Misconceptions or prerequisites to revisit.
 - English items added to the inbox.
 - Review date/result, when applicable.
-- The exact next action or question.
+- The exact next section or action.
 
-Use delayed recall to strengthen evidence of retention. Do not create extra notes, flashcard decks, quizzes, schedules, PDFs, or a separate mastery database by default. Create an additional artifact only when I request it or when it clearly serves a specific learning need.
+When I request delayed recall practice, use the result as evidence of retention. Do not create extra notes, flashcard decks, quizzes, schedules, PDFs, or a separate mastery database by default. Create an additional artifact only when I request it or when it clearly serves a specific learning need.
 
 ## Session log
 
@@ -95,5 +94,5 @@ Next action:
 
 - **Status:** Chapter 1, Section 1.1 — the distinction between distributed and decentralized systems has been introduced.
 - **Evidence:** No learner explanation or application has been recorded; understanding is not yet checked.
-- **Next action:** Ask whether a database that replicates data across machines mainly for availability after a server failure is sufficiently spread or necessarily spread, and ask for the reason. Then continue to Section 1.1.2.
+- **Next action:** Begin a detailed explanation of Chapter 1, Section 1.1.2. Briefly recap the distinction introduced in Section 1.1 if it helps explain the new material.
 - **English inbox:** Added the first-lesson expressions after checking for duplicates: *distributed system*, *decentralized system*, *processes and resources are spread across multiple computers*, *sufficiently spread*, and *necessarily spread*.
