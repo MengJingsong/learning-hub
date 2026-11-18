@@ -27,3 +27,10 @@ Use this file for concise, meaningful learning events. Keep the detailed current
 - Assessment: No new assessment evidence was collected during the corpus walkthrough; retain existing mastery records without score changes.
 - Walkthrough continuation: completed the documented explanation pass for the 2026-11-18 vocabulary batch: Precedent, Tier, Adapt, Adopt, Rubric, Magnitude, Demote, Goalposts, Excerpt, Moot, Canary, defer, withhold, breach, and exhaustion. The learner did not submit a Chinese translation or other answer, so comprehension was not assessed and mastery scores remain unchanged.
 - Updated ongoing study preference: future batches follow English passage → learner's Chinese translation → item-by-item documented explanations with translation feedback. Resume at the next uncovered corpus entries per `learning-plan.md`.
+
+
+## 2026-11-18 — Vocabulary passage comprehension
+- Targeted the 15-item Useful vocabulary batch: saturation, cumulative, bounded, unbounded, diverge, refute, deviation, qualify, self-contained, counterpart, negligible, splice, shakedown, creepy, and sanctimonious.
+- Input modality: English reading passage; learner supplied item-by-item Chinese glosses (no audio or English production).
+- Comprehension evidence: core meanings were generally understood for saturation, cumulative, bounded, unbounded, diverge, deviation, self-contained, and negligible. Partial/incorrect distinctions: refute was glossed as “deny” without the evidence-based disproof nuance; qualify was glossed as “confirm” instead of “limit/modify a claim”; counterpart included “control group” but correctly gave “corresponding thing”; creepy was glossed as “strange” without the uneasy/unsettling sense. Splice, shakedown, and sanctimonious were reported unknown.
+- Gave item-by-item documented explanations and contextual corrections. Mastery records comprehension only; listening, speaking, writing, and delayed retention remain unassessed. Next review: 2026-11-19.
