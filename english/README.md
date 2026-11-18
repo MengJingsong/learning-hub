@@ -19,7 +19,7 @@ This folder is the complete study corpus.
 - `pronunciation-listening.md` — listening-specific targets such as reductions, linking, stress, rhythm, and pronunciation patterns.
 - `explanations/` — durable companion explanations, stored in files matching the primary study-material filenames and keyed by exact item headings.
 
-Primary study-material files stay lightweight, with one item per line. For items added during inbox curation, use the companion explanations for detailed meanings, pronunciation, collocations, usage notes, and examples. Add context-specific teaching when an item is studied.
+Primary study-material files stay lightweight, with one item per line. Every formal entry has a durable explanation in the matching file under `study-materials/explanations/`, keyed by its exact heading. Before teaching an entry, consult that explanation for meaning, pronunciation, collocations, usage notes, and examples; add context-specific teaching when useful.
 
 ### Priority tiers
 
