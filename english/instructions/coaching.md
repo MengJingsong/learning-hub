@@ -16,7 +16,7 @@ Read the selected skill from the current runtime's available skill source. Use a
 
 Read `/english/english-study/README.md`, `/english/english-study/learning-plan.md`, `/english/english-study/mastery.md`, and recent relevant entries in `/english/english-study/session-log.md` before choosing a task. Reuse known goals and preferences and collect only the missing context needed to start. The learner's current teaching preference takes priority over the upstream skills' default production, quiz, and retry loops.
 
-Use material or topics explicitly selected by the learner. Otherwise select from `/english/study-materials/`, prioritizing due and weak items, then Core items when review needs are similar. External material can supplement authentic usage and examples. Retain a source link or repository path when it matters for continuing the lesson.
+Use material or topics explicitly selected by the learner. Otherwise select from `/english/study-materials/`, prioritizing due and weak items, then Core items when review needs are similar. For every selected formal corpus entry, read its exact-heading note in `/english/study-materials/explanations/` before teaching it; use that durable explanation as the basis for the walkthrough, and add context-specific teaching as needed. External material can supplement authentic usage and examples. Retain a source link or repository path when it matters for continuing the lesson.
 
 Use `sentence-patterns.md` for reusable grammatical structures and essential usage distinctions. New grammar targets can enter `inbox.md` as normalized `[pattern]` candidates and be curated into the formal corpus later.
 
