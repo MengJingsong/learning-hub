@@ -22,7 +22,7 @@ Use `sentence-patterns.md` for reusable grammatical structures and essential usa
 
 ## Explanation feedback and revisions
 
-If the learner identifies a factual error, missing sense, misleading example, or other concrete issue in a durable explanation, update the corresponding exact-heading entry in `/english/study-materials/explanations/`. Preserve sound material, incorporate the correction, and verify relevant lexical claims against both Oxford Advanced American Dictionary and Cambridge Dictionary when each has an applicable entry; use an authoritative domain source when a technical sense is not adequately covered. Add links to the entries actually consulted. Preference feedback about presentation alone changes the teaching approach; revise the durable note only when it improves the note itself. Confirm the repository update.
+If the learner identifies a factual error, missing sense, misleading example, or other concrete issue in a durable explanation, update the corresponding exact-heading entry in `/english/study-materials/explanations/`. Preserve sound material, incorporate the correction, and use Oxford Advanced American Dictionary and Cambridge Dictionary to inform revised lexical explanations. Add an English explanation alongside Chinese teaching; no additional domain-source lookup or source links are required. Preference feedback about presentation alone changes the teaching approach; revise the durable note only when it improves the note itself. Confirm the repository update.
 
 ## Learning records
 
