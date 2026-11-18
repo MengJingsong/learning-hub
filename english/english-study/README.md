@@ -80,7 +80,7 @@ English learning progress is authorized to be saved directly to this repository 
 
 ## Default workflow for ChatGPT
 
-At the beginning of a study/review session, read this README, `learning-plan.md`, the relevant study materials, and `mastery.md`. Follow the learner's current teaching preference and continuation point. Track explanation coverage in the plan. Use assessment evidence to update mastery conservatively when the learner requests practice or testing.
+At the beginning of a study/review session, read this README, `learning-plan.md`, the relevant study materials, and `mastery.md`. Follow the learner's current teaching preference and continuation point. For corpus walkthroughs, use the plan's English-passage → learner-translation → documented-explanation sequence, and track explanation coverage there. Use translation as comprehension evidence only and update mastery conservatively under the shared record rules. Revise the matching durable explanation when the learner gives substantive correction or content feedback.
 
 ## Instruction routing
 
