@@ -25,7 +25,7 @@
 | S11 | [Claude Code context management](https://code.claude.com/docs/en/claude-code-on-the-web) | Claude Code 的上下文命令和自动压缩；注意页面所述 cloud session 行为不一定适用于本地 CLI/IDE。 |
 | S12 | [Anthropic Prompt Caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching) · [OpenAI Prompt Caching](https://developers.openai.com/api/docs/guides/prompt-caching) | 对照平台的前缀匹配、缓存边界/有效期与可观测指标，按实际使用的 API 核对当前规范。 |
 | S13 | [DeepSeek-V2 论文](https://arxiv.org/abs/2405.04434) · [DeepSeekMoE 论文](https://arxiv.org/abs/2401.06066) | MLA、DeepSeekMoE 的一手资料；阅读时区分联合系统实验与单项技术效果。 |
-| S2 | [Anthropic — Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) | 作为上下文组织和长程 Agent 的桥接阅读；概念基础仍归主计划模块 5。 |
+| 主线 S2 | [Anthropic — Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) | 作为上下文组织和长程 Agent 的桥接阅读；概念基础仍归主计划模块 5。 |
 
 ## 3. 专题路线
 
