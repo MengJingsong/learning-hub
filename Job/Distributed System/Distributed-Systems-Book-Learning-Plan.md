@@ -52,15 +52,17 @@ When helpful, briefly summarize earlier concepts and explain how they connect to
 
 ### English integrated into each lesson
 
-English learning should take a substantial, visible part in every technical lesson while the lesson remains centered on understanding the book. Use the book's English terminology alongside Chinese from the beginning, and translate topic-relevant technical words and expressions consistently throughout the explanation.
+Make English learning a substantial part of every technical lesson, alongside detailed understanding of the book. Teach from the book's English terminology and explain the concept in Chinese, connecting each key term to its actual role in the system.
 
-For each concept, teach a focused set of useful vocabulary: core technical nouns, verbs, adjectives, and recurring collocations. Give the Chinese equivalent at first use and revisit the pair when it helps retention. Aim for at least two useful English items per explanatory paragraph when the paragraph contains relevant terms. In examples, annotate key English wording as well as the underlying technical concept. Keep function words and routine English prose readable rather than translating every word mechanically.
+For every lesson, select a broad but manageable set of vocabulary from the covered section. Include core technical nouns, verbs, adjectives, common collocations, and useful sentence patterns. Translate key items when they first appear and reinforce them in examples and later explanations. As a practical target, annotate at least two or three useful English terms or phrases in each explanatory paragraph where terminology is present. Also add a short bilingual vocabulary recap at the end of the lesson, grouped by concept or usage. Avoid translating every function word or ordinary sentence mechanically.
 
-For each lesson, include a few short contextual examples that show how the book's English terms are used in natural technical sentences. Briefly explain a useful collocation, contrast between near-synonyms, or sentence pattern where it deepens understanding. Invite the learner to phrase a technical idea in English only when they ask for language practice or it naturally supports the explanation. Do not interrupt the main lesson with routine vocabulary quizzes.
+Show how terminology works in context. Include several short, natural English technical sentences based on the concepts just taught, followed by Chinese translations. Explain useful word formation, collocations, grammar, or distinctions between related terms. For example, show how “replicate data across nodes” means “在多个节点之间复制数据,” and how “remain available during a failure” means “在故障期间保持可用.” Prefer expressions found in the book's section or closely grounded in its examples.
 
-For abbreviations, give the full English expansion and Chinese meaning at first use, such as “远程过程调用（RPC, remote procedure call）”. Keep the wording natural in Chinese while making the English terms visible and reusable.
+Abbreviations should include the full English expansion and Chinese meaning on first use, such as “远程过程调用（RPC, remote procedure call）”. Keep the Chinese explanation fluent and readable while maintaining visible English exposure throughout.
 
-At the end of each lesson, check the existing English inbox for duplicates and add the most reusable or unfamiliar words, collocations, and sentence patterns from the lesson. Keep inbox lines lightweight and follow its format. English items support long-term review; the technical explanation remains grounded in the book.
+Add a brief English-use component to each lesson, such as a few sentence-completion prompts, a translation comparison, or asking the learner to explain one technical relation in English. Keep it optional and low-pressure, do not turn every lesson into a quiz, and let the learner opt out or lead with questions. When the learner responds in English, give selective corrections that preserve their intended meaning.
+
+At the end of each lesson, check the English inbox for duplicates and add the most reusable or unfamiliar words, collocations, and sentence patterns from that lesson. Keep entries lightweight and use the established format. English learning should reinforce the technical lesson, not replace it.
 
 ## Progress tracking and continuation
 
