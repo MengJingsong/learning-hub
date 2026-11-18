@@ -63,7 +63,7 @@ Use `查词模式` / `翻译模式`, `优化模式` / `refine模式`, or `整理
 
 When studying or reviewing, use `english/study-materials/` as the source corpus and `english/english-study/mastery.md` to choose what needs practice. Due/weak items take precedence; among items with similar mastery and review status, prefer Core over Useful over Specialized.
 
-Use Oxford Advanced American Dictionary and Cambridge Dictionary together for lexical explanations when relevant entries exist; prefer Oxford for American English and use Cambridge as a cross-check. If either lacks a specialized sense, consult an appropriate domain source. Link sources actually consulted in new or substantively revised durable explanations. Outside sources may also supplement authentic usage, pronunciation, register, technical context, and current examples.
+Use Oxford Advanced American Dictionary and Cambridge Dictionary for lexical explanations, targeting American English. Include a concise English explanation alongside the Chinese teaching; no domain-source lookup or source links are required.
 
 `english-learning-coach` guides word, phrase, and grammar practice. `english-speaking-coach` guides speaking and listening. Read [coaching.md](instructions/coaching.md) for shared rules and source versions. Install these skills in the runtime where practice takes place. Learning Hub stores the authoritative learning progress under the learner's standing authorization, using `mastery.md`, `session-log.md`, and `inbox.md` after meaningful practice.
 
