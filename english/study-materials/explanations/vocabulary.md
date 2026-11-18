@@ -398,56 +398,67 @@ Pronunciations use common American English IPA. Meanings and synonyms are sense-
 
 ### Precedent
 /ˈprɛsɪdənt/ **n.** 先例；可供后续参考的先前案例。搭配：set/follow a precedent. 近：example, prior case; 反：无常用反义词.
+**English explanation:** An earlier decision or action that can guide what people do in a similar situation later.
 1. The ruling set a precedent for future cases. — 这项裁决为后续案件树立了先例。
 2. There is little precedent for this design choice. — 这种设计选择几乎没有先例可循。
 
 ### Tier
 /tɪr/ **n.** 层级、档次。搭配：priority/service/tiered system. 近：level, rank; 反：无常用反义词.
+**English explanation:** A level or rank in an organized system, often one of several levels.
 1. This feature is available on the premium tier. — 这项功能只在高级档提供。
 2. We assigned each item to a priority tier. — 我们为每个条目分配了一个优先级层级。
 
 ### Adapt
 /əˈdæpt/ **v.** 适应；改编、调整以适合新用途。搭配：adapt to/for; adapt a method. 近：adjust, modify; 反：resist change.
+**English explanation:** To change something to suit new conditions or a different purpose; to become adjusted to new conditions.
 1. The system adapts to changing traffic. — 系统会适应变化的流量。
 2. We adapted the questionnaire for younger participants. — 我们调整了问卷以适合年龄较小的参与者。
 
 ### Adopt
 /əˈdɑpt/ **v.** 采用；收养。搭配：adopt a policy/approach. 近：implement, embrace; 反：reject.
+**English explanation:** To accept and start using a plan, policy, or method; it can also mean to take a child or animal into one's family.
 1. The team adopted a stricter review process. — 团队采用了更严格的审查流程。
 2. They adopted a rescue dog. — 他们收养了一只救助犬。
 
 ### Rubric
 /ˈrubrɪk/ **n.** 评分标准、评价量规。搭配：grading/assessment rubric. 近：criteria, scoring guide; 反：无常用反义词.
+**English explanation:** A set of criteria used to assess or score work, often describing different levels of performance.
 1. The rubric rewards clear reasoning. — 评分标准会奖励清晰的推理。
 2. We shared the rubric before the presentation. — 演示前我们分享了评分标准。
 
 ### Magnitude
 /ˈmæɡnəˌtud/ **n.** 大小、量级、重要程度。搭配：order of magnitude; magnitude of an effect. 近：size, scale; 反：insignificance.
+**English explanation:** The size, extent, or degree of something, especially the size of an effect or problem.
 1. We estimated the magnitude of the effect. — 我们估算了效应大小。
 2. The two costs differ by an order of magnitude. — 两项成本相差一个数量级。
 
 ### Demote
 /diˈmoʊt/ **v.** 降级、降职、降低优先级。搭配：demote a role/item. 近：downgrade, lower; 反：promote, elevate.
+**English explanation:** To move someone or something to a lower rank, level, or priority.
 1. We demoted the issue after confirming the workaround. — 确认有绕行方案后，我们降低了该问题的优先级。
 2. The company demoted him to a junior role. — 公司把他降到了初级职位。
 
 ### Goalposts
 /ˈɡoʊlˌpoʊsts/ **n. pl.** 球门柱；引申为评价标准/目标。搭配：move the goalposts. 近：criteria, standards; 反：无常用反义词.
+**English explanation:** The standards used to judge success; in “move the goalposts,” to change those standards after an agreement or task has begun.
 1. We agreed on the success criteria so no one could move the goalposts. — 我们先约定成功标准，避免有人事后改变要求。
 2. The goalposts changed halfway through the project. — 项目进行到一半时目标标准变了。
 
 ### Excerpt
 /ˈɛkˌsɜrpt/ **n./v.** 摘录；摘录一段文字。搭配：excerpt from a paper/book. 近：passage, extract; 反：完整文本.
+**English explanation:** A short part taken from a longer piece of writing, speech, or other work.
 1. The excerpt illustrates the author's main point. — 这段摘录说明了作者的核心观点。
 2. She excerpted two paragraphs for the handout. — 她为讲义摘录了两段。
 
 ### Moot
 /mut/ **adj.** 有争议的；实际已无关紧要的。搭配：a moot point/question. 近：debatable, irrelevant（依义）; 反：settled, relevant.
+**English explanation:** No longer important or necessary to decide because circumstances have changed; it can also mean open to debate.
 1. Whether to retry is moot after the request succeeds. — 请求成功后，是否重试已无关紧要。
 2. The proposal raised a moot legal question. — 该提案引出了一个有争议的法律问题。
 
 ### Canary
 /kəˈnɛri/ **n.** 金丝雀；技术中指小规模试运行的测试实例/用户组。搭配：canary deployment/release. 近：pilot, early warning; 反：full rollout.
+**English explanation:** A small early test or rollout group used to detect problems before a wider release; literally, a small songbird.
 1. We sent the update to a canary group first. — 我们先把更新发给一小组试用用户。
 2. The canary detected a rise in errors. — 金丝雀实例检测到了错误率上升。
 
@@ -458,21 +469,25 @@ Pronunciations use common American English IPA. Meanings and synonyms are sense-
 
 ### defer
 /dɪˈfɜr/ **v.** 推迟；服从/尊重他人意见。搭配：defer a decision; defer to an expert. 近：postpone, yield; 反：advance, decide immediately.
+**English explanation:** To delay something until later; “defer to” someone means to accept their judgment or authority.
 1. We deferred the launch until the issue was fixed. — 问题修复前我们推迟了发布。
 2. I defer to your judgment on the wording. — 措辞方面我尊重你的判断。
 
 ### withhold
 /wɪðˈhoʊld/ **v.** 扣留、不给；暂不公开。搭配：withhold information/payment/consent. 近：hold back, retain; 反：provide, disclose.
+**English explanation:** To keep something back or refuse to give, share, or reveal it.
 1. The agency withheld the report until review was complete. — 审查结束前，机构暂未公开报告。
 2. Do not withhold critical information from the team. — 不要对团队隐瞒关键信息。
 
 ### breach
 /britʃ/ **n./v.** 违反（协议/安全）；漏洞或破坏。搭配：breach a contract/security breach. 近：violation, infringement; 反：compliance.
+**English explanation:** An act of breaking a law, rule, agreement, or duty; it can also refer to a failure of security or privacy.
 1. The vendor reported a data breach. — 供应商报告了一起数据泄露事件。
 2. Sharing the key would breach the agreement. — 分享密钥会违反协议。
 
 ### exhaustion
 /ɪɡˈzɔstʃən/ **n.** 耗尽；极度疲劳。搭配：resource/queue exhaustion. 近：depletion, fatigue; 反：replenishment, recovery.
+**English explanation:** Extreme tiredness, or the state of having used up a resource or supply.
 1. Connection exhaustion caused the outage. — 连接资源耗尽导致了服务中断。
 2. She stopped working because of exhaustion. — 她因筋疲力尽而停止工作。
 
