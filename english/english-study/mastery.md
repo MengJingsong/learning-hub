@@ -77,3 +77,168 @@ Do not infer mastery merely because an item appeared in a previous conversation.
 - Consecutive successful reviews: 0
 - Next review: 2026-10-01
 - Notes: Used 'does not mean' appropriately to limit an inference in a prompted translation. Complement clause needs a clear subject and correct verb: 'memory usage has reached the ceiling'. Exact pattern not separately tested.
+
+### saturation — 2026-11-18 passage translation
+- Overall: not assessed
+- Comprehension: 2
+- Listening: not assessed
+- Speaking: not assessed
+- Writing: not assessed
+- Last tested: 2026-11-18
+- Consecutive successful reviews: 0
+- Next review: 2026-11-19
+- Notes: First-pass English-passage-to-Chinese item glosses; comprehension only. 译为“饱和的”，抓住核心意思；本句名词指系统达到容量上限的状态。 No evidence for other skill dimensions or delayed retention.
+
+### cumulative — 2026-11-18 passage translation
+- Overall: not assessed
+- Comprehension: 2
+- Listening: not assessed
+- Speaking: not assessed
+- Writing: not assessed
+- Last tested: 2026-11-18
+- Consecutive successful reviews: 0
+- Next review: 2026-11-19
+- Notes: First-pass English-passage-to-Chinese item glosses; comprehension only. “累加的”基本准确；常指多次/多项影响逐步累积。 No evidence for other skill dimensions or delayed retention.
+
+### bounded — 2026-11-18 passage translation
+- Overall: not assessed
+- Comprehension: 2
+- Listening: not assessed
+- Speaking: not assessed
+- Writing: not assessed
+- Last tested: 2026-11-18
+- Consecutive successful reviews: 0
+- Next review: 2026-11-19
+- Notes: First-pass English-passage-to-Chinese item glosses; comprehension only. “有限的、有上限的”准确，理解了已知边界。 No evidence for other skill dimensions or delayed retention.
+
+### unbounded — 2026-11-18 passage translation
+- Overall: not assessed
+- Comprehension: 2
+- Listening: not assessed
+- Speaking: not assessed
+- Writing: not assessed
+- Last tested: 2026-11-18
+- Consecutive successful reviews: 0
+- Next review: 2026-11-19
+- Notes: First-pass English-passage-to-Chinese item glosses; comprehension only. “无上限的”准确。 No evidence for other skill dimensions or delayed retention.
+
+### diverge — 2026-11-18 passage translation
+- Overall: not assessed
+- Comprehension: 2
+- Listening: not assessed
+- Speaking: not assessed
+- Writing: not assessed
+- Last tested: 2026-11-18
+- Consecutive successful reviews: 0
+- Next review: 2026-11-19
+- Notes: First-pass English-passage-to-Chinese item glosses; comprehension only. “分叉、偏离”基本准确；本句指响应时间逐渐偏离预测。 No evidence for other skill dimensions or delayed retention.
+
+### refute — 2026-11-18 passage translation
+- Overall: not assessed
+- Comprehension: 1
+- Listening: not assessed
+- Speaking: not assessed
+- Writing: not assessed
+- Last tested: 2026-11-18
+- Consecutive successful reviews: 0
+- Next review: 2026-11-19
+- Notes: First-pass English-passage-to-Chinese item glosses; comprehension only. 译为“否认”，相关但未体现用证据或推理证明主张错误。 No evidence for other skill dimensions or delayed retention.
+
+### deviation — 2026-11-18 passage translation
+- Overall: not assessed
+- Comprehension: 2
+- Listening: not assessed
+- Speaking: not assessed
+- Writing: not assessed
+- Last tested: 2026-11-18
+- Consecutive successful reviews: 0
+- Next review: 2026-11-19
+- Notes: First-pass English-passage-to-Chinese item glosses; comprehension only. “偏离”准确抓住核心；名词常指与预期或基准的偏差。 No evidence for other skill dimensions or delayed retention.
+
+### qualify — 2026-11-18 passage translation
+- Overall: not assessed
+- Comprehension: 1
+- Listening: not assessed
+- Speaking: not assessed
+- Writing: not assessed
+- Last tested: 2026-11-18
+- Consecutive successful reviews: 0
+- Next review: 2026-11-19
+- Notes: First-pass English-passage-to-Chinese item glosses; comprehension only. 译为“证实”不符合本句用法；这里是限定/修饰结论，使其更谨慎准确。 No evidence for other skill dimensions or delayed retention.
+
+### self-contained — 2026-11-18 passage translation
+- Overall: not assessed
+- Comprehension: 2
+- Listening: not assessed
+- Speaking: not assessed
+- Writing: not assessed
+- Last tested: 2026-11-18
+- Consecutive successful reviews: 0
+- Next review: 2026-11-19
+- Notes: First-pass English-passage-to-Chinese item glosses; comprehension only. “自包含的”抓到意思；此处指内容完整且不依赖外部材料。 No evidence for other skill dimensions or delayed retention.
+
+### counterpart — 2026-11-18 passage translation
+- Overall: not assessed
+- Comprehension: 1
+- Listening: not assessed
+- Speaking: not assessed
+- Writing: not assessed
+- Last tested: 2026-11-18
+- Consecutive successful reviews: 0
+- Next review: 2026-11-19
+- Notes: First-pass English-passage-to-Chinese item glosses; comprehension only. “对应物”正确；“对照组”不合此处。这里指生产数据库在功能上的对应对象。 No evidence for other skill dimensions or delayed retention.
+
+### negligible — 2026-11-18 passage translation
+- Overall: not assessed
+- Comprehension: 2
+- Listening: not assessed
+- Speaking: not assessed
+- Writing: not assessed
+- Last tested: 2026-11-18
+- Consecutive successful reviews: 0
+- Next review: 2026-11-19
+- Notes: First-pass English-passage-to-Chinese item glosses; comprehension only. “可忽略的”准确。 No evidence for other skill dimensions or delayed retention.
+
+### splice — 2026-11-18 passage translation
+- Overall: not assessed
+- Comprehension: 0
+- Listening: not assessed
+- Speaking: not assessed
+- Writing: not assessed
+- Last tested: 2026-11-18
+- Consecutive successful reviews: 0
+- Next review: 2026-11-19
+- Notes: First-pass English-passage-to-Chinese item glosses; comprehension only. 回答不知道；本句指把多个日志片段拼接起来。 No evidence for other skill dimensions or delayed retention.
+
+### shakedown — 2026-11-18 passage translation
+- Overall: not assessed
+- Comprehension: 0
+- Listening: not assessed
+- Speaking: not assessed
+- Writing: not assessed
+- Last tested: 2026-11-18
+- Consecutive successful reviews: 0
+- Next review: 2026-11-19
+- Notes: First-pass English-passage-to-Chinese item glosses; comprehension only. 回答不知道；此处是实际试运行/全面检查。 No evidence for other skill dimensions or delayed retention.
+
+### creepy — 2026-11-18 passage translation
+- Overall: not assessed
+- Comprehension: 1
+- Listening: not assessed
+- Speaking: not assessed
+- Writing: not assessed
+- Last tested: 2026-11-18
+- Consecutive successful reviews: 0
+- Next review: 2026-11-19
+- Notes: First-pass English-passage-to-Chinese item glosses; comprehension only. “奇怪、怪异”有部分关联，但缺少令人不安或不舒服的语气。 No evidence for other skill dimensions or delayed retention.
+
+### sanctimonious — 2026-11-18 passage translation
+- Overall: not assessed
+- Comprehension: 0
+- Listening: not assessed
+- Speaking: not assessed
+- Writing: not assessed
+- Last tested: 2026-11-18
+- Consecutive successful reviews: 0
+- Next review: 2026-11-19
+- Notes: First-pass English-passage-to-Chinese item glosses; comprehension only. 回答不知道；指自以为道德高尚、带有说教感。 No evidence for other skill dimensions or delayed retention.
