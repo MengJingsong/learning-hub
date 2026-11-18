@@ -14,15 +14,13 @@ The learner's `继续` advances the sequence: first-pass paragraphs, learner's C
 
 The previous police speed-limit translation retry is cancelled.
 
-## Reference dictionaries and AI explanations
+## English explanations
 
-Use the [Oxford Advanced American Dictionary](https://www.oxfordlearnersdictionaries.com/us/) as the preferred first reference for American English meanings, usage, and pronunciation. Use the [Cambridge Dictionary](https://dictionary.cambridge.org/us/) as a useful cross-check, especially for its US/UK pronunciation audio and additional examples. Dictionaries are references, not a requirement to force a lookup for every straightforward item. For specialized or context-dependent senses, consult a reliable domain source when needed.
+When explaining an item, include a concise English explanation alongside its Chinese meaning and teaching. Consult Oxford Advanced American Dictionary and Cambridge Dictionary for relevant lexical meanings and usage, targeting American English. Use original learner-friendly wording. Dictionary lookup is not required for every straightforward point, and additional domain-source lookup or source links are not required. Keep passage-specific interpretation clear in the explanation.
 
-AI may synthesize the source note and passage context into a concise Chinese translation plus an English explanation, examples, and usage cues. Keep source-backed definitions distinct from contextual inference; verify uncertain technical or fine-grained claims against a dictionary or domain source.
+## English explanations
 
-## Dictionary policy
-
-Use the [Oxford Advanced American Dictionary](https://www.oxfordlearnersdictionaries.com/us/) and [Cambridge Dictionary](https://dictionary.cambridge.org/us/) as paired references for lexical explanations when relevant entries exist. Prefer Oxford for American English; use Cambridge as a cross-check. If a dictionary lacks the term or relevant technical sense, consult an appropriate domain source and say when the explanation relies on that source. Present synthesized explanations in original wording, using the meaning that fits the passage. Link sources actually consulted in new or substantively revised durable explanations.
+When explaining an item, include a clear, concise English explanation of its relevant meaning or function alongside the Chinese explanation. Consult Oxford Advanced American Dictionary and Cambridge Dictionary for lexical knowledge points, with American English as the target. Use original wording; do not include source links.
 
 ## Coverage order
 
