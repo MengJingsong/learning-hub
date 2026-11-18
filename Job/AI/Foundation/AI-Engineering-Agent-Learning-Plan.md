@@ -20,7 +20,7 @@
 
 用户偏好（2026-10-28）：每次只复习一个具体知识点，充分弄懂后再进入下一个；不按时间或整模块赶进度。
 
-1. **确定一个小知识点**：先读本计划与 AI 学习记录，明确本次主题和边界。下面九个模块是目录，不是一次课的单位。例如“工具调用”应进一步拆成“模型提出调用请求与程序实际执行的区别”“参数 schema”“结果回传”等，逐个复习。
+1. **确定一个小知识点**：先读本计划与 AI 学习记录，明确本次主题和边界。下面九个核心模块是主线目录，不是一次课的单位；达到先修后，可选择进阶专题。例如“工具调用”应进一步拆成“模型提出调用请求与程序实际执行的区别”“参数 schema”“结果回传”等，逐个复习。
 2. **先讲解，再围绕本点答疑**：用定义、机制、具体例子和常见误区解释；用户可以反复追问、要求换例子或看代码。必要时仅补当前点必需的先修，随后回到原点，不自行扩展到其他主题。
 3. **测试由用户触发**：只有用户说“测试我”“开始测试”等才开始；一次一题，先独立作答，再反馈或给渐进提示。用户说“懂了”可记录为自述理解，不能单凭此更新为已掌握。
 4. **充分理解的可观察标准**：能用自己的话解释核心机制，能分析一个新例子，并能识别关键误区或失败情形。需要时采用适合该点的短代码或操作，不强制每个理论点都完成整个模块项目。单次通过不等于长期保持，之后可用延迟复习检验。
@@ -43,7 +43,7 @@
 
 子知识点 ID 使用模块 ID 加细分后缀，例如 `ae.tool-calling.request-vs-execution`；教学时确定具体 ID 并记录，避免把一个模块中的所有内容一起标为掌握。模块练习和综合项目留作相关子知识点学习后的整合实践。
 
-## 2. 九个学习模块
+## 2. 九个核心模块与进阶专题
 
 ### 模块 1：模型调用与结构化输出
 
@@ -139,6 +139,18 @@
 - 验收证据：比较成功率、延迟、调用次数与成本；对不稳定任务做重复运行；失败可通过日志定位；日志避免记录密钥；越权请求被阻止。
 - 资料：S8；协议与工具边界参照 S4。安全案例是本计划的工程练习建议，需结合实际服务的官方安全文档实现。
 
+### 可选进阶专题：上下文缓存与模型推理
+
+本专题是核心主线的延伸，不是另一套独立学习计划。先完成模块 1、3、5；RAG 原理按需复习模块 6。专题侧重把应用层上下文管理与模型/推理服务内部机制区分开。详细子题、来源与练习见[进阶专题学习路线](LLM-Context-Agent-Inference-Study-Plan.md)。
+
+- **Claude Code 上下文管理**：用官方行为文档理解 `/compact`、`/context` 和自动压缩；区分产品可观察行为与未公开的内部实现。
+- **Prompt cache 与 KV cache**：分别解释缓存层级、缓存对象和失效条件。
+- **缓存命中测量**：固定前缀、改变后缀，读取服务返回的 cached-token 指标，并比较延迟与费用。
+- **MoE 与 MLA**：理解路由/专家与注意力 KV 表示机制，结合系统开销解释取舍。
+- **整合练习**：为一个长时 coding agent 设计上下文加载、压缩、检索和缓存策略，再说明模型架构能优化哪些成本。
+
+每次只选一个子知识点；评估证据写入统一的 AI Mastery 与 AI Session Log，不在专题文件另建进度状态。
+
 ## 3. 建议学习路线
 
 | 阶段 | 内容与依赖 | 阶段产出 |
@@ -147,6 +159,7 @@
 | B：提供正确资料 | 5 → 6 | 能检索指定教材并引用来源的问答助手 |
 | C：保持学习连续性 | 7 → 8 | 可持久化任务状态、恢复中断、防止重复写入 |
 | D：检查是否可靠 | 9；贯穿前面阶段保留基线案例 | 可运行的评估集、失败分析与改进记录 |
+| E：可选进阶专题 | 完成模块 1、3、5；RAG 原理按需复习模块 6 → [进阶专题](LLM-Context-Agent-Inference-Study-Plan.md) | 能区分 harness 压缩、API prompt caching 与模型 KV cache，并解释 MoE/MLA 的作用边界 |
 
 评估案例从阶段 A 开始逐步积累。不要等全部功能完成才定义成功标准。
 
@@ -192,7 +205,12 @@
 | S6 | [Wei et al. — Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) | CoT 原始论文，理解方法和实验条件，不当作所有模型的通用调用规范 |
 | S7 | [Yao et al. — ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) | 推理与行动交替的原始研究 |
 | S8 | [Anthropic — Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents) | 多轮 Agent 评估、评分器与执行记录分析 |
+| S9 | [AI Engineering by Chip Huyen（Google Drive）](https://drive.google.com/file/d/15Pwt3CEDpGdzp7lwzjKyxRQpAmUVsBRq/view) | 应用工程补充读物：第 5、6、9 章用于 prompt、上下文/RAG/Agent 与推理优化 |
+| S10 | [AI Systems Performance Engineering（Google Drive）](https://drive.google.com/file/d/175CT7Ev1RHGyy8BLY9XBc5mQR3vXdLS_/view) · [O'Reilly](https://www.oreilly.com/library/view/ai-systems-performance/9798341627772/) · [配套代码](https://github.com/cfregly/ai-performance-engineering) | 推理性能、KV cache、专家并行、MLA/FlashMLA 等系统主题；章节位置按实际版本目录定位 |
+| S11 | [Claude Code context management](https://code.claude.com/docs/en/claude-code-on-the-web) | Claude Code 上下文命令与自动压缩说明；该页部分行为针对 cloud sessions，学习时注意适用范围 |
+| S12 | [Anthropic Prompt Caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching) · [OpenAI Prompt Caching](https://developers.openai.com/api/docs/guides/prompt-caching) | 平台相关的前缀缓存、边界、有效期和命中 token 指标；实践以当前所用 API 文档为准 |
+| S13 | [DeepSeek-V2](https://arxiv.org/abs/2405.04434) · [DeepSeekMoE](https://arxiv.org/abs/2401.06066) | MLA 和 MoE 的一手研究资料；区分整套模型的结果与单项技术的因果效果 |
 
-扩展主题：可复用任务指令与 Skills、多 Agent 协作、沙箱执行、部署与多租户服务。完成最小单 Agent 后按实际需要扩展，避免一开始堆叠框架和概念；本轮未展开这些专项资料。
+扩展主题：可复用任务指令与 Skills、多 Agent 协作、沙箱执行、部署与多租户服务。上下文缓存与模型推理架构见上方可选进阶专题。完成最小单 Agent 后按实际需要扩展，避免一开始堆叠框架和概念；本轮未展开这些专项资料。
 
 维护原则：固定实践依赖版本，记录模型标识、提示版本、资料版本与评估配置；链接失效时回到官方入口，不把旧教程 API 当作当前规范。
