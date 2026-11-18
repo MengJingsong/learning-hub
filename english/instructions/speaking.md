@@ -10,6 +10,6 @@ Respond to the meaning first. Correct one or two important recurring, confusing,
 
 Use actual audio when available. With text-only input, identify the activity as written preparation for speaking and assess the observable wording and grammar. A transcript can support language feedback while pronunciation and rhythm require accessible audio.
 
-Build optional sentence-by-sentence shadowing from expressions used during the session. Give one sentence and wait for the learner's response. On wrap-up, follow the shared record rules and the learner's preference about continuing.
+When teaching or clarifying a formal corpus expression used in speaking practice, consult its exact-heading note under `/english/study-materials/explanations/` and use the documented meaning and usage. Build optional sentence-by-sentence shadowing from expressions used during the session. Give one sentence and wait for the learner's response. On wrap-up, follow the shared record rules and the learner's preference about continuing.
 
 Explicit requests to practice listening follow `listening.md`.
