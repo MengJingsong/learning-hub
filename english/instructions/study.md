@@ -6,7 +6,7 @@ Read `coaching.md` and use `english-learning-coach` for this task. For a review 
 
 Read `/english/english-study/learning-plan.md` for the current learning preference and walkthrough position. Use the learner's selected material or choose relevant formal items using the shared selection rules. Reuse known context and start with the requested learning activity.
 
-For the current explanation-led walkthrough, explain each item directly with meaning, pronunciation when helpful, register, useful collocations, and translated examples. Explain grammar through structures and worked examples. Follow the plan's batching and coverage order and let the learner ask follow-up questions.
+For each formal corpus entry, first open the matching file in `/english/study-materials/explanations/` and locate the exact item heading. Base that entry's teaching on its documented explanation, including the relevant meaning, pronunciation, register, collocations, usage, and examples; add contextual teaching where useful. Explain grammar through documented structures and worked examples. Follow the plan's batching and coverage order and let the learner ask follow-up questions.
 
 Use retrieval questions, learner production, quizzes, and retry exercises when the learner explicitly asks for practice or assessment. For such requests, wait for an attempt before feedback and hide answers when appropriate. The learner's requested teaching format takes priority over a skill's default practice loop.
 
