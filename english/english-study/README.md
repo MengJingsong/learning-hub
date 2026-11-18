@@ -25,9 +25,9 @@ This folder stores learning state, temporary study intake, testing history, and 
 - `/english/english-study/` stores learning state and study-system metadata. It is not itself part of the study corpus.
 - The repository root `README.md` is documentation only and is not study material.
 
-## Dictionary policy
+## English explanations
 
-Use the [Oxford Advanced American Dictionary](https://www.oxfordlearnersdictionaries.com/us/) and [Cambridge Dictionary](https://dictionary.cambridge.org/us/) as paired references for lexical explanations when relevant entries exist. Prefer Oxford for American English; use Cambridge as a cross-check. If a dictionary lacks the term or relevant technical sense, consult an appropriate domain source and say when the explanation relies on that source. Present synthesized explanations in original wording, using the meaning that fits the passage. Link sources actually consulted in new or substantively revised durable explanations.
+When explaining an item, include a clear, concise English explanation of its relevant meaning or function alongside the Chinese explanation. Consult Oxford Advanced American Dictionary and Cambridge Dictionary for lexical knowledge points, with American English as the target. Use original wording; do not include source links.
 
 ## Goal
 
