@@ -442,7 +442,7 @@ Expressions are explained in common North American usage. Similar expressions ma
 
 ### fraternity
 **词汇补充：** /frəˈtɜrnəti/；常搭配 *join a fraternity, college fraternity*；近义 *brotherhood, student organization*（依语境）；反义无常用词。
-/ frəˈtɜrnəti/ **n.** （大学）兄弟会；也指团体或行业群体。类似：*student fraternity; association.*
+/frəˈtɜrnəti/ **n.** （大学）兄弟会；也指团体或行业群体。类似：*student fraternity; association.*
 1. He joined a fraternity during his first year. — 他大一时加入了一个兄弟会。
 2. The academic fraternity discussed the proposal. — 学术界人士讨论了这个提案。
 
