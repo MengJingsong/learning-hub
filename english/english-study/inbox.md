@@ -29,3 +29,7 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] mean time to repair (MTTR)
 - [phrase] mean time between failures (MTBF)
 - [vocab] intermittent
+- [phrase] scale horizontally
+- [phrase] scale vertically
+- [vocab] bottleneck
+- [phrase] coordination overhead
