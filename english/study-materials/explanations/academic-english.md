@@ -45,11 +45,13 @@ Each expression includes a Chinese explanation, a related expression, and two co
 2. This suggests that further analysis is warranted. — 这表明有必要做进一步分析。
 
 ### rationale
+**词汇补充：** /ˌræʃəˈnæl/；常搭配 *rationale for/behind a choice, provide a rationale*；近义 *reasoning, justification*；反义 *無常用反义词*。
 **意思：** 理由、理论依据或设计动机。类似：*reasoning; justification.*
 1. The rationale for the control condition is explained below. — 下文解释了设置对照条件的理由。
 2. We clarified the rationale behind the measure. — 我们阐明了采用该测量方法的依据。
 
 ### intuition
+**词汇补充：** /ˌɪntuˈɪʃən/；常搭配 *develop an intuition, mathematical intuition*；近义 *instinct, insight*；反义 *formal analysis*（概念对照）。
 **意思：** 直觉；对问题的非正式理解。类似：*instinct; informal understanding.*
 1. The intuition is that caching avoids repeated work. — 直观理解是缓存可以避免重复工作。
 2. Her intuition about the trend was correct. — 她对趋势的直觉判断是正确的。
@@ -212,6 +214,7 @@ Each expression includes a Chinese explanation, a related expression, and two co
 2. Her account lines up with the lab notes. — 她的说法与实验室记录一致。
 
 ### cross-check
+**词汇补充：** /ˈkrɔsˌtʃɛk/；常搭配 *cross-check data/results against a source*；近义 *verify, double-check*；反义 *take at face value*。
 **意思：** 通过另一来源或方法核对。类似：*verify independently; double-check.*
 1. We cross-checked the labels against the source files. — 我们对照源文件核验了标签。
 2. Cross-check the estimate with a second method. — 用第二种方法核对这个估算。
@@ -287,6 +290,7 @@ Each expression includes a Chinese explanation, a related expression, and two co
 2. The long report has a low signal-to-noise ratio. — 这份长报告的有效信息比例很低。
 
 ### intervention
+**词汇补充：** /ˌɪntərˈvɛnʃən/；常搭配 *policy/clinical intervention, intervention group*；近义 *treatment, measure*（研究语境）；反义无固定反义词。
 **意思：** 干预措施；研究者施加的处理。类似：*treatment; program/action.*
 1. The intervention reduced missed appointments. — 这项干预减少了预约未到的情况。
 2. We compared outcomes before and after the intervention. — 我们比较了干预前后的结果。
@@ -304,6 +308,7 @@ Each expression includes a Chinese explanation, a related expression, and two co
 2. Post hoc explanations should be treated cautiously. — 应谨慎看待事后解释。
 
 ### Case-specific
+**词汇补充：** /ˈkeɪs spəˌsɪfɪk/；常搭配 *case-specific explanation/rule*；近义 *particular, context-specific*；反义 *general, universal*。
 **意思：** 针对特定案例的，不一定能普遍推广。类似：*particular to this case; context-specific.*
 1. The recommendation is case-specific. — 这个建议针对这一具体案例。
 2. We added a case-specific exception. — 我们增加了一个针对特定案例的例外。
