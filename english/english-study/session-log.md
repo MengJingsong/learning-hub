@@ -34,3 +34,6 @@ Use this file for concise, meaningful learning events. Keep the detailed current
 - Input modality: English reading passage; learner supplied item-by-item Chinese glosses (no audio or English production).
 - Comprehension evidence: core meanings were generally understood for saturation, cumulative, bounded, unbounded, diverge, deviation, self-contained, and negligible. Partial/incorrect distinctions: refute was glossed as “deny” without the evidence-based disproof nuance; qualify was glossed as “confirm” instead of “limit/modify a claim”; counterpart included “control group” but correctly gave “corresponding thing”; creepy was glossed as “strange” without the uneasy/unsettling sense. Splice, shakedown, and sanctimonious were reported unknown.
 - Gave item-by-item documented explanations and contextual corrections. Mastery records comprehension only; listening, speaking, writing, and delayed retention remain unassessed. Next review: 2026-11-19.
+
+
+- Learning preference update (2026-11-18): adjust each item's review frequency by current comprehension level and last review date; lower levels recur sooner, higher levels less often. Keep the established passage → Chinese translation → item-by-item explanation workflow unchanged. See `learning-plan.md` for intervals and due-item selection.
