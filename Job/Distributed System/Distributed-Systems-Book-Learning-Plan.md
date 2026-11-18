@@ -162,10 +162,18 @@ Next action:
 - **English items added:** confidentiality; integrity; authentication; authorization; cryptography; symmetric cryptosystem; public-key system; digital signature; hash function; delegation; multiparty computation.
 - **Next action:** Continue to §1.2.6, scalability.
 
+- **Date:** November 17, 2026
+- **Chapter/section:** Chapter 1, §1.2.6 — scalability.
+- **Concepts covered and status:** Scalability as the ability to handle growth in users, resources, workload, and geographic/administrative spread; scaling by adding resources, distributing load, and controlling coordination costs. Introduced.
+- **Evidence:** Detailed explanation only; no learner demonstration recorded.
+- **Gaps or questions to revisit:** How to distinguish size, geographic, and administrative scalability in concrete architectures; scaling limits caused by centralized services and coordination.
+- **English items added:** *scale horizontally*; *scale vertically*; *bottleneck*; *coordination overhead*.
+- **Next action:** Continue to Chapter 1, §1.2.7, quality of service.
+
 ## Current checkpoint
 
-- **Latest completed lesson:** Chapter 1, §1.2.5 — security was explained in detail. Status: Introduced, unassessed.
-- **Coverage so far:** Book overview; §1.1.1–§1.1.3; §1.2.1–§1.2.5. The book overview was orientation, not an assessment.
+- **Latest completed lesson:** Chapter 1, §1.2.6 — scalability was explained in detail. Status: Introduced, unassessed.
+- **Coverage so far:** Book overview; §1.1.1–§1.1.3; §1.2.1–§1.2.6. The book overview was orientation, not an assessment.
 - **Evidence:** No learner explanation or application has been recorded, so understanding remains unassessed.
-- **Next action:** Begin a detailed explanation of Chapter 1, §1.2.6, scalability.
+- **Next action:** Begin a detailed explanation of Chapter 1, §1.2.7, quality of service.
 - **English inbox:** Added the first-lesson expressions after checking for duplicates: *distributed system*, *decentralized system*, *processes and resources are spread across multiple computers*, *sufficiently spread*, and *necessarily spread*.
