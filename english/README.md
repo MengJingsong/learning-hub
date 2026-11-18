@@ -17,8 +17,9 @@ This folder is the complete study corpus.
 - `academic-english.md` — academic writing, presentations, research discussion, evidence, argumentation, and conference/lab communication.
 - `cs-research-english.md` — computer-science and software/systems research terminology and technical expressions.
 - `pronunciation-listening.md` — listening-specific targets such as reductions, linking, stress, rhythm, and pronunciation patterns.
+- `explanations/` — durable companion explanations, stored in files matching the primary study-material filenames and keyed by exact item headings.
 
-Study-material entries should stay lightweight. Detailed meaning, register, context, pronunciation, collocations, and examples can be researched or generated dynamically when an item is studied. Add permanent notes only when a distinction is important for correct use.
+Primary study-material files stay lightweight, with one item per line. For items added during inbox curation, use the companion explanations for detailed meanings, pronunciation, collocations, usage notes, and examples. Add context-specific teaching when an item is studied.
 
 ### Priority tiers
 
@@ -66,6 +67,6 @@ When useful, outside resources may be consulted dynamically for authentic usage,
 
 `english-learning-coach` guides word, phrase, and grammar practice. `english-speaking-coach` guides speaking and listening. Read [coaching.md](instructions/coaching.md) for shared rules and source versions. Install these skills in the runtime where practice takes place. Learning Hub stores the authoritative learning progress under the learner's standing authorization, using `mastery.md`, `session-log.md`, and `inbox.md` after meaningful practice.
 
-New candidate items discovered during ordinary lookup should first go to `english/english-study/inbox.md`. They enter the formal `english/study-materials/` corpus only during inbox curation, when they are normalized, deduplicated, classified, and assigned a priority tier.
+New candidate items discovered during ordinary lookup should first go to `english/english-study/inbox.md`. They enter the formal `english/study-materials/` corpus only during inbox curation, when they are normalized, deduplicated, classified, assigned a priority tier, and given a matching durable explanation.
 
 The root `README.md` is documentation only and is not part of the study corpus.
