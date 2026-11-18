@@ -41,7 +41,7 @@
 | 可靠执行 | checkpoint；重试；幂等；人工介入 |
 | 评估与安全 | 成功标准；执行轨迹；最小权限；外部指令注入 |
 
-子知识点 ID 使用模块 ID 加细分后缀，例如 `ae.tool-calling.request-vs-execution`；教学时确定具体 ID 并记录，避免把一个模块中的所有内容一起标为掌握。模块练习和综合项目留作相关子知识点学习后的整合实践。
+子知识点 ID 使用模块 ID 加细分后缀，例如 `ae.tool-calling.request-vs-execution`；教学时确定具体 ID 并记录，避免把一个模块中的所有内容一起标为掌握。进阶专题沿用同一规则，例如 `ae.context.prompt-cache-vs-kv-cache`、`ae.inference.moe-routing`、`ae.inference.mla-kv-cache`，并写入同一 AI Mastery 与 Session Log。模块练习和综合项目留作相关子知识点学习后的整合实践。
 
 ## 2. 九个核心模块与进阶专题
 
