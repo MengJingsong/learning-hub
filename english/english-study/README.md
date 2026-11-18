@@ -12,7 +12,7 @@ This folder stores learning state, temporary study intake, testing history, and 
 - `/english/study-materials/academic-english.md` stores academic writing, presentations, research discussion, and evidence/argumentation language.
 - `/english/study-materials/cs-research-english.md` stores computer-science and technical research English.
 - `/english/study-materials/pronunciation-listening.md` stores listening-specific pronunciation targets such as reductions, linking, stress, and rhythm.
-- Study-material entries should remain lightweight. Detailed meaning, register, context, pronunciation, and examples may be researched or generated dynamically during study; preserve permanent notes only when they are important for correct use.
+- Primary study-material files are lightweight lists: one item per line. Durable explanations for items added during inbox curation are stored in matching files under `/english/study-materials/explanations/`, using exact item headings. When an item is studied, use its companion explanation and add context-specific teaching as needed.
 - Every study-material file uses three priority tiers: **Core**, **Useful**, and **Specialized**.
 - **Core** items are high-frequency and highly transferable; prioritize active mastery.
 - **Useful** items are common but more context-dependent; review them regularly with lower weight.
@@ -82,7 +82,6 @@ English learning progress is authorized to be saved directly to this repository 
 
 At the beginning of a study/review session, read this README, `learning-plan.md`, the relevant study materials, and `mastery.md`. Follow the learner's current teaching preference and continuation point. Track explanation coverage in the plan. Use assessment evidence to update mastery conservatively when the learner requests practice or testing.
 
-
 ## Instruction routing
 
 See `/english/instructions/router.md` for the authoritative mode map, activation rules, and default routing.
@@ -113,6 +112,7 @@ During inbox curation:
 3. remove low-value or one-off items;
 4. classify into the best formal study-material file;
 5. assign Core / Useful / Specialized;
-6. remove processed inbox entries.
+6. add the required durable explanation to the matching file under `/english/study-materials/explanations/`;
+7. remove processed inbox entries.
 
-This keeps lookup sessions fast and keeps the formal study corpus curated.
+See `/english/instructions/curate-inbox.md` for the explanation format and full curation rules. This keeps lookup sessions fast and keeps the formal study corpus curated.
