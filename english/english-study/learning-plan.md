@@ -20,6 +20,10 @@ Use the [Oxford Advanced American Dictionary](https://www.oxfordlearnersdictiona
 
 AI may synthesize the source note and passage context into a concise Chinese translation plus an English explanation, examples, and usage cues. Keep source-backed definitions distinct from contextual inference; verify uncertain technical or fine-grained claims against a dictionary or domain source.
 
+## Dictionary policy
+
+Use the [Oxford Advanced American Dictionary](https://www.oxfordlearnersdictionaries.com/us/) and [Cambridge Dictionary](https://dictionary.cambridge.org/us/) as paired references for lexical explanations when relevant entries exist. Prefer Oxford for American English; use Cambridge as a cross-check. If a dictionary lacks the term or relevant technical sense, consult an appropriate domain source and say when the explanation relies on that source. Present synthesized explanations in original wording, using the meaning that fits the passage. Link sources actually consulted in new or substantively revised durable explanations.
+
 ## Coverage order
 
 Complete the current batch, then cover the remaining Core entries, followed by Useful and Specialized. Within each tier, follow the existing order in vocabulary, phrases, sentence patterns, everyday English, academic English, CS research English, and pronunciation/listening. Select N uncovered entries (15 by default) and check coverage before repeating an item. Present each batch using the two-pass workflow above.
