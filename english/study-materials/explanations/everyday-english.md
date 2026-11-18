@@ -5,6 +5,7 @@ Expressions are explained in common North American usage. Similar expressions ma
 ## Core
 
 ### Fingers crossed
+**词汇补充：** /ˈfɪŋɡərz ˈkrɔst/；常搭配 *keep your fingers crossed, fingers crossed that...*；近义 *hope for the best*；无常用反义词。
 **意思：** 但愿好运、希望顺利；常伴随等待结果。类似：*I hope it works out.*
 1. Fingers crossed the interview goes well. — 希望面试顺利。
 2. We're waiting for the test results—fingers crossed. — 我们在等检测结果，希望一切顺利。
@@ -75,6 +76,7 @@ Expressions are explained in common North American usage. Similar expressions ma
 2. We should push back on unrealistic assumptions. — 我们应该反对不切实际的假设。
 
 ### Heads-up
+**词汇补充：** /ˈhɛdzˌʌp/；常搭配 *give someone a heads-up, just a heads-up*；近义 *warning, advance notice*；反义 *surprise, no notice*。
 **意思：** 预先提醒、提示（名词）。类似：*advance warning; alert.*
 1. Thanks for the heads-up about the outage. — 谢谢你提前提醒我服务中断。
 2. Just a heads-up: the room has changed. — 提醒一下：会议室换了。
@@ -392,11 +394,13 @@ Expressions are explained in common North American usage. Similar expressions ma
 2. I'm not sure that's necessarily the case; let's check the data. — 我不确定一定是这样，我们查一下数据吧。
 
 ### nice-to-have
+**词汇补充：** /ˌnaɪs tə ˈhæv/；常搭配 *a nice-to-have feature/option*；近义 *optional extra*；反义 *must-have*。
 **意思：** 有了更好但不是必需的功能/东西。类似：*optional extra; desirable but nonessential.*
 1. Dark mode is a nice-to-have, not a release blocker. — 深色模式有更好，但不是发布的必要条件。
 2. The extra chart is a nice-to-have. — 这张额外图表有了更好。
 
 ### must-have
+**词汇补充：** /ˈmʌstˌhæv/；常搭配 *a must-have feature/tool*；近义 *essential, necessity*；反义 *nice-to-have, optional extra*。
 **意思：** 必不可少的东西/功能。类似：*essential; required.*
 1. Offline access is a must-have for field work. — 离线访问是野外工作的必备功能。
 2. Reliability is a must-have for this service. — 可靠性是这项服务的必需条件。
@@ -437,6 +441,7 @@ Expressions are explained in common North American usage. Similar expressions ma
 2. The system rejected the request right away. — 系统立即拒绝了请求。
 
 ### fraternity
+**词汇补充：** /frəˈtɜrnəti/；常搭配 *join a fraternity, college fraternity*；近义 *brotherhood, student organization*（依语境）；反义无常用词。
 / frəˈtɜrnəti/ **n.** （大学）兄弟会；也指团体或行业群体。类似：*student fraternity; association.*
 1. He joined a fraternity during his first year. — 他大一时加入了一个兄弟会。
 2. The academic fraternity discussed the proposal. — 学术界人士讨论了这个提案。
