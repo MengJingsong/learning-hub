@@ -164,8 +164,8 @@ Next action:
 
 ## Current checkpoint
 
-- **Latest session:** Previewed the table of contents across Chapters 1–9. The numbered textbook lesson resumes at Section 1.1.2.
-- **Status:** Chapter 1, §1.2.5 — security has been introduced.
-- **Evidence:** No learner explanation or application has been recorded; understanding is not yet checked.
+- **Latest completed lesson:** Chapter 1, §1.2.5 — security was explained in detail. Status: Introduced, unassessed.
+- **Coverage so far:** Book overview; §1.1.1–§1.1.3; §1.2.1–§1.2.5. The book overview was orientation, not an assessment.
+- **Evidence:** No learner explanation or application has been recorded, so understanding remains unassessed.
 - **Next action:** Begin a detailed explanation of Chapter 1, §1.2.6, scalability.
 - **English inbox:** Added the first-lesson expressions after checking for duplicates: *distributed system*, *decentralized system*, *processes and resources are spread across multiple computers*, *sufficiently spread*, and *necessarily spread*.
