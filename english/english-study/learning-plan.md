@@ -52,8 +52,12 @@ Earlier explanation batch on 2026-11-17
 
 - `vocabulary.md` — infer, attribute, baseline, outlier, heuristic, criterion, fallback, backpressure, outage, robustness, scalability, deployment, workload, benchmark, and mitigate.
 
-Current explanation batch on 2026-11-17
+Earlier explanation batch on 2026-11-17
 
 - `vocabulary.md` — validate, uncertainty, traditional, conventional, eligible, representative, typical, characteristic, clue, Stash, Emit, Under-tested, Provably, Reclaim, and Overshoot.
 
-Continue next with Backfill, Pedagogical, Vague, Inert, Under-provisioned, Self-containment, Proliferation, Wrinkle, Hygiene, Terse, Dangling, Churn, Accounting, Load-bearing, and Scaffold. Check the corpus and latest conversation before selecting the next batch.
+Current explanation batch on 2026-11-17
+
+- `vocabulary.md` — Backfill, Pedagogical, Vague, Inert, Under-provisioned, Self-containment, Proliferation, Wrinkle, Hygiene, Terse, Dangling, Churn, Accounting, Load-bearing, and Scaffold.
+
+Continue next with Precedent, Tier, Adapt, Adopt, Rubric, Magnitude, Demote, Goalposts, Excerpt, Moot, Canary, defer, withhold, breach, and exhaustion. Skip entries already covered and check the corpus and latest conversation before selecting the next batch.
