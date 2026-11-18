@@ -76,3 +76,8 @@ Completed explanation batch on 2026-11-18 — `vocabulary.md`: Precedent, Tier, 
 
 
 Completed explanation batch on 2026-11-18 — `vocabulary.md`: saturation, cumulative, bounded, unbounded, diverge, refute, deviation, qualify, self-contained, counterpart, negligible, splice, shakedown, creepy, and sanctimonious. The learner supplied item glosses before the explanation pass; retain the feedback and comprehension evidence in `mastery.md` and `session-log.md`. Resume with the next uncovered entries in the stated tier and corpus order: `inconclusive`.
+
+
+## Level-based review frequency
+
+Choose each item's next review date from its current assessed comprehension level and last tested date. Default intervals: level 0 → 1 day; level 1 → 2 days; level 2 → 4 days; level 3 → 7 days; level 4 → 14 days; level 5 → 30 days. Review due and overdue items before or alongside the next uncovered items in corpus order; lower-level items receive more frequent attention. After a review, update the assessed comprehension level only from the learner's observed response, then calculate the next date from the new level and review date. If recall is still weak, keep or lower the level based on evidence and schedule the shorter interval; do not count immediate repetition after an explanation as delayed mastery. Other skill dimensions remain unassessed unless tested. **The learning method is unchanged:** due items and new items use the same existing English passage → learner's Chinese translation → documented item-by-item explanation and translation feedback workflow. Do not switch to quizzes or another practice format unless requested.
