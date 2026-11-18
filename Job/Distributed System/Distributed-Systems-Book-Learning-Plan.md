@@ -170,10 +170,18 @@ Next action:
 - **English items added:** *scale horizontally*; *scale vertically*; *bottleneck*; *coordination overhead*.
 - **Next action:** Continue to Chapter 1, §1.2.7, quality of service.
 
+- **Date:** November 17, 2026
+- **Chapter/section:** Chapter 1, §1.2.7 — quality of service.
+- **Concepts covered and status:** Quality of service (QoS) as measurable service requirements; end-to-end delay, delay variation (jitter), throughput/bandwidth, resource allocation, admission control, and adaptation under resource constraints. Introduced.
+- **Evidence:** Detailed explanation only; no learner demonstration recorded.
+- **Gaps or questions to revisit:** Distinguish network-level QoS metrics from application-level user experience; how applications adapt when guarantees cannot be maintained.
+- **English items added:** *end-to-end delay*; *delay variation*; *admission control*; *meet a deadline*.
+- **Next action:** Continue to Chapter 1, §1.3, types of distributed systems.
+
 ## Current checkpoint
 
-- **Latest completed lesson:** Chapter 1, §1.2.6 — scalability was explained in detail. Status: Introduced, unassessed.
-- **Coverage so far:** Book overview; §1.1.1–§1.1.3; §1.2.1–§1.2.6. The book overview was orientation, not an assessment.
+- **Latest completed lesson:** Chapter 1, §1.2.7 — quality of service was explained in detail. Status: Introduced, unassessed.
+- **Coverage so far:** Book overview; §1.1.1–§1.1.3; §1.2.1–§1.2.7. The book overview was orientation, not an assessment.
 - **Evidence:** No learner explanation or application has been recorded, so understanding remains unassessed.
-- **Next action:** Begin a detailed explanation of Chapter 1, §1.2.7, quality of service.
+- **Next action:** Begin Chapter 1, §1.3, types of distributed systems.
 - **English inbox:** Added the first-lesson expressions after checking for duplicates: *distributed system*, *decentralized system*, *processes and resources are spread across multiple computers*, *sufficiently spread*, and *necessarily spread*.
