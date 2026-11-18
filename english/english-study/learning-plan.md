@@ -73,3 +73,6 @@ Current explanation batch on 2026-11-17
 - `vocabulary.md` — Backfill, Pedagogical, Vague, Inert, Under-provisioned, Self-containment, Proliferation, Wrinkle, Hygiene, Terse, Dangling, Churn, Accounting, Load-bearing, and Scaffold.
 
 Completed explanation batch on 2026-11-18 — `vocabulary.md`: Precedent, Tier, Adapt, Adopt, Rubric, Magnitude, Demote, Goalposts, Excerpt, Moot, Canary, defer, withhold, breach, and exhaustion. Resume by checking the conversation and coverage log, then select the next uncovered entries in the stated tier and corpus order.
+
+
+Completed explanation batch on 2026-11-18 — `vocabulary.md`: saturation, cumulative, bounded, unbounded, diverge, refute, deviation, qualify, self-contained, counterpart, negligible, splice, shakedown, creepy, and sanctimonious. The learner supplied item glosses before the explanation pass; retain the feedback and comprehension evidence in `mastery.md` and `session-log.md`. Resume with the next uncovered entries in the stated tier and corpus order: `inconclusive`.
