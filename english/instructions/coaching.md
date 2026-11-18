@@ -16,9 +16,13 @@ Read the selected skill from the current runtime's available skill source. Use a
 
 Read `/english/english-study/README.md`, `/english/english-study/learning-plan.md`, `/english/english-study/mastery.md`, and recent relevant entries in `/english/english-study/session-log.md` before choosing a task. Reuse known goals and preferences and collect only the missing context needed to start. The learner's current teaching preference takes priority over the upstream skills' default production, quiz, and retry loops.
 
-Use material or topics explicitly selected by the learner. Otherwise select from `/english/study-materials/`, prioritizing due and weak items, then Core items when review needs are similar. For every selected formal corpus entry, read its exact-heading note in `/english/study-materials/explanations/` before teaching it; use that durable explanation as the basis for the walkthrough, and add context-specific teaching as needed. External material can supplement authentic usage and examples. Retain a source link or repository path when it matters for continuing the lesson.
+Use material or topics explicitly selected by the learner. Otherwise select from `/english/study-materials/`, prioritizing due and weak items, then Core items when review needs are similar. For every selected formal corpus entry, read its exact-heading note in `/english/study-materials/explanations/` before teaching it; use that durable explanation as the basis for the walkthrough, and add context-specific teaching as needed. In the explanation-led walkthrough, retain the learner's Chinese translation of the first-pass passage and compare each target item during the second pass. Record only demonstrated comprehension evidence; do not infer other skill dimensions from translation. External material can supplement authentic usage and examples. Retain a source link or repository path when it matters for continuing the lesson.
 
 Use `sentence-patterns.md` for reusable grammatical structures and essential usage distinctions. New grammar targets can enter `inbox.md` as normalized `[pattern]` candidates and be curated into the formal corpus later.
+
+## Explanation feedback and revisions
+
+If the learner identifies a factual error, missing sense, misleading example, or other concrete issue in a durable explanation, update the corresponding exact-heading entry in `/english/study-materials/explanations/`. Preserve sound material, incorporate the correction, and verify uncertain language claims against a learner's dictionary or an appropriate domain source. Preference feedback about presentation alone changes the teaching approach; revise the durable note only when it improves the note itself. Confirm the repository update.
 
 ## Learning records
 
