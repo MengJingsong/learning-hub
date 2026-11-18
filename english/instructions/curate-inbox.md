@@ -18,7 +18,7 @@ For each item:
    - `pronunciation-listening.md`
 5. assign one tier: Core, Useful, or Specialized;
 6. write each retained item only once, to its best primary location;
-7. add a complete explanation for every retained item in the matching companion file under `/english/study-materials/explanations/`. Use the same filename as the primary study-material file and an exact item heading so the note can be matched reliably. Keep the primary study-material files as lightweight one-item-per-line lists; do not put multi-line explanations there;
+7. add a complete explanation for every retained item in the matching companion file under `/english/study-materials/explanations/`. Use the same filename as the primary study-material file and an exact item heading so the note can be matched reliably. Every formal corpus entry must have exactly one matching explanation heading; check coverage before removing processed items from the inbox. Keep the primary study-material files as lightweight one-item-per-line lists; do not put multi-line explanations there;
 8. remove processed items from the inbox only after the item and its explanation have both been recorded.
 
 ## Explanation requirements
