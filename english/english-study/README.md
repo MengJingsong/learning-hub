@@ -12,7 +12,7 @@ This folder stores learning state, temporary study intake, testing history, and 
 - `/english/study-materials/academic-english.md` stores academic writing, presentations, research discussion, and evidence/argumentation language.
 - `/english/study-materials/cs-research-english.md` stores computer-science and technical research English.
 - `/english/study-materials/pronunciation-listening.md` stores listening-specific pronunciation targets such as reductions, linking, stress, and rhythm.
-- Primary study-material files are lightweight lists: one item per line. Durable explanations for items added during inbox curation are stored in matching files under `/english/study-materials/explanations/`, using exact item headings. When an item is studied, use its companion explanation and add context-specific teaching as needed.
+- Primary study-material files are lightweight lists: one item per line. Every formal entry must have a durable explanation in the matching file under `/english/study-materials/explanations/`, keyed by the exact item heading. Before teaching or reviewing an entry, consult its companion explanation as the source for meaning, pronunciation, usage, and examples, then add context-specific teaching as needed. Keep explanations complete under `/english/instructions/curate-inbox.md`.
 - Every study-material file uses three priority tiers: **Core**, **Useful**, and **Specialized**.
 - **Core** items are high-frequency and highly transferable; prioritize active mastery.
 - **Useful** items are common but more context-dependent; review them regularly with lower weight.
