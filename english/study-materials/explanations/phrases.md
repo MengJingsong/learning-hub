@@ -160,6 +160,7 @@ Each entry gives the Chinese meaning, a similar expression, and two contextual e
 2. She wrapped up the analysis yesterday. — 她昨天完成了分析。
 
 ### bandwidth
+**词汇补充：** /ˈbændˌwɪdθ/；常搭配 *network bandwidth, bandwidth usage, have the bandwidth to do*；近义 *capacity, available time*（比喻义）；反义视语境为 *bandwidth shortage*。
 **意思：** 字面指带宽；引申为可用时间、精力或处理能力。类似：*capacity; available time*.
 1. The link has enough bandwidth for the video. — 这条链路有足够带宽传输视频。
 2. I don't have the bandwidth to take on another project. — 我没有精力再接一个项目。
@@ -387,6 +388,7 @@ Each entry gives the Chinese meaning, a similar expression, and two contextual e
 2. The team made little headway until the bug was isolated. — 在定位到 bug 之前，团队进展不大。
 
 ### prioritize
+**词汇补充：** /praɪˈɔrəˌtaɪz/；常搭配 *prioritize tasks, prioritize A over B, high-priority*；近义 *rank, give precedence to*；反义 *deprioritize, neglect*。
 **意思：** 优先处理/排列优先级。类似：*rank by importance; give priority to*.
 1. We should prioritize the overdue items. — 我们应该优先处理逾期事项。
 2. The team prioritized reliability over new features. — 团队把可靠性置于新功能之前。
