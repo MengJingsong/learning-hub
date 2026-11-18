@@ -5,6 +5,7 @@ Technical phrases are explained in their common software and systems sense. Simi
 ## Core
 
 ### workaround
+**词汇补充：** /ˈwɜrkəˌraʊnd/；常搭配 *temporary/practical workaround, find a workaround for*；近义 *stopgap, temporary fix*；反义 *permanent fix*。
 **意思：** 临时绕过问题的做法，不一定修复根因。类似：*temporary fix; stopgap.*
 1. We used a workaround until the vendor fixed the bug. — 供应商修复 bug 前，我们用了临时绕行方案。
 2. This workaround avoids the crash but adds latency. — 这个临时方案避免了崩溃，但增加了延迟。
@@ -20,6 +21,7 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. We tested edge cases around the maximum size. — 我们测试了最大尺寸附近的边界情况。
 
 ### trade-off
+**词汇补充：** /ˈtreɪdˌɔf/；常搭配 *make a trade-off, trade-off between A and B*；近义 *compromise, balance*；反义无固定反义词。
 **意思：** 取舍；改善一方面通常要付出另一方面的代价。类似：*compromise; balance.*
 1. There is a trade-off between memory use and speed. — 内存使用和速度之间存在取舍。
 2. The design trade-off favors reliability over simplicity. — 这个设计取舍更重视可靠性而非简单性。
@@ -75,6 +77,7 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. Memory use is capped at two gigabytes. — 内存使用上限为两 GB。
 
 ### short-circuit
+**词汇补充：** /ˌʃɔrtˈsɜrkɪt/；常搭配 *short-circuit evaluation, short-circuit a lookup*；近义 *bypass, terminate early*；反义 *continue full evaluation*。
 **意思：** 提前结束处理/逻辑求值；电路中为短路。类似：*skip remaining work; terminate early.*
 1. The cache hit short-circuits the database lookup. — 缓存命中后就跳过数据库查询。
 2. The condition short-circuits evaluation when the value is null. — 值为空时该条件会短路求值。
@@ -95,11 +98,13 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. The adapter wires the client up to the service. — 适配器把客户端连接到服务。
 
 ### surface
+**词汇补充：** /ˈsɜrfɪs/（名词）；/ˈsɜrfəs/（动词）；常搭配 *surface an issue/error, surface information*；近义 *reveal, expose*；反义 *hide, conceal*。
 **意思：** 显露/呈现问题、数据或功能；也可作名词“表面”。类似：*expose; reveal; make visible.*
 1. The dashboard surfaces errors in real time. — 仪表板实时显示错误。
 2. A race condition surfaced under load. — 高负载下暴露出了竞态条件。
 
 ### throttle
+**词汇补充：** /ˈθrɑtəl/；常搭配 *throttle requests/traffic, rate-throttle*；近义 *limit, restrict*；反义 *unthrottle, accelerate*。
 **意思：** 限流、抑制速度或频率。类似：*rate-limit; slow down.*
 1. The API throttles requests from each client. — API 对每个客户端的请求进行限流。
 2. The CPU throttles when it overheats. — CPU 过热时会降低运行速度。
@@ -110,21 +115,25 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. Back off the polling interval when the server is busy. — 服务器繁忙时拉长轮询间隔。
 
 ### spike
+**词汇补充：** /spaɪk/；常搭配 *a spike in latency/traffic, spike suddenly*；近义 *surge, jump*；反义 *drop, decline*。
 **意思：** 突增；尖峰。类似：*surge; sudden increase.*
 1. We saw a spike in latency after deployment. — 部署后延迟突然升高。
 2. Traffic spikes every Monday morning. — 每周一早上流量都会激增。
 
 ### overshoot
+**词汇补充：** /ˌoʊvərˈʃut/；常搭配 *overshoot a target/limit*；近义 *exceed, go beyond*；反义 *undershoot, fall short*。
 **意思：** 超过目标/上限。类似：*exceed; go past the target.*
 1. The controller overshot the target value. — 控制器超过了目标值。
 2. The estimate overshot the actual cost by 15%. — 估算成本比实际高出 15%。
 
 ### reclaim
+**词汇补充：** /rɪˈkleɪm/；常搭配 *reclaim memory/space, reclaim a resource*；近义 *recover, retrieve*；反义 *relinquish, release*（依语境）。
 **意思：** 回收或重新获得资源。类似：*recover; retrieve.*
 1. The garbage collector reclaims unused memory. — 垃圾回收器会回收未使用的内存。
 2. The process reclaims the lock after a timeout. — 超时后进程会重新获取锁。
 
 ### headroom
+**词汇补充：** /ˈhɛdˌrum/；常搭配 *leave/provide headroom, capacity headroom*；近义 *spare capacity, margin*；反义 *capacity limit*（概念对照）。
 **意思：** 剩余容量/余量，可供负载增长。类似：*spare capacity; margin.*
 1. We need more CPU headroom for traffic spikes. — 我们需要更多 CPU 余量应对流量峰值。
 2. The cluster has little headroom left. — 集群剩余容量不多了。
@@ -135,11 +144,13 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. We optimized the hot path after profiling. — 性能分析后我们优化了关键代码路径。
 
 ### flaky
+**词汇补充：** /ˈfleɪki/；常搭配 *flaky test/connection, flaky behavior*；近义 *unreliable, intermittent*；反义 *reliable, stable*。
 **意思：** 时好时坏、不稳定的（常说测试/网络）。类似：*intermittent; unreliable.*
 1. The test is flaky on the shared runner. — 这个测试在共享运行器上时好时坏。
 2. A flaky connection caused the retries. — 不稳定的连接引发了重试。
 
 ### brittle
+**词汇补充：** /ˈbrɪtəl/；常搭配 *brittle code/design, brittle dependency*；近义 *fragile, breakable*；反义 *robust, resilient*。
 **意思：** 脆弱的，容易因小变化而失效。类似：*fragile; easily broken.*
 1. The parser is brittle when fields are reordered. — 字段顺序变化时解析器就容易出错。
 2. This workaround is brittle and hard to maintain. — 这个临时方案很脆弱，也难维护。
@@ -170,21 +181,25 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. The smoke test confirmed that login still works. — 冒烟测试确认登录仍可使用。
 
 ### end-to-end
+**词汇补充：** /ˌɛnd tə ˈɛnd/；常搭配 *end-to-end test/encryption/latency*；近义 *full-path, complete-pipeline*；反义 *unit-level, partial*（语境对照）。
 **意思：** 端到端的，覆盖完整流程。类似：*full-pipeline; from start to finish.*
 1. We added an end-to-end test for checkout. — 我们为结账流程增加了端到端测试。
 2. End-to-end latency includes network and processing time. — 端到端延迟包括网络和处理时间。
 
 ### overhead
+**词汇补充：** /ˈoʊvərˌhɛd/；常搭配 *runtime/memory/protocol overhead*；近义 *extra cost, additional burden*；反义无固定反义词。
 /ˈoʊvərˌhɛd/ **n.** 额外开销（资源/时间）；也可指管理费用。搭配：runtime/memory overhead. 近：extra cost; 反：无常用反义词.
 1. Encryption adds a small amount of overhead. — 加密会增加少量额外开销。
 2. The framework's memory overhead is substantial. — 该框架的内存开销很大。
 
 ### footprint
+**词汇补充：** /ˈfʊtˌprɪnt/；常搭配 *memory/disk/resource footprint*；近义 *resource usage, space requirement*；反义无固定反义词。
 /ˈfʊtˌprɪnt/ **n.** 占用规模，尤指内存、磁盘或资源。类似：*resource usage; memory footprint.*
 1. The container has a smaller disk footprint. — 这个容器占用的磁盘空间更少。
 2. We measured the application's memory footprint. — 我们测量了应用的内存占用。
 
 ### amortize
+**词汇补充：** /əˈmɔrˌtaɪz/；常搭配 *amortize a cost over time/across requests*；近义 *spread, distribute*（成本）；反义 *pay upfront*（概念对照）。
 /əˈmɔrˌtaɪz/ **v.** 将一次性成本分摊到多次操作。类似：*spread a cost over repeated operations.*
 1. Batching amortizes the setup cost across many requests. — 批处理把初始化成本分摊到许多请求上。
 2. We amortized the index build over a long run. — 我们把索引构建成本分摊到长时间运行中。
@@ -265,6 +280,7 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. We need to know whether the method scales to larger inputs. — 我们需要知道该方法能否扩展到更大的输入。
 
 ### microbenchmark
+**词汇补充：** /ˈmaɪkroʊˌbɛntʃˌmɑrk/；常搭配 *run/design a microbenchmark*；近义 *small-scale benchmark, component-level test*；反义无固定反义词。
 **意思：** 测量很小代码单元/操作性能的基准测试。类似：*small-scale benchmark; operation-level test.*
 1. The microbenchmark measures hash lookup time. — 微基准测试测量哈希查找时间。
 2. Microbenchmarks may miss system-level overhead. — 微基准测试可能忽略系统层面的开销。
@@ -325,6 +341,7 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. Clock synchronization is difficult in a distributed system. — 分布式系统中的时钟同步很困难。
 
 ### dependency
+**词汇补充：** /dɪˈpɛndənsi/；常搭配 *external/runtime dependency, dependency on X*；近义 *prerequisite, required component*；反义 *independence*。
 **意思：** 依赖项；一个组件所需的另一个组件。类似：*prerequisite; required component.*
 1. The package has an outdated dependency. — 这个包有一个过时的依赖项。
 2. We removed a dependency on the external service. — 我们移除了对外部服务的依赖。
@@ -382,11 +399,13 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. These metrics feed into the alerting system. — 这些指标会进入告警系统。
 
 ### noisy
+**词汇补充：** /ˈnɔɪzi/；常搭配 *noisy data/signal/measurement*；近义 *variable, contaminated*（依语境）；反义 *clean, stable*。
 **意思：** 含噪声/波动大；也可指日志过多。类似：*variable; noisy signal.*
 1. The measurements are noisy at low load. — 低负载时测量值波动较大。
 2. The debug logs are too noisy to be useful. — 调试日志太多，反而不好用。
 
 ### hang
+**词汇补充：** /hæŋ/；常搭配 *hang indefinitely, hang on startup*；近义 *freeze, become unresponsive*；反义 *respond, resume*。
 **意思：** 卡住、无响应；也可指挂载/悬挂。类似：*freeze; become unresponsive.*
 1. The process hangs when the connection drops. — 连接断开时进程会卡住。
 2. The test hangs indefinitely on Windows. — 这个测试在 Windows 上会一直卡住。
@@ -417,6 +436,7 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. We compare against state-of-the-art baselines. — 我们与最先进的基线方法比较。
 
 ### round-trip
+**词汇补充：** /ˈraʊndˌtrɪp/；常搭配 *round-trip time/latency, round-trip conversion*；近义 *request-response cycle*；反义无固定反义词。
 **意思：** 往返过程；请求发出并收到响应的完整周期；序列化后再还原。类似：*request-response cycle; encode-decode cycle.*
 1. The round-trip takes about 40 milliseconds. — 一次往返大约需要 40 毫秒。
 2. The parser preserves comments through a round-trip. — 经过解析再还原后，解析器仍保留注释。
@@ -427,6 +447,7 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. The patch was first tested outside the production cluster. — 这个补丁先在生产集群之外测试。
 
 ### bisect
+**词汇补充：** /baɪˈsɛkt/；常搭配 *bisect a range/commit history*；近义 *divide in half, binary-search*；反义 *combine, merge*。
 /baɪˈsɛkt/ **v.** 二分定位；常指用二分法找出引入故障的提交。类似：*narrow down by binary search.*
 1. We bisected the commits to find the regression. — 我们用二分法定位了引入退化的提交。
 2. Bisect the input range to isolate the failing case. — 对输入范围二分以定位失败案例。
@@ -437,6 +458,7 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. The outage had a large blast radius. — 这次中断影响范围很大。
 
 ### composability
+**词汇补充：** /kəmˌpoʊzəˈbɪləti/；常搭配 *improve/enable composability*；近义 *modularity, interoperability*（相关概念）；反义 *rigidity, monolithic design*。
 /ˌkɑmpoʊzəˈbɪləti/ **n.** 可组合性；组件能否灵活组合。类似：*modularity; ability to compose.*
 1. The API improves composability across services. — 该 API 提高了服务间的可组合性。
 2. Composability makes the pipeline easier to extend. — 可组合性让流水线更容易扩展。
@@ -447,6 +469,7 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. We studied coordination in a decentralized system. — 我们研究了去中心化系统中的协调机制。
 
 ### blob
+**词汇补充：** /blɑb/；常搭配 *store/read a blob, binary large object (BLOB)*；近义 *opaque data object, data chunk*；反义无固定反义词。
 /blɑb/ **n.** 一大块/团；技术中泛指未结构化的数据对象。类似：*binary large object; opaque data chunk.*
 1. The API stores the image as a blob. — API 把图像作为二进制对象存储。
 2. The response returned one large blob of text. — 响应返回了一大块文本。
@@ -484,6 +507,7 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. Costs can creep up if usage is not monitored. — 如果不监控使用量，成本可能会逐渐增加。
 
 ### drain
+**词汇补充：** /dreɪn/；常搭配 *drain a queue/pool/battery*；近义 *deplete, empty*；反义 *replenish, fill*。
 **意思：** 耗尽/排空资源；也可排水。类似：*deplete; empty.*
 1. The bug drained the connection pool. — 这个 bug 耗尽了连接池。
 2. Drain the queue before shutting down the worker. — 关闭工作进程前先清空队列。
@@ -514,11 +538,13 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. Fire off an alert when the threshold is crossed. — 超过阈值时立即发出警报。
 
 ### expose
+**词汇补充：** /ɪkˈspoʊz/；常搭配 *expose an API/endpoint, expose a flaw*；近义 *reveal, make accessible*；反义 *hide, conceal*。
 /ɪkˈspoʊz/ **v.** 暴露/公开；提供接口供调用。类似：*reveal; make accessible.*
 1. The service exposes a health-check endpoint. — 服务提供了健康检查端点。
 2. The test exposed a race condition. — 测试暴露了一个竞态条件。
 
 ### clamp
+**词汇补充：** /klæmp/；常搭配 *clamp a value/range, clamp to a limit*；近义 *cap, constrain*；反义 *unbound, release*（依语境）。
 /klæmp/ **v./n.** 将数值限制在上下界内。类似：*cap; constrain to a range.*
 1. Clamp the input between zero and one. — 将输入限制在 0 到 1 之间。
 2. The controller clamps the output to a safe range. — 控制器把输出限制在安全范围内。
@@ -534,16 +560,19 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. The assumption does not hold up under scrutiny. — 这个假设经不起仔细审查。
 
 ### sidestep
+**词汇补充：** /ˈsaɪdˌstɛp/；常搭配 *sidestep a limitation/issue*；近义 *bypass, avoid*；反义 *confront, address directly*。
 /ˈsaɪdˌstɛp/ **v.** 巧妙绕开问题/障碍。类似：*avoid; bypass.*
 1. The patch sidesteps the compatibility issue. — 这个补丁绕开了兼容性问题。
 2. We cannot sidestep the need for access control. — 我们无法回避访问控制的必要性。
 
 ### cap
+**词汇补充：** /kæp/；常搭配 *cap the rate/number at X, impose a cap*；近义 *limit, restrict*；反义 *uncap, remove the limit*。
 /kæp/ **v./n.** 限制上限；上限。类似：*limit; ceiling.*
 1. We cap each batch at 500 records. — 每批最多处理 500 条记录。
 2. The API has a strict rate cap. — API 有严格的速率上限。
 
 ### gate
+**词汇补充：** /ɡeɪt/；常搭配 *gate access/requests, gate a feature behind a flag*；近义 *control, filter*；反义 *allow, open*。
 /ɡeɪt/ **v./n.** 控制是否允许通过；门/闸。类似：*control access; filter.*
 1. A feature flag gates access to the new path. — 功能开关控制是否允许使用新路径。
 2. The scheduler gates requests during overload. — 过载时调度器会限制请求进入。
@@ -569,16 +598,19 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. We piggybacked the check on the deployment step. — 我们把检查安排在部署步骤中一并执行。
 
 ### plumbing
+**词汇补充：** /ˈplʌmɪŋ/；常搭配 *infrastructure/telemetry plumbing*；近义 *wiring, infrastructure*；反义无固定反义词。
 /ˈplʌmɪŋ/ **n.** 管道系统；技术中指支撑功能运行的底层连接/基础设施。类似：*infrastructure; wiring.*
 1. The feature works, but the plumbing still needs cleanup. — 功能能用，但底层连接代码还需要整理。
 2. We added telemetry plumbing to the service. — 我们为服务增加了遥测基础设施。
 
 ### boilerplate
+**词汇补充：** /ˈbɔɪlərˌpleɪt/；常搭配 *boilerplate code/text, reduce boilerplate*；近义 *template code, standard text*；反义 *custom implementation*。
 /ˈbɔɪlərˌpleɪt/ **n./adj.** 样板代码/固定模板。类似：*template code; standard setup.*
 1. The framework generates the boilerplate for us. — 框架会为我们生成样板代码。
 2. This repository has too much boilerplate. — 这个代码库有太多重复样板代码。
 
 ### heavyweight
+**词汇补充：** /ˈhɛviˌweɪt/；常搭配 *heavyweight framework/client*；近义 *resource-intensive, full-featured*；反义 *lightweight*。
 /ˈhɛviˌweɪt/ **adj./n.** 资源消耗大/复杂度高的；重量级的。类似：*resource-intensive; full-featured.*
 1. The heavyweight runtime is unnecessary for this task. — 这项任务不需要重量级运行时。
 2. We replaced the heavyweight client with a smaller library. — 我们用更轻量的库替换了重量级客户端。
@@ -624,6 +656,7 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. Failure recovery must preserve committed data. — 故障恢复必须保留已提交的数据。
 
 ### request-response
+**词汇补充：** /rɪˈkwɛst rɪˈspɑns/；常搭配 *request-response protocol/pattern*；近义 *request-reply*；反义 *one-way messaging*（模式对照）。
 **意思：** 请求—响应式交互模式。类似：*request-reply pattern.*
 1. The API uses a request-response protocol. — 该 API 使用请求—响应协议。
 2. Request-response is unsuitable for long-running jobs. — 请求—响应模式不适合长时间运行的任务。
@@ -644,6 +677,7 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. Random updates can cause severe I/O amplification. — 随机更新可能造成严重的 I/O 放大。
 
 ### cron
+**词汇补充：** /krɑn/；常搭配 *cron job, cron schedule*；近义 *scheduled task*；反义 *event-triggered task*（模式对照）。
 /krɑn/ **n.** 定时任务调度工具/格式；也指由 cron 安排的作业。类似：*scheduled job; cron task.*
 1. A cron job cleans temporary files every night. — 一个 cron 定时任务每晚清理临时文件。
 2. We moved the report generation to cron. — 我们把报告生成改由 cron 定时执行。
@@ -654,6 +688,7 @@ Technical phrases are explained in their common software and systems sense. Simi
 2. We disabled band steering to diagnose the connection issue. — 为诊断连接问题，我们关闭了频段引导。
 
 ### thrash
+**词汇补充：** /θræʃ/；常搭配 *thrash under memory pressure, disk thrashing*；近义 *swap excessively, perform poorly under contention*；反义 *run smoothly*。
 /θræʃ/ **v./n.** 因资源不足反复交换/重试而效率骤降；也指剧烈摆动。类似：*resource thrashing; excessive swapping.*
 1. The machine thrashed once memory pressure increased. — 内存压力上升后机器开始频繁换页。
 2. Repeated cache eviction caused the database to thrash. — 反复淘汰缓存导致数据库系统忙乱低效。
