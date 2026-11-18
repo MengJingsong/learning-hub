@@ -20,6 +20,9 @@
 | S2 | [AI Systems Performance Engineering（Google Drive）](https://drive.google.com/file/d/175CT7Ev1RHGyy8BLY9XBc5mQR3vXdLS_/view) | 推理系统和模型执行：KV cache 管理、prefix sharing/reuse、MoE 专家并行、MLA/FlashMLA 等目录主题。配合[官方书籍页面](https://www.oreilly.com/library/view/ai-systems-performance/9798341627772/)和[作者配套仓库](https://github.com/cfregly/ai-performance-engineering)使用；小节位置按实际版本目录定位。 |
 | S3 | [AI Engineering 与 Agent 系统开发计划](AI-Engineering-Agent-Learning-Plan.md) | 已有应用层主线；本计划补足推理缓存与模型架构的系统视角，避免重复维护 Agent 基础内容。 |
 | S4 | [AI Infrastructure 资料索引](../Infrastructure/Resources.md) | CUDA、推理服务与系统性能的延伸资料。 |
+| S5 | [Claude Code context management](https://code.claude.com/docs/en/claude-code-on-the-web) | 官方命令与自动压缩说明；所引页面描述 cloud sessions，使用时注意云端与本地 CLI/IDE 的差异。 |
+| S6 | [Anthropic Prompt Caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching)；[OpenAI Prompt Caching](https://developers.openai.com/api/docs/guides/prompt-caching) | 对照前缀缓存、缓存边界/有效期及命中 token 指标；实现细节按实际服务商文档确认。 |
+| S7 | [DeepSeek-V2 论文](https://arxiv.org/abs/2405.04434)；[DeepSeekMoE 论文](https://arxiv.org/abs/2401.06066) | 用原始研究理解 MLA 与 DeepSeekMoE 的机制；将论文报告的整套系统结果与单项技术效果区分。 |
 
 个人 Drive 文件供本人阅读使用；仓库只链接资料，不表示其授权公开再分发。
 
@@ -30,12 +33,12 @@
 | 顺序 | 单元 / 知识点 | 阅读入口 | 练习与完成证据 |
 |---|---|---|---|
 | 1 | **系统分层**：模型、harness、推理服务分别负责什么 | S1 第 2、6、9 章；S2 总体架构与目录 | 画出“模型生成 → harness 组装上下文并执行工具 → 推理服务计算”的数据流；能把 MoE/MLA 与上下文压缩放到正确层次。 |
-| 2 | **上下文窗口与上下文工程**：token 预算、近期对话、摘要、按需加载 | S1 第 5–6 章；S3 模块 5 | 给长任务列出必须保留的约束、可摘要的信息和可按需检索的细节；解释压缩可能损失什么。 |
+| 2 | **上下文窗口与上下文工程**：token 预算、近期对话、摘要、按需加载 | S1 第 5–6 章；S3 模块 5；S5 Claude Code context management 文档 | 给长任务列出必须保留的约束、可摘要的信息和可按需检索的细节；解释压缩可能损失什么。 |
 | 3 | **RAG 与向量检索**：切块、embedding、向量数据库、重排及引用 | S1 第 6 章；S3 模块 6 | 为一个问题标注“查询 → 命中片段 → 生成答案”的来源链；区分语义召回和重要性/权限元数据的作用。 |
 | 4 | **Agent harness 与上下文管理**：工具循环、检索、摘要、恢复 | S1 第 6 章及 Agent 章节；S3 模块 2–5、7–9 | 为 coding agent 画出 harness 与模型的职责边界；说明压缩后的信息如何与文件检索、状态记录配合。 |
-| 5 | **Prompt cache 与 KV cache**：缓存对象、前缀复用、命中率影响因素 | S1 第 5、9 章；S2 KV Cache Management、KV Cache Reuse and Prefix Sharing（目录列于第 18 章） | 对比两类缓存各自缓存什么；设计固定前缀、动态内容靠后的请求，并解释摘要改写为何可能影响前缀复用。 |
-| 6 | **MoE**：路由器、专家、激活参数与专家并行成本 | S2 中 MoE / Expert Parallelism 相关章节或小节，按实际版本目录定位 | 解释总参数量、每 token 激活参数量与实际显存/通信成本的区别；画出 token 路由到专家的示意。 |
-| 7 | **MLA 与 KV cache 表示**：潜在表示如何减少缓存负担 | S2 第 18 章 FlashMLA / Multi-Head Latent Attention 相关内容 | 解释 MLA 优化的对象及其与 KV cache 的关系；与 harness 的对话压缩比较，指出两者发生在不同层。 |
+| 5 | **Prompt cache 与 KV cache**：缓存对象、前缀复用、命中率影响因素 | S1 第 5、9 章；S2 KV Cache Management、KV Cache Reuse and Prefix Sharing（目录列于第 18 章）；S6 两家 API 的 Prompt Caching 文档 | 对比两类缓存各自缓存什么；设计固定前缀、动态内容靠后的请求；分别读取平台返回的 cached-token 用量，比较缓存命中、未命中时的输入 token、延迟和费用；解释摘要改写为何可能影响前缀复用。 |
+| 6 | **MoE**：路由器、专家、激活参数与专家并行成本 | S2 中 MoE / Expert Parallelism 相关章节或小节，按实际版本目录定位；S7 DeepSeekMoE 与 DeepSeek-V2 论文 | 解释总参数量、每 token 激活参数量与实际显存/通信成本的区别；画出 token 路由到专家的示意。 |
+| 7 | **MLA 与 KV cache 表示**：潜在表示如何减少缓存负担 | S2 第 18 章 FlashMLA / Multi-Head Latent Attention 相关内容；S7 DeepSeek-V2 论文 | 解释 MLA 优化的对象及其与 KV cache 的关系；与 harness 的对话压缩比较，指出两者发生在不同层。 |
 | 8 | **综合设计**：从对话策略到模型/服务优化 | S1 第 9 章；S2 KV cache 和模型执行相关章节 | 为长时 coding agent 写一页设计说明：哪些上下文保留、摘要或检索，哪些前缀保持稳定，何时选择更强模型，MoE/MLA 能缓解哪些资源限制；列出尚未解决的问题。 |
 
 ### 单知识点完成标准
