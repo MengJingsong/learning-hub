@@ -33,3 +33,9 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] scale vertically
 - [vocab] bottleneck
 - [phrase] coordination overhead
+- [phrase] end-to-end delay
+- [phrase] delay variation
+- [vocab] jitter
+- [vocab] throughput
+- [vocab] admission control
+- [phrase] meet a deadline
