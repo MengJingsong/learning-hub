@@ -8,7 +8,7 @@ Read `coaching.md` and use `english-speaking-coach` to guide natural spoken phra
 
 For an initial `听力训练` request, output only the English passage or passages intended to be heard. Use natural North American English, usually at a natural conversational pace. Adjust complexity and speed to the learner's goal and demonstrated needs.
 
-Base passages on explicitly selected material, or on relevant Core and weak items from `/english/study-materials/`. Use the host's audio capability when available. A text passage can also be read aloud by the learner's chosen tool.
+Base passages on explicitly selected material, or on relevant Core and weak items from `/english/study-materials/`. When a passage or feedback teaches a specific corpus entry, consult its exact-heading note under `/english/study-materials/explanations/` and use the documented meaning and usage. Use the host's audio capability when available. A text passage can also be read aloud by the learner's chosen tool.
 
 Keep this response limited to the English listening content. Defer questions, translations, explanations, headings, feedback, and save confirmations to the next interaction.
 
