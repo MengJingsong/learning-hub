@@ -1,6 +1,6 @@
 # English Corpus Walkthrough
 
-Updated 2026-11-17.
+Updated 2026-11-18.
 
 ## Learning preference and two-pass workflow
 

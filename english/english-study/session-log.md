@@ -18,3 +18,10 @@ Use this file for concise, meaningful learning events. Keep the detailed current
 - Learner response: 'The school will implement this new rule starting from next month'. Grammar and future time phrasing were acceptable. Implement fits putting a rule into effect; the response did not express strict enforcement or retrieve enforce.
 - Prior scores retained, with no increase in the success streak. Focus for feedback is 'strictly enforce a rule'. 'Starting next month' is a concise stylistic alternative to 'starting from next month'. Retry pending in a new rule-compliance context; next delayed review 2026-11-18. Audio skills were not assessed.
 - Plan update requested after the written attempt. The learner now wants direct explanations of the corpus entries in small batches. The pending police-rule translation retry is cancelled. Follow `learning-plan.md` for preferences, coverage, and continuation. Explanation coverage carries no mastery-score increase.
+
+
+## 2026-11-18
+- Progress: Completed the vocabulary walkthrough through `Scaffold`, following the formal corpus order. The next planned set begins with `Precedent`; the two-pass format has not yet started for that set.
+- Learning preference: Starting with the next batch, use the two-pass flow in `learning-plan.md`: English-only paragraphs with bold target entries first, followed by individual Chinese explanations when the learner says `继续`. The second pass includes fixed/common collocations, their usage or structure, and natural examples.
+- Reinforcement: All 25 annotated items are consolidated and the queue is empty. Reinforcement remains separate from assessment.
+- Assessment: No new assessment evidence was collected during the corpus walkthrough; retain existing mastery records without score changes.
