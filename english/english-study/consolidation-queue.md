@@ -4,19 +4,18 @@ This file tracks items the learner wants to revisit for stronger understanding. 
 
 ## Pending
 
-Added 2026-11-17 from learner annotations. Explain items individually; include a short contrast only where a specific confusion is noted.
-
-- [ ] Conventional — source: `study-materials/vocabulary.md`; contrast with traditional.
-- [ ] Eligible — source: `study-materials/vocabulary.md`.
-- [ ] Stash — source: `study-materials/vocabulary.md`.
-- [ ] Emit — source: `study-materials/vocabulary.md`; contrast with omit.
-- [ ] Under-tested — source: `study-materials/vocabulary.md`; clarify that it means insufficiently tested, not currently being tested.
-- [ ] Overshoot — source: `study-materials/vocabulary.md`.
+No items currently pending.
 
 ## Completed
 
 Consolidated individually on 2026-11-17 with fresh examples and usage notes. These explanations do not change assessed mastery.
 
+- [x] Conventional — source: `study-materials/vocabulary.md`; contrasted with traditional.
+- [x] Eligible — source: `study-materials/vocabulary.md`.
+- [x] Stash — source: `study-materials/vocabulary.md`.
+- [x] Emit — source: `study-materials/vocabulary.md`; contrasted with omit.
+- [x] Under-tested — source: `study-materials/vocabulary.md`; clarified insufficient testing versus currently being tested.
+- [x] Overshoot — source: `study-materials/vocabulary.md`.
 - [x] Corroboration — source: `study-materials/vocabulary.md`
 - [x] Backlog — source: `study-materials/vocabulary.md`
 - [x] Transient — source: `study-materials/vocabulary.md`
