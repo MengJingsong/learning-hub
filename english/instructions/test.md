@@ -4,7 +4,7 @@ Trigger: the user says “测试” or clearly asks to be tested.
 
 Read `coaching.md` and the task instruction matching the requested assessment. Use `english-learning-coach` with `study.md` for words, phrases, and grammar. Use `english-speaking-coach` with `speaking.md` or `listening.md` for speaking or listening. With no specified modality, use the active exercise or assess due vocabulary, phrases, and grammatical structures.
 
-Test active mastery of `/english/study-materials/`, including independent production in context.
+Test active mastery of `/english/study-materials/`, including independent production in context. For any teaching or feedback supplied during the test, consult the entry's exact-heading explanation under `/english/study-materials/explanations/` and use it as the documented reference.
 
 Prefer:
 - unprompted recall;
