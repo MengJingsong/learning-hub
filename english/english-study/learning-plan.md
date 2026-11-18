@@ -2,17 +2,21 @@
 
 Updated 2026-11-17.
 
-## Learning preference
+## Learning preference and two-pass workflow
 
-Explain the formal study entries directly in Chinese with natural North American English examples. The learner requested an explanation-led walkthrough. Use this preference for ordinary learning and review until the learner changes it. Assessment or production exercises are opt-in through an explicit later request.
+Ordinary corpus learning follows two passes. The default batch is 15 words or phrases; use a different batch size when the learner specifies N.
 
-Continue the corpus walkthrough in batches of 15 entries. Give the meaning and useful senses, pronunciation when helpful, register, common collocations or structures, translated examples, and essential usage distinctions. Grammar entries receive a structural explanation and worked examples. Adjust depth to the entry and the learner's follow-up questions.
+**Pass one — English reading.** Select the current N target entries and weave every one into a few fluent, natural English paragraphs. Bold each target word or phrase in Markdown. Give only the English paragraphs, without a title, translation, definitions, vocabulary notes, or other commentary. Preserve each target form where natural; adjust grammar only when needed for fluent English. Prefer coherent prose over sentence-by-sentence stuffing. Include long or complex sentences and elliptical sentences when they sound natural. The learner's request allows drawing on patterns in `study-materials/sentence-patterns.md`; adapt patterns to the passage rather than forcing them.
 
-The previous police speed-limit translation retry is cancelled. On `继续`, explain the next uncovered batch.
+**Pass two — detailed explanations.** When the learner next says `继续` after a first-pass passage, explain that same batch in Chinese, one entry at a time. Cover relevant meanings, pronunciation when helpful, register, common collocations or structures, and the word's meaning in its passage. Add a direct contrast only for a confusion the learner has identified. Do not test the learner or require them to produce sentences.
+
+The learner's `继续` advances the two-pass sequence: first-pass paragraphs, then their detailed explanations, then the next batch's paragraphs. If the learner asks a direct question between passes, answer it and retain the current batch for its second pass. Follow explicit requests to skip or change a pass.
+
+The previous police speed-limit translation retry is cancelled.
 
 ## Coverage order
 
-Complete the current batch, then cover the remaining Core entries, followed by Useful and Specialized. Within each tier, follow the existing order in vocabulary, phrases, sentence patterns, everyday English, academic English, CS research English, and pronunciation/listening. Explain each entry individually and check coverage before repeating an item.
+Complete the current batch, then cover the remaining Core entries, followed by Useful and Specialized. Within each tier, follow the existing order in vocabulary, phrases, sentence patterns, everyday English, academic English, CS research English, and pronunciation/listening. Select N uncovered entries (15 by default) and check coverage before repeating an item. Present each batch using the two-pass workflow above.
 
 The formal corpus snapshot contains 677 item-lines across seven files. Preserve entries at their authoritative source paths and explain each item individually.
 
@@ -20,13 +24,13 @@ The formal corpus snapshot contains 677 item-lines across seven files. Preserve 
 
 Track requested reinforcement in [`consolidation-queue.md`](consolidation-queue.md). Keep one item per line with its source corpus entry and a short note when the learner identifies a specific confusion.
 
-Resolve pending queue items before moving on to new corpus entries. Explain every item individually with fresh examples, common usage, and a concise usage cue. Do not group items by theme. When the learner explicitly identifies confusion between particular terms, add a focused contrast between those terms with distinct examples; do not invent extra confusing pairs. Mark an item complete only after its explanation has been delivered.
+Resolve pending queue items before moving on to new corpus entries. Explain every item individually with fresh examples, common usage, and a concise usage cue. Do not group items by theme. When the learner explicitly identifies confusion between particular terms, add a focused contrast between those terms with distinct examples; do not invent extra confusing pairs. Mark an item complete only after its detailed second-pass explanation has been delivered.
 
 Do not add quizzes or require learner production during consolidation. This queue records requested reinforcement, not assessed mastery; keep it separate from explanation coverage and mastery scores.
 
 ## Explanation coverage
 
-This list tracks explanations supplied in the conversation. It is separate from the evidence-based scores in `mastery.md`. Append each batch after preparing the explanation for delivery and use the conversation to confirm the last delivered batch when resuming.
+This list tracks detailed second-pass explanations supplied in the conversation. It is separate from English-only first-pass exposure and from the evidence-based scores in `mastery.md`. Record a batch as explained only after its second pass has been delivered; use the conversation to confirm which pass is next when resuming.
 
 Earlier explanation on 2026-11-17
 
