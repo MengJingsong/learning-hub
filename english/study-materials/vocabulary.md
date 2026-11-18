@@ -3,7 +3,7 @@ FORMAT RULES:
 - One study item per line.
 - Every study item starts with "- ".
 - Keep entries lightweight; add only essential disambiguation notes when needed.
-- Detailed meaning, register, context, pronunciation, and examples may be supplied dynamically during study.
+- Every formal entry must have a matching exact-heading explanation in `explanations/vocabulary.md`; consult it when teaching or reviewing the entry.
 - Priority tiers: Core > Useful > Specialized.
 -->
 
