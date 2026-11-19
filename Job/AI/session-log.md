@@ -1,5 +1,17 @@
 # AI Session Log
 
+## 2026-11-19 — Foundation：Instructions vs. External Data
+
+- 知识点 ID：`ae.model-io.instructions-vs-external-data`。
+- 阶段：讲解完成；本次学习结束；未测试、未评估。
+- 本次范围：Instruction 与 External Data 的定义和区别；外部资料中的命令式文本不因语气而获得指令权威性；Prompt Injection；结构化来源、数据边界标记与 Runtime 权限隔离；用户委托外部文档执行特定任务的授权边界。
+- 核心要点：外部数据可以包含指令，但默认仍是待处理的数据；XML/Markdown 分隔符有助于表达边界但不是安全机制；安全执行不能只依赖 Prompt，还需要最小权限、参数校验、明确授权及必要的人工审批。
+- 案例：AI 学习助手读取 GitHub README，提取技术知识但不执行文档中要求泄露提示词或扩大权限的恶意文本。
+- 英语融入：`untrusted external data`（不可信外部数据）、`data isolation`（数据隔离）、`prompt injection`（提示注入）、`least privilege`（最小权限）、`privilege escalation`（权限提升）、`explicit authorization`（明确授权）。
+- 能力证据：本次为讲解，学习者未要求测试；没有独立作答或迁移评估证据，不更新 mastery，不推断已掌握。
+- 剩余疑问：未记录；本次学习结束。
+- 下一步：下次继续时学习模块 1 的 Token 与 Context Window；仍按单知识点讲解与答疑，不主动测试。
+
 ## 2026-11-19 — Foundation：Message Roles 与消息来源
 
 - 知识点 ID：`ae.model-io.message-roles`。
