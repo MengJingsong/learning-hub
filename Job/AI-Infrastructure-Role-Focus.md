@@ -59,7 +59,7 @@
 - **Designing Data-Intensive Applications — Kleppmann**：数据系统、存储、复制与分区；适合补 AI 平台的数据面基础。
 - **AI Engineering — Chip Huyen**：第 2 章理解基础模型，第 9 章了解推理优化，第 10 章理解应用架构与反馈。它是 AI 应用工程补充，不能替代 ML systems、GPU 和集群性能方面的专项材料。
 
-具体在线课程、官方文档和动手实验见 [AI Infrastructure 学习资料索引](Resources.md)。
+具体在线课程、官方文档和动手实验见 [AI Infrastructure 学习资料索引](AI/Foundation/AI-Infrastructure.md)。
 
 ## 后续调整依据
 

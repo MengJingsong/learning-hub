@@ -10,7 +10,7 @@
 | [CS/](CS/README.md) | 算法、操作系统、网络、数据库等基础计算机知识点 | [CS router](CS/instructions/router.md) |
 | [Distributed System/](Distributed%20System/README.md) | 一致性、复制、分区、容错、共识与分布式系统设计原理 | [Distributed System router](Distributed%20System/instructions/router.md) |
 | [AI/](AI/README.md) | AI、机器学习、LLM、AI engineering 与 AI infrastructure 知识点 | [AI router](AI/instructions/router.md) |
-
+| [AI Infrastructure 岗位定位](AI-Infrastructure-Role-Focus.md) | 目标岗位、研究经验迁移与学习方向 | [Job router](instructions/router.md) |
 | [career-development.md](career-development.md) | 长期职业目标、岗位与技能差距、里程碑、求职准备、Networking 行动及决策复盘 | [Job router](instructions/router.md) |
 
 ## 共享技术学习指引

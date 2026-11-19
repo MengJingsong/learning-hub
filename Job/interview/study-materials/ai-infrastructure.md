@@ -2,7 +2,7 @@
 
 目标方向由用户明确为 AI infrastructure。以下为建议练习范围，不是对现有能力的评估，也不是某家公司的固定题库。
 
-知识与在线/下载资源统一维护在 [AI Infrastructure 学习资料索引](../../AI/Infrastructure/Resources.md)，避免重复维护。先按 JD 选择训练、推理、kernel/编译或平台分支，再决定深度。
+知识与在线/下载资源统一维护在 [AI Infrastructure 学习资料索引](../../AI/Foundation/AI-Infrastructure.md)，避免重复维护。先按 JD 选择训练、推理、kernel/编译或平台分支，再决定深度。
 
 ## 通用与专项
 

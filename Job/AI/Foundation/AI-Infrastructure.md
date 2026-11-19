@@ -1,10 +1,10 @@
-# AI Infrastructure 学习资料索引
+# AI Infrastructure：系统原理与性能实验
 
-整理日期：2026-10-28（America/New_York）。目标：AI infrastructure 面试准备。链接经本次检索核对；软件文档持续变化，实践时记录框架、CUDA、驱动与硬件版本。
+本专题属于 [AI Foundation 主计划](AI-Engineering-Agent-Learning-Plan.md)。学习模块 11 的 KV cache 后，可进入多请求的显存、吞吐和延迟实验；模块 12、13 可结合专家通信和缓存表示选读。分布式训练从训练显存预算和集合通信开始，GPU 性能从内存层次与 profiler 开始，集群调度从资源请求和任务放置开始。
 
-本文件是资源目录与建议路线，不是已学习或已掌握的记录。概念学习记录在 /Job/AI/mastery.md 和 /Job/AI/session-log.md；面试练习见 [AI infrastructure 面试清单](../../interview/study-materials/ai-infrastructure.md)。本轮只保存网址与索引，未下载或上传下表中的第三方全文。
+目标岗位与研究经验迁移见 [Job 岗位定位](../../AI-Infrastructure-Role-Focus.md)。概念学习使用 [AI Session Log](../session-log.md) 与 [AI Mastery](../mastery.md)，面试练习见 [面试清单](../../interview/study-materials/ai-infrastructure.md)。
 
-## 1. 先确定岗位分支
+## 1. 选择技术方向
 
 | 分支 | 优先知识 | 可证明能力的练习 |
 |---|---|---|
@@ -22,7 +22,6 @@
 | 资源 | 官方入口 / 下载入口 | 重点 | 保存建议 |
 |---|---|---|---|
 | Dive into Deep Learning / 动手学深度学习 | [英文](https://d2l.ai/) · [中文](https://zh.d2l.ai/) · [英文 PDF](https://d2l.ai/d2l-en.pdf) · [源仓库及许可](https://github.com/d2l-ai/d2l-en) | 自动求导、优化、Transformer、计算性能、多 GPU | 文本采用 CC BY-SA 4.0；转载时保留署名与许可，代码核对对应许可。优先保存自己的代码与笔记 |
-| Introduction to Machine Learning Systems | [官网](https://mlsysbook.ai/) · [Volume I](https://mlsysbook.ai/vol1/index.html) · [许可说明](https://mlsysbook.ai/about/) | 系统约束、硬件、优化与部署 | 免费在线；下载格式以对应卷的官方入口为准。不同版本及材料的许可须逐项核对，不统一推断再分发权限；Volume II 为 preview。教材定位详见第 2.1 节 |
 | OSTEP | [作者网站及分章 PDF](https://pages.cs.wisc.edu/~remzi/OSTEP/) | 虚拟内存、线程、锁、条件变量、I/O | 可从作者网站下载阅读；本索引不主张已获得 GitHub 再分发权限，建议链接与自写笔记 |
 | CUDA Programming Guide | [在线](https://docs.nvidia.com/cuda/cuda-programming-guide/) · [PDF](https://docs.nvidia.com/cuda/cuda-programming-guide/pdf/cuda-programming-guide.pdf) | 执行模型、内存、streams、同步 | 可下载阅读；仓库优先保留官方链接及所用版本 |
 | Stanford CS336 | [课程与作业](https://cs336.stanford.edu/) | 模型实现、性能、训练系统、数据 | 课程提供讲义/作业资源；逐项检查许可，优先链接官方文件，自己的实现放独立目录 |
@@ -31,7 +30,7 @@
 | FlashAttention (2022) | [论文页](https://arxiv.org/abs/2205.14135) · [PDF](https://arxiv.org/pdf/2205.14135) | IO-aware attention、tiling、在线 softmax | 同上；重点理解机制，不背历史硬件的性能数字 |
 | PagedAttention / vLLM (2023) | [论文页](https://arxiv.org/abs/2309.06180) · [PDF](https://arxiv.org/pdf/2309.06180) | KV cache、碎片与分页、共享 | 同上；论文设计与当前 vLLM 实现分开学习 |
 
-已有仓库 PDF：DDIA 与 Distributed Systems。用于补充复制、分区、容错、存储和通信等系统原理；不是 GPU/训练/推理专项教材。下载大文件后可通过本地 Git/GitHub Desktop 提交；当前连接器 16 MiB 请求限制还包含编码与封装开销，不能按原始文件 16 MB 判断能否上传。
+DDIA 和 Distributed Systems 用于补充复制、分区、容错、存储和通信。
 
 ## 2.1 系统教材：主线与专项
 
@@ -52,40 +51,20 @@
 4. 将书中的原理与本索引的 PyTorch Distributed、NCCL、vLLM、CUDA 等当前官方文档对照；教材不代替版本相关 API 文档。
 5. DDIA 与 Distributed Systems 用于补充通信、存储、复制、容错和恢复，不作为 GPU 或深度学习专项教材。
 
-### 单知识点复习规则
+每次聚焦一个具体知识点，按 [共享学习指引](../../instructions/learning.md) 讲解和记录。
 
-- 每次只复习一个具体知识点，而不是一次学完整章。例如 Memory hierarchy 可继续拆为 Global memory、Shared memory、Coalesced access，分别学习。
-- 中文解释，关键术语和关键词使用 English；首次出现可附中文释义。
-- 先读取 AI 学习记录并核对相应教材原文，讲解、举例和答疑；仅在用户明确要求后测试，一次一题。
-- 有疑惑时继续当前点；用户明确要求进入下一个知识点后才推进。用户选择未经测试继续时，保留“未评估”，不自动判定掌握。
-- 记录具体知识点、来源章节与版本、讲解/测试阶段和实际证据，不从阅读或资料收录推断能力。
-
-可复制请求：
-
-- `知识点复习，机器学习系统：设计和实现。每次只选一个符合先修的知识点，中文讲解、关键术语用 English，等我要求后再测试。`
-- `AI模式，根据 AI infrastructure 索引和我的学习记录，从 PMPP 中选一个 GPU 基础知识点；先读取相关原文，讲解并答疑，等我说进入下一个再推进。`
-- `AI模式，按 AI Systems Performance Engineering 复习一个 Profiling 知识点；结合一个可测量的例子解释，等我要求后测试。`
-
-本次只添加教材信息、官方链接与阅读路线，没有下载或上传上述四本教材全文。完整在线阅读、平台内离线阅读、可下载 PDF 与获准公开再分发是不同权限，不能相互推断。
-
-## 3. 在线主线：按需要选，不必全部通读
+## 3. 并行、训练、服务与平台专项入口
 
 P0 = 通用基础或该分支首选；P1 = 定向深入。优先级不是掌握程度。
 
 | ID | 优先级 | 在线资料 | 本轮建议范围 / 复习目标 |
 |---|---|---|---|
-| ai-foundations | P0 | [D2L](https://d2l.ai/) / [中文](https://zh.d2l.ai/) | autograd、优化器、Transformer、批处理；解释一次训练 step 的计算与内存 |
 | ai-parallel | P0 | [CMU 15-418/618](https://www.cs.cmu.edu/~418/) · [课表](https://www.cs.cmu.edu/~418/schedule.html) | 并行模型、GPU、内存层次、性能；解释速度为何不随设备数线性增长 |
 | ai-training | P0-训练 | [PyTorch Distributed Overview](https://docs.pytorch.org/tutorials/beginner/dist_overview.html) | DDP、FSDP2、TP、PP 的适用条件；再从该入口进入具体教程 |
 | ai-communication | P0-训练 | [NCCL User Guide](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/index.html) | AllReduce、AllGather、ReduceScatter、执行顺序与故障；理解而非背 API |
 | ai-serving | P0-推理 | [vLLM docs](https://docs.vllm.ai/en/latest/) | Quickstart、benchmarking、metrics、prefix cache、parallelism；结合 PagedAttention |
-| ai-gpu | P0-kernel | [CUDA Programming Guide](https://docs.nvidia.com/cuda/cuda-programming-guide/) | thread/block/warp、内存访问、同步与异步执行 |
-| ai-triton | P1-kernel | [Triton tutorials](https://triton-lang.org/main/getting-started/tutorials/) | 按 vector add → fused softmax → matmul 练习；比较正确性与带宽/算力瓶颈 |
 | ai-profiling | P0 | [PyTorch Profiler](https://docs.pytorch.org/tutorials/recipes/recipes/profiler_recipe.html) · [Nsight Systems](https://docs.nvidia.com/nsight-systems/UserGuide/index.html) | CPU/GPU 时间线、数据等待、kernel launch、同步、通信重叠 |
-| ai-llm-systems | P1 | [Stanford CS336](https://cs336.stanford.edu/) | 有训练循环和 Transformer 基础后，选系统相关讲义与作业；无需先做完全部课程 |
 | ai-platform | P0-平台 | [Kubernetes GPU scheduling](https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/) · [Device plugins](https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/device-plugins/) · [Scheduling](https://kubernetes.io/docs/concepts/scheduling-eviction/) | GPU 资源声明、设备插件、调度/抢占/驱逐；进阶研究拓扑与多租户隔离 |
-| ai-systems-overview | P1 | [MLSys Book](https://mlsysbook.ai/) | 把计算、内存、网络和运维组织成统一系统视角 |
-| ai-os | 按短板补 | [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/) | 进程线程、虚拟内存、并发、持久化 |
 
 主线建议：D2L 必要基础 → CUDA/并行计算 + profiler → PyTorch 分布式或 vLLM → 相关论文 → 选一个专项实验。平台岗位可将 Kubernetes 与 Linux/分布式基础提前。
 

@@ -43,6 +43,8 @@
 |---|---|---|---|---|---|---|
 | 待填写 | 待填写 | 待评估 | 待填写 | 待填写 | 待填写 | 待填写 |
 
+当前 AI 岗位方向见 [AI Infrastructure 岗位定位](AI-Infrastructure-Role-Focus.md)。
+
 相关入口：[基础计算机](CS/README.md)、[分布式系统](Distributed%20System/README.md)、[AI](AI/README.md)、[面试准备](interview/README.md)。规划不替代各专题的掌握度记录。
 
 ## 3. 阶段性里程碑

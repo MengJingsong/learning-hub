@@ -7,4 +7,6 @@
 
 Harness 主教材见 [Aliyun AI Agent Handbook 阅读地图](Aliyun-AI-Agent-Handbook.md)。从头学习由模块 1 的消息角色开始，随后学习 Harness 职责、工具和执行循环；各模块的先修、案例和对应阅读均在主计划中。
 
+[AI Infrastructure：系统原理与性能实验](AI-Infrastructure.md) 收录分布式训练、推理服务、GPU 性能和集群调度。按先修选一个方向；模块 11 的 KV cache 可衔接多请求推理压测。
+
 进度记录统一维护在 [AI Mastery](../mastery.md) 和 [AI Session Log](../session-log.md)。

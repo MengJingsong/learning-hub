@@ -29,7 +29,7 @@
 
 实际教学前读取对应资料，不把索引描述当成已阅读全文；无法访问时说明限制，不编造内容或出处。历史不足时说明掌握程度未知，依据先修选择基础切入点，不默认你完全没有基础。
 
-资料入口：[AI infrastructure 资源索引](../../AI/Infrastructure/Resources.md)。
+资料入口：[AI infrastructure 资源索引](../../AI/Foundation/AI-Infrastructure.md)。
 
 ## 3. 讲解之后怎么继续？
 
