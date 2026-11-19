@@ -1,5 +1,11 @@
 # AI Session Log
 
+## 2026-11-18 — Foundation 重新开始与教材迁移
+
+- 当前路线：按学习者要求从模块 1 开始。本次对话已介绍 `ae.model-io.message-roles`（消息角色与来源）；阶段为讲解与答疑，尚无评估证据。
+- 手册原课程 checkpoint 为“计划已建立，正文尚未开始”。本次整合课程目录，手册学习按 Foundation 主线进行。此前工具调用讲解保留在下方作为历史记录。
+- 续学位置：模块 1 消息角色；学习者要求进入下一点后学习指令与外部数据。明确要求从头开始时回到模块 1 首课。
+
 ## 2026-11-18 — AI engineering：Tool call request 与 Execution（续学）
 
 - 知识点 ID：`ae.tool-calling.request-vs-execution`。
