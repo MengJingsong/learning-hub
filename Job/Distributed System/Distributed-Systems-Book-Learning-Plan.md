@@ -1,6 +1,6 @@
 # Distributed Systems Book Learning Plan
 
-**Last updated:** November 17, 2026
+**Last updated:** November 18, 2026
 
 ## Source
 
@@ -54,9 +54,9 @@ When helpful, briefly summarize earlier concepts and explain how they connect to
 
 Make English learning a substantial part of every technical lesson, alongside detailed understanding of the book. Teach from the book's English terminology and explain the concept in Chinese, connecting each key term to its actual role in the system.
 
-For every lesson, select a broad but manageable set of vocabulary from the covered section. Include core technical nouns, verbs, adjectives, common collocations, and useful sentence patterns. Translate key items when they first appear and reinforce them in examples and later explanations. As a practical target, annotate at least two or three useful English terms or phrases in each explanatory paragraph where terminology is present. Also add a short bilingual vocabulary recap at the end of the lesson, grouped by concept or usage. Avoid translating every function word or ordinary sentence mechanically.
+Use a substantial and visible amount of bilingual explanation throughout each lesson. Explain every key concept and key technical expression in English alongside its Chinese meaning where it first appears, and reinforce the pairing in the worked example. When the book's source passage contains a long or syntactically difficult sentence, or an elliptical sentence/construction, show the relevant English wording and explain its meaning and structure in Chinese at that point in the lesson. Break down clauses, omitted elements, collocations, and grammar when useful. Keep these bilingual explanations integrated with the technical discussion rather than collecting them in a separate end section.
 
-Integrate English and Chinese side by side at the point where each key concept or expression is taught; do not reserve English explanations for a separate section at the end. When useful, quote a relevant sentence or phrase from the book and explain it inline with a Chinese translation. Long or syntactically difficult sentences and elliptical constructions from the source may also be broken down and paired with a Chinese translation during the lesson. Explain useful word formation, collocations, grammar, or distinctions between related terms where they arise. Prefer expressions found in the book's section or closely grounded in its examples.
+Select a broad but manageable set of section-specific language: core technical nouns, verbs, adjectives, collocations, and useful sentence patterns. Prefer the book's own terminology and expressions grounded in its examples. Avoid mechanically translating ordinary prose or function words that do not help explain the concept. Explain useful word formation, grammar, or distinctions between related terms as they arise. A separate end-of-lesson vocabulary recap is not required.
 
 Abbreviations should include the full English expansion and Chinese meaning on first use, such as “远程过程调用（RPC, remote procedure call）”. Keep the Chinese explanation fluent and readable while maintaining visible English exposure throughout. A separate end-of-lesson vocabulary or English-expression recap is not required.
 
