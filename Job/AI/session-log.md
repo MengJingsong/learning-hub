@@ -1,5 +1,18 @@
 # AI Session Log
 
+## 2026-11-19 — Foundation：Message Roles 与消息来源
+
+- 知识点 ID：`ae.model-io.message-roles`。
+- 阶段：讲解与答疑；未测试。
+- 本次范围：结构化消息中的 role 与 content；system、developer、user、assistant、tool 五种角色；消息来源与指令权威性的区别；Chat Completions 的 messages 与 Responses API 的 input/output Items 表示差异。
+- 核心要点：role 标识消息来源/类型，content 承载消息内容；不能仅凭 content 的命令式语气改变消息来源或权威性；assistant 可生成工具调用请求，tool 结果来自外部程序，二者不可混为一谈。
+- 案例：AI 学习助手读取技术资料时，区分开发者规则、用户问题、assistant 的工具调用和 GitHub 工具返回的文档内容。
+- 英语融入：`message role`（消息角色）、`message source`（消息来源）、`instruction hierarchy`（指令层级）、`structured message format`（结构化消息格式）。
+- 能力证据：本次为讲解，没有独立作答或迁移评估；不更新 mastery，不推断已掌握。
+- 剩余疑问：等待学习者提问；本次不进入 token、context window 或结构化输出。
+- 来源：OpenAI Harmony Response Format；OpenAI Text Generation Guide；OpenAI Model Spec。
+- 下一步：围绕 message roles 与消息来源答疑；学习者明确要求进入下一点后，再学习指令与外部数据的区分。
+
 ## 2026-11-18 — Foundation 重新开始与教材迁移
 
 - 当前路线：按学习者要求从模块 1 开始。本次对话已介绍 `ae.model-io.message-roles`（消息角色与来源）；阶段为讲解与答疑，尚无评估证据。
