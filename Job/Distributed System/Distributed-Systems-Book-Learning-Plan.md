@@ -174,22 +174,22 @@ Next action:
 - **Chapter/section:** Chapter 1, §1.2.7 — quality of service.
 - **Concepts covered and status:** Quality of service (QoS) as measurable service requirements; end-to-end delay, delay variation (jitter), throughput/bandwidth, resource allocation, admission control, and adaptation under resource constraints. Introduced.
 - **Evidence:** Detailed explanation only; no learner demonstration recorded.
-- **Gaps or questions to revisit:** Distinguish network-level QoS metrics from application-level user experience; how applications adapt when guarantees cannot be maintained.
+- **Gaps or questions to revisit:** Distinguish network-level QoS metrics from application-level user experience; how applications adapt when guarantees cannot be maintained. Note (added November 20, 2026): the 4th edition v4.02 table of contents lists §1.2 only through §1.2.6; there is no §1.2.7 on quality of service. This lesson was not grounded in the book text.
 - **English items added:** *end-to-end delay*; *delay variation*; *admission control*; *meet a deadline*.
 - **Next action:** Continue to Chapter 1, §1.3, types of distributed systems.
 
 - **Date:** November 20, 2026
-- **Chapter/section:** Chapter 1, §1.3 — types of distributed systems.
-- **Concepts covered and status:** Distributed computing systems (cluster computing, grid computing, cloud computing); distributed information systems (transaction processing systems, enterprise application integration); distributed pervasive systems (home systems, electronic health care, sensor networks). Introduced.
+- **Chapter/section:** Chapter 1, §1.3 — A simple classification of distributed systems (§1.3.1–§1.3.3), re-taught from the book text.
+- **Concepts covered and status:** Classification by purpose and its blurred boundaries. §1.3.1 high-performance distributed computing: cluster computing (homogeneous nodes, management node, dedicated interconnects, lightweight and multikernel OSes); grid computing (heterogeneous federation across administrative domains, virtual organization, the fabric, connectivity, resource, collective, and application layers, and OGSA); Note 1.6 on multiprocessors, multicomputers, and DSM. §1.3.2 distributed information systems: distributed transactions, transaction primitives, ACID, nested transactions, TP monitors and distributed commit; enterprise application integration through RPC, RMI, and message-oriented middleware (publish-subscribe), plus Note 1.7's four integration styles. §1.3.3 pervasive systems: ubiquitous computing (distribution, interaction, context awareness, autonomy, and intelligence), mobile computing (MCC and MEC), sensor networks (in-network processing, TinyDB), and the cloud-edge-things hierarchy. Introduced.
 - **Evidence:** Detailed explanation only; no learner demonstration recorded.
-- **Gaps or questions to revisit:** How cloud and grid computing differ in resource ownership and allocation; which assumptions of pervasive systems break under intermittent connectivity.
-- **English items added:** *cluster computing*; *grid computing*; *cloud computing*; *transaction processing*; *enterprise application integration*; *pervasive system*; *sensor network*.
-- **Next action:** Continue to §1.4, pitfalls when developing distributed systems (common false assumptions about networks).
+- **Gaps or questions to revisit:** An earlier draft of this lesson on the same day was not grounded in the book and used non-book category names; this re-teaching replaces it. To revisit: why nested-transaction durability applies only at the top level; where Cassandra fits (an expansive distributed system, closer to a cluster than a grid); and why pervasive systems blur the decentralized-versus-distributed distinction.
+- **English items added:** *off-the-shelf*; *homogeneity*; *virtual organization*; *nested transaction*; *TP monitor (transaction-processing monitor)*; *tight coupling*; *message-oriented middleware (MOM)*; *unobtrusive*; *context awareness*; *actuator*; *in-network data processing*; pattern *mobile implies wireless, so it seems*.
+- **Next action:** Continue to §1.4, Pitfalls (false assumptions when developing distributed systems).
 
 ## Current checkpoint
 
-- **Latest completed lesson:** Chapter 1, §1.3 — types of distributed systems was explained in detail. Status: Introduced, unassessed.
-- **Coverage so far:** Book overview; §1.1.1–§1.1.3; §1.2.1–§1.2.7; §1.3. The book overview was orientation, not an assessment.
+- **Latest completed lesson:** Chapter 1, §1.3 (§1.3.1–§1.3.3) was re-taught from the book text. Status: Introduced, unassessed.
+- **Coverage so far:** Book overview; §1.1.1–§1.1.3; §1.2.1–§1.2.6 (plus an ungrounded QoS lesson logged as §1.2.7); §1.3.1–§1.3.3. The book overview was orientation, not an assessment.
 - **Evidence:** No learner explanation or application has been recorded, so understanding remains unassessed.
-- **Next action:** Begin Chapter 1, §1.4, pitfalls when developing distributed systems.
-- **English inbox:** Added the first-lesson expressions after checking for duplicates: *distributed system*, *decentralized system*, *processes and resources are spread across multiple computers*, *sufficiently spread*, and *necessarily spread*.
+- **Next action:** Begin Chapter 1, §1.4, Pitfalls (book p. 52).
+- **English inbox:** Added the first-lesson expressions after checking for duplicates: *distributed system*, *decentralized system*, *processes and resources are spread across multiple computers*, *sufficiently spread*, and *necessarily spread*. §1.3 items were added on November 20, 2026.
