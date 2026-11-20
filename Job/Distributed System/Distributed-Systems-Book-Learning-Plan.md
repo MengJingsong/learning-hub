@@ -1,6 +1,6 @@
 # Distributed Systems Book Learning Plan
 
-**Last updated:** November 18, 2026
+**Last updated:** November 20, 2026
 
 ## Source
 
@@ -178,10 +178,18 @@ Next action:
 - **English items added:** *end-to-end delay*; *delay variation*; *admission control*; *meet a deadline*.
 - **Next action:** Continue to Chapter 1, §1.3, types of distributed systems.
 
+- **Date:** November 20, 2026
+- **Chapter/section:** Chapter 1, §1.3 — types of distributed systems.
+- **Concepts covered and status:** Distributed computing systems (cluster computing, grid computing, cloud computing); distributed information systems (transaction processing systems, enterprise application integration); distributed pervasive systems (home systems, electronic health care, sensor networks). Introduced.
+- **Evidence:** Detailed explanation only; no learner demonstration recorded.
+- **Gaps or questions to revisit:** How cloud and grid computing differ in resource ownership and allocation; which assumptions of pervasive systems break under intermittent connectivity.
+- **English items added:** *cluster computing*; *grid computing*; *cloud computing*; *transaction processing*; *enterprise application integration*; *pervasive system*; *sensor network*.
+- **Next action:** Continue to §1.4, pitfalls when developing distributed systems (common false assumptions about networks).
+
 ## Current checkpoint
 
-- **Latest completed lesson:** Chapter 1, §1.2.7 — quality of service was explained in detail. Status: Introduced, unassessed.
-- **Coverage so far:** Book overview; §1.1.1–§1.1.3; §1.2.1–§1.2.7. The book overview was orientation, not an assessment.
+- **Latest completed lesson:** Chapter 1, §1.3 — types of distributed systems was explained in detail. Status: Introduced, unassessed.
+- **Coverage so far:** Book overview; §1.1.1–§1.1.3; §1.2.1–§1.2.7; §1.3. The book overview was orientation, not an assessment.
 - **Evidence:** No learner explanation or application has been recorded, so understanding remains unassessed.
-- **Next action:** Begin Chapter 1, §1.3, types of distributed systems.
+- **Next action:** Begin Chapter 1, §1.4, pitfalls when developing distributed systems.
 - **English inbox:** Added the first-lesson expressions after checking for duplicates: *distributed system*, *decentralized system*, *processes and resources are spread across multiple computers*, *sufficiently spread*, and *necessarily spread*.
