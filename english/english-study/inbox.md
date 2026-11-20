@@ -51,3 +51,12 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] actuator
 - [phrase] in-network data processing
 - [pattern] mobile implies wireless, so it seems
+- [phrase] necessarily spread
+- [phrase] sufficiently spread
+- [phrase] integrative view
+- [phrase] expansive view
+- [phrase] administrative boundary
+- [phrase] logically centralized
+- [phrase] single point of failure
+- [phrase] boil down to
+- [pattern] what it boils down to is that ...
