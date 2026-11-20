@@ -4,7 +4,7 @@
 
 ## Source
 
-Maarten van Steen and Andrew S. Tanenbaum, *Distributed Systems*, 4th edition, version 4.02 (February 2024), uploaded PDF available in this project.
+Maarten van Steen and Andrew S. Tanenbaum, *Distributed Systems*, 4th edition, version 4.02 (February 2024). The PDF is stored in Google Drive as "Distributed Systems -- Maarten van Steen & Andrew Tanenbaum.pdf" (file ID `1gUZdWNA6d-3VvKj5rKlUhfbT_L0RrVuv`).
 
 ## Learning goals
 
