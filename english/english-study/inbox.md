@@ -39,3 +39,15 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] throughput
 - [vocab] admission control
 - [phrase] meet a deadline
+- [phrase] off-the-shelf
+- [vocab] homogeneity
+- [phrase] virtual organization
+- [phrase] nested transaction
+- [phrase] TP monitor (transaction-processing monitor)
+- [phrase] tight coupling
+- [phrase] message-oriented middleware (MOM)
+- [vocab] unobtrusive
+- [phrase] context awareness
+- [vocab] actuator
+- [phrase] in-network data processing
+- [pattern] mobile implies wireless, so it seems
