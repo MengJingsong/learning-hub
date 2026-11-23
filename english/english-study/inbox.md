@@ -67,3 +67,7 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] a goal in itself
 - [vocab] outweigh
 - [pattern] the less ..., the better
+- [phrase] get a first grip on
+- [pattern] be they A, B, or C
+- [phrase] keep up the appearance of
+- [phrase] at stake

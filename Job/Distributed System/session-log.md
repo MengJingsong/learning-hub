@@ -4,8 +4,8 @@
 
 ## 当前 checkpoint
 
-- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`。
-- **下一步**：`ds.intro.eight-perspectives`（DS §1.1.3：八个研究视角，与本计划模块的对应），或先答疑本课。
+- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`、`ds.intro.eight-perspectives`。
+- **下一步**：`ds.intro.resource-sharing`（DS §1.2.1：设计目标之一，资源共享），或先答疑本课。
 - **图表**：电脑连接并授权 `G:\My Drive\books` 时可截原图；否则重画。见计划第 4 节。
 - **背景**：2026-11-17 至 2026-11-20 按旧计划讲过 DS §1.1–§1.3，记录在 [归档](session-log-archive-2026-11.md)。这些讲解没有评估证据，不计入本计划进度。
 
@@ -30,6 +30,20 @@
 ```
 
 ## 记录
+
+## 2026-11-22 — 模块 1：八个研究视角
+
+- 知识点 ID：`ds.intro.eight-perspectives`
+- 教材出处：DS §1.1.3；DDIA 无直接对应
+- 阶段：讲解
+- 本次范围：为什么要按视角研究（显式与隐式依赖交织，没有独立的通信或安全模块）→ 八个视角：架构、进程、通信、协调、命名、一致性与复制、容错、安全 → 与本计划模块的对应
+- 核心要点：视角是观察同一系统的不同切面，不是可拆开的组件；复制是效率与可依赖性的共同手段，更新使“看起来像单机”变难；完全掩盖故障及其恢复可证明不可能
+- 案例（Hadoop / Cassandra，learning-hub 自拟）：用八个视角各问一个问题，对照 HDFS/YARN 与 Cassandra
+- 图表：无（本节无图）
+- 英语融入与 inbox 新增：get a first grip on、be they A, B, or C、keep up the appearance of、at stake；长难句（容错视角“It has proven to be one of the toughest…”）、省略句（“a limited number, yet different perspectives”）
+- 能力证据：无（仅讲解）
+- 剩余疑问：无
+- 下一步：DS §1.2.1
 
 ## 2026-11-22 — 模块 1：为什么要区分分布式与去中心化
 
