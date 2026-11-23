@@ -4,8 +4,8 @@
 
 ## 当前 checkpoint
 
-- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`、`ds.intro.eight-perspectives`、`ds.intro.resource-sharing`。
-- **下一步**：`ds.intro.distribution-transparency`（DS §1.2.2：分布透明性），或先答疑资源共享。
+- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`、`ds.intro.eight-perspectives`、`ds.intro.resource-sharing`、`ds.intro.distribution-transparency`（基本含义与中间件）。
+- **下一步**：`ds.intro.access-transparency`（DS §1.2.2：访问透明性），或先答疑分布透明性的基本含义。
 - **图表**：电脑连接并授权 `G:\My Drive\books` 时可截原图；否则重画。见计划第 4 节。
 - **背景**：2026-11-17 至 2026-11-20 按旧计划讲过 DS §1.1–§1.3，记录在 [归档](session-log-archive-2026-11.md)。这些讲解没有评估证据，不计入本计划进度。
 
@@ -30,6 +30,20 @@
 ```
 
 ## 记录
+
+## 2026-11-23 — 模块 1：分布透明性的基本含义与中间件
+
+- 知识点 ID：`ds.intro.distribution-transparency`
+- 教材出处：DS §1.2.2 开头及 Figure 1.2（印刷页 11）；边界预告参考同节 pp.14–15
+- 阶段：讲解
+- 本次范围：transparent to 的技术含义 → 应用视角与实现视角 → 中间件提供统一接口 → HDFS 分步读取案例与 Cassandra 对照 → 统一接口不等于相同延迟和故障语义
+- 核心要点：透明性隐藏选定的分布细节；中间件承接复杂度而非消除复杂度；须说明对谁透明、隐藏什么；完全透明并非总能或值得实现。
+- 案例（Hadoop / Cassandra，learning-hub 自拟）：HDFS 应用按文件路径读取，由客户端与 NameNode/DataNode 协作完成；Cassandra 隐藏部分副本通信细节但显式提供一致性级别。参考 Apache 官方资料。
+- 图表：重画，依据 DS Figure 1.2 的正文及图注，简化为跨两台机器的中间件层；原 PDF 的 G 盘路径本次无读取权限。
+- 英语融入与 inbox 新增：distribution transparency、transparent to、middleware；拆解 what applications get to see is the same interface everywhere。
+- 能力证据：无（仅讲解；未测试）
+- 剩余疑问：待学习者反馈
+- 下一步：`ds.intro.access-transparency`（DS §1.2.2：访问透明性）；其余透明性类型和程度尚未逐项讲解。
 
 ## 2026-11-22 — 模块 1：资源共享
 
