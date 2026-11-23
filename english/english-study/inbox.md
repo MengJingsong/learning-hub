@@ -77,3 +77,5 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] distribution transparency
 - [phrase] transparent to
 - [vocab] middleware
+- [vocab] cross-cutting
+- [vocab] borderline
