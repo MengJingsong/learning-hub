@@ -4,9 +4,9 @@
 
 ## 当前 checkpoint
 
-- **状态**：模块 1 已开始；已讲解 `ds.intro.distributed-vs-decentralized`（2026-11-20）。
-- **下一步**：`ds.intro.why-distinction-matters`（DS §1.1.2：为什么要区分，以及集中式方案为何更简单），或先答疑本课。
-- **图表**：当前无法提取原图，默认重画；见计划第 4 节。
+- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`。
+- **下一步**：`ds.intro.eight-perspectives`（DS §1.1.3：八个研究视角，与本计划模块的对应），或先答疑本课。
+- **图表**：电脑连接并授权 `G:\My Drive\books` 时可截原图；否则重画。见计划第 4 节。
 - **背景**：2026-11-17 至 2026-11-20 按旧计划讲过 DS §1.1–§1.3，记录在 [归档](session-log-archive-2026-11.md)。这些讲解没有评估证据，不计入本计划进度。
 
 ## 记录格式
@@ -30,6 +30,20 @@
 ```
 
 ## 记录
+
+## 2026-11-22 — 模块 1：为什么要区分分布式与去中心化
+
+- 知识点 ID：`ds.intro.why-distinction-matters`
+- 教材出处：DS §1.1.2；DDIA 无直接对应
+- 阶段：讲解
+- 本次范围：集中式更简单 → 分布式/去中心化的四个固有难点（意外依赖、部分失效、动态成员、安全）→ 作者立场：去中心化本身不是目标，分散“越少越好”、够用即可 → 偏好简单方案、少谈优化
+- 核心要点：sufficiency vs necessity 是设计取舍的出发点；每多一份分散就多一份部分失效与协调成本；复杂度的代价常常超过优化的性能收益
+- 案例（Hadoop / Cassandra，learning-hub 自拟）：HDFS 把元数据集中到 NameNode，换取简单一致的命名空间，再用 HA 加固单点；Cassandra 无主，消除单点但把复杂度推到 gossip、故障检测、hinted handoff、read repair、一致性级别选择上
+- 图表：无（本节无图）；已确认可从本地 PDF 截原图
+- 英语融入与 inbox 新增：inherently difficult、mask a failure、come and go、a goal in itself、outweigh、the less ..., the better；长难句（“firmly believing that the impact of their negative contribution…”）、省略句（“In principle, the less spreading, the better.”）
+- 能力证据：无（仅讲解）
+- 剩余疑问：无
+- 下一步：DS §1.1.3
 
 ## 2026-11-20 — 模块 1：分布式与去中心化（distributed vs. decentralized）
 

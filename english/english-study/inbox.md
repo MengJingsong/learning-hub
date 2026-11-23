@@ -61,3 +61,9 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] boil down to
 - [pattern] what it boils down to is that ...
 - [vocab] entail
+- [phrase] inherently difficult
+- [phrase] mask a failure
+- [phrase] come and go
+- [phrase] a goal in itself
+- [vocab] outweigh
+- [pattern] the less ..., the better
