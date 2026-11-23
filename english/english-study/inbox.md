@@ -71,3 +71,6 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [pattern] be they A, B, or C
 - [phrase] keep up the appearance of
 - [phrase] at stake
+- [phrase] share remote resources
+- [phrase] resource contention
+- [pattern] make it easy for ... to ...
