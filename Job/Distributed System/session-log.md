@@ -4,8 +4,8 @@
 
 ## 当前 checkpoint
 
-- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`、`ds.intro.eight-perspectives`。
-- **下一步**：`ds.intro.resource-sharing`（DS §1.2.1：设计目标之一，资源共享），或先答疑本课。
+- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`、`ds.intro.eight-perspectives`、`ds.intro.resource-sharing`。
+- **下一步**：`ds.intro.distribution-transparency`（DS §1.2.2：分布透明性），或先答疑资源共享。
 - **图表**：电脑连接并授权 `G:\My Drive\books` 时可截原图；否则重画。见计划第 4 节。
 - **背景**：2026-11-17 至 2026-11-20 按旧计划讲过 DS §1.1–§1.3，记录在 [归档](session-log-archive-2026-11.md)。这些讲解没有评估证据，不计入本计划进度。
 
@@ -30,6 +30,20 @@
 ```
 
 ## 记录
+
+## 2026-11-22 — 模块 1：资源共享
+
+- 知识点 ID：`ds.intro.resource-sharing`
+- 教材出处：DS §1.2.1（第 4 版 v4.02，印刷页 10–11）；DDIA 本课未引用
+- 阶段：讲解
+- 本次范围：远程资源的含义 → 经济性与协作动机 → 共享数据与有限容量的区别 → Hadoop/Cassandra 自拟案例 → 竞争、排队与资源限制 → 与分布透明性的边界
+- 核心要点：共享让多个用户或应用访问远程资源；共享不要求单一物理副本，也不等于分布式共享内存；容量仍有限，提高利用率需要权衡竞争、网络和管理成本。
+- 案例（Hadoop / Cassandra，learning-hub 自拟）：HDFS 共享数据集与 YARN 分配计算资源；Cassandra 多应用共享数据库服务但竞争节点内存、I/O 与处理能力。基础架构对照 Apache 官方资料，不涉及配置默认值。
+- 图表：无（本节无教材图；用自拟表格对照资源类型与案例）
+- 英语融入与 inbox 新增：share remote resources、resource contention、make it easy for ... to ...；原句拆解资源共享目标中的形式宾语 it。
+- 能力证据：无（仅讲解；Mastery 保持未评估）
+- 剩余疑问：待学习者反馈
+- 下一步：`ds.intro.distribution-transparency`（DS §1.2.2），或继续本课答疑
 
 ## 2026-11-22 — 模块 1：八个研究视角
 
