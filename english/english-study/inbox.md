@@ -74,3 +74,6 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] share remote resources
 - [phrase] resource contention
 - [pattern] make it easy for ... to ...
+- [phrase] distribution transparency
+- [phrase] transparent to
+- [vocab] middleware
