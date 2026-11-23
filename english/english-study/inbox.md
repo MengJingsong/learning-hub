@@ -60,3 +60,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] single point of failure
 - [phrase] boil down to
 - [pattern] what it boils down to is that ...
+- [vocab] entail
