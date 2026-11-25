@@ -86,3 +86,6 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] location transparency
 - [phrase] logical name
 - [phrase] name resolution
+- [phrase] relocation transparency
+- [phrase] migration transparency
+- [phrase] in-flight request
