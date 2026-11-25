@@ -92,3 +92,9 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] replication transparency
 - [vocab] replica
 - [phrase] stale read
+- [phrase] concurrency transparency
+- [vocab] interleaving
+- [phrase] race condition
+- [phrase] lost update
+- [phrase] exclusive access
+- [vocab] serializability
