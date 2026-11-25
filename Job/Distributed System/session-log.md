@@ -4,8 +4,8 @@
 
 ## 当前 checkpoint
 
-- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`、`ds.intro.eight-perspectives`、`ds.intro.resource-sharing`、`ds.intro.distribution-transparency`（基本含义与中间件）、`ds.intro.access-transparency`、`ds.intro.location-transparency`、`ds.intro.relocation-transparency`、`ds.intro.replication-transparency`、`ds.intro.concurrency-transparency`；已对照引入 `ds.intro.migration-transparency`。
-- **下一步**：`ds.intro.failure-transparency`（DS §1.2.2：故障透明性），或先答疑并发透明性。
+- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`、`ds.intro.eight-perspectives`、`ds.intro.resource-sharing`、`ds.intro.distribution-transparency`（基本含义与中间件）、`ds.intro.access-transparency`、`ds.intro.location-transparency`、`ds.intro.relocation-transparency`、`ds.intro.replication-transparency`、`ds.intro.concurrency-transparency`、`ds.intro.failure-transparency`；已对照引入 `ds.intro.migration-transparency`。
+- **下一步**：`ds.intro.degree-of-transparency`（DS §1.2.2：透明性的程度与代价），或先答疑故障透明性。
 - **图表**：2026-11-24 已验证上传的两本原 PDF 可直接读取、渲染和裁剪；优先提取原图，见计划第 4 节。
 - **背景**：2026-11-17 至 2026-11-20 按旧计划讲过 DS §1.1–§1.3，记录在 [归档](session-log-archive-2026-11.md)。这些讲解没有评估证据，不计入本计划进度。
 
@@ -30,6 +30,20 @@
 ```
 
 ## 记录
+
+## 2026-11-24 — 模块 1：故障透明性与超时的不确定性
+
+- 知识点 ID：ds.intro.failure-transparency
+- 教材出处：DS §1.2.2 pp.13–14；DDIA Ch.8「Unreliable Networks」pp.278–279、Figure 8-1；「Timeouts and Unbounded Delays」p.281。
+- 阶段：讲解
+- 本次范围：自动屏蔽故障与恢复；无法仅凭无响应区分崩溃、延迟、请求/响应丢失；超时不等于未执行；重试与幂等性；超时长短的取舍。
+- 核心要点：客户端超时只表示期限内没有收到响应，不撤销远端操作；自动重试须考虑重复副作用；透明性是有故障模型与保证边界的目标。
+- 案例（Hadoop / Cassandra）：HDFS 校验失败后读取另一副本；Cassandra Java driver 根据请求幂等性约束重试。依据 Apache 官方文档；另用自拟扣款例子说明响应丢失后重复执行。
+- 图表：原图 DDIA Figure 8-1（印刷页 278 / PDF 300），直接从项目 PDF 裁剪并核验；未提交教材图到 GitHub。
+- 英语融入与 inbox 新增：failure transparency、indistinguishable、unresponsive、idempotent、deduplication、side effect；结合正文解释 congested、transient、timeout。
+- 能力证据：无（仅讲解；未评估）
+- 剩余疑问：待学习者反馈
+- 下一步：ds.intro.degree-of-transparency（DS §1.2.2：透明性的程度与代价）
 
 ## 2026-11-24 — 模块 1：并发透明性；验证两本原 PDF 截图
 
