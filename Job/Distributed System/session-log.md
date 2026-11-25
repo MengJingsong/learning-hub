@@ -4,8 +4,8 @@
 
 ## 当前 checkpoint
 
-- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`、`ds.intro.eight-perspectives`、`ds.intro.resource-sharing`、`ds.intro.distribution-transparency`（基本含义与中间件）、`ds.intro.access-transparency`。
-- **下一步**：`ds.intro.location-transparency`（DS §1.2.2：位置透明性），或先答疑访问透明性。
+- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`、`ds.intro.eight-perspectives`、`ds.intro.resource-sharing`、`ds.intro.distribution-transparency`（基本含义与中间件）、`ds.intro.access-transparency`、`ds.intro.location-transparency`。
+- **下一步**：`ds.intro.relocation-transparency`（DS §1.2.2：重定位透明性），或先答疑位置透明性。
 - **图表**：电脑连接并授权 `G:\My Drive\books` 时可截原图；否则重画。见计划第 4 节。
 - **背景**：2026-11-17 至 2026-11-20 按旧计划讲过 DS §1.1–§1.3，记录在 [归档](session-log-archive-2026-11.md)。这些讲解没有评估证据，不计入本计划进度。
 
@@ -30,6 +30,20 @@
 ```
 
 ## 记录
+
+## 2026-11-24 — 模块 1：位置透明性
+
+- 知识点 ID：`ds.intro.location-transparency`
+- 教材出处：DS §1.2.2 位置透明性段落（印刷页 12）；本课未引用 DDIA
+- 阶段：讲解
+- 本次范围：逻辑名称与物理位置分离 → 命名与解析 → 自拟文件名到节点映射 → HDFS 与 Cassandra 对照 → 与访问/重定位透明性的边界及映射维护成本
+- 核心要点：应用按逻辑名称指定资源，底层解析或路由到实际位置；名字不能只是把物理位置换成易读形式；透明性针对特定观察层，不表示安全保密或延迟相同；位置隐藏不自动保证移动期间操作不中断。
+- 案例（Hadoop / Cassandra，learning-hub 自拟）：HDFS 文件路径/块/DataNode 映射；Cassandra partition key/token/副本节点映射；逻辑名称 /datasets/run-17 与 node-7 本地路径对照。产品依据此前读取的 Apache 官方架构文档。
+- 图表：无教材图；自拟名称/位置对照表，本课不展开 Figure 1.3 全表。
+- 英语融入与 inbox 新增：location transparency、logical name、name resolution；教材短句 Naming plays an important role in achieving location transparency。
+- 能力证据：无（仅讲解；未评估）
+- 剩余疑问：待学习者反馈
+- 下一步：`ds.intro.relocation-transparency`（DS §1.2.2：重定位透明性），并按教材区分 migration transparency。
 
 ## 2026-11-24 — 模块 1：访问透明性
 
