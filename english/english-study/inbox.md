@@ -109,3 +109,10 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] make distribution explicit
 - [phrase] poorly understood semantics
 - [phrase] copy-before-use principle
+- [vocab] interoperability
+- [vocab] portability
+- [vocab] extensibility
+- [vocab] semantics
+- [vocab] neutral
+- [phrase] separate policy from mechanism
+- [vocab] self-configurable
