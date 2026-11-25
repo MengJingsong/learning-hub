@@ -4,8 +4,8 @@
 
 ## 当前 checkpoint
 
-- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`、`ds.intro.eight-perspectives`、`ds.intro.resource-sharing`、`ds.intro.distribution-transparency`（基本含义与中间件）、`ds.intro.access-transparency`、`ds.intro.location-transparency`、`ds.intro.relocation-transparency`；已对照引入 `ds.intro.migration-transparency`。
-- **下一步**：`ds.intro.replication-transparency`（DS §1.2.2：复制透明性），或先答疑重定位与迁移。
+- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`、`ds.intro.eight-perspectives`、`ds.intro.resource-sharing`、`ds.intro.distribution-transparency`（基本含义与中间件）、`ds.intro.access-transparency`、`ds.intro.location-transparency`、`ds.intro.relocation-transparency`、`ds.intro.replication-transparency`；已对照引入 `ds.intro.migration-transparency`。
+- **下一步**：`ds.intro.concurrency-transparency`（DS §1.2.2：并发透明性），或先答疑复制透明性。
 - **图表**：电脑连接并授权 `G:\My Drive\books` 时可截原图；否则重画。见计划第 4 节。
 - **背景**：2026-11-17 至 2026-11-20 按旧计划讲过 DS §1.1–§1.3，记录在 [归档](session-log-archive-2026-11.md)。这些讲解没有评估证据，不计入本计划进度。
 
@@ -30,6 +30,20 @@
 ```
 
 ## 记录
+
+## 2026-11-24 — 模块 1：复制透明性；本地 PDF 访问复核
+
+- 知识点 ID：`ds.intro.replication-transparency`
+- 教材出处：DS §1.2.2（印刷页 13）；已读取上传教材对应页
+- 阶段：讲解
+- 本次范围：一个逻辑资源与多个物理副本 → 复制动机 → 公共名称与位置透明性 → 更新传播及陈旧读取边界 → HDFS/Cassandra 对照
+- 核心要点：应用通过共同逻辑名称访问，系统管理副本；隐藏副本选择不自动保证最新读取或任意故障下可用；副本内部可有独立地址与身份。
+- 案例（Hadoop / Cassandra，learning-hub 自拟）：HDFS 块副本与统一文件路径；Cassandra 统一键与显式一致性级别；自拟 x 从 10 更新为 11 时副本传播滞后表。
+- 图表：无教材原图；自拟副本状态表。实测 G:\My Drive\books\Distributed Systems -- Maarten van Steen & Andrew Tanenbaum.pdf 返回拒绝访问，未能从本地 PDF 截图，不能据此判定文件不存在。
+- 英语融入与 inbox 新增：replication transparency、replica、stale read；教材 all replicas have the same name 的含义。
+- 能力证据：无（仅讲解；未评估）
+- 剩余疑问：本地教材访问仍受限
+- 下一步：`ds.intro.concurrency-transparency`（DS §1.2.2：并发透明性），或继续复制透明性答疑。
 
 ## 2026-11-24 — 模块 1：重定位透明性与 migration 的区别
 
