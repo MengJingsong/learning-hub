@@ -80,3 +80,6 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] cross-cutting
 - [vocab] borderline
 - [phrase] amount to
+- [phrase] access transparency
+- [phrase] data representation
+- [phrase] byte order
