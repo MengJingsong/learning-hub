@@ -4,8 +4,8 @@
 
 ## 当前 checkpoint
 
-- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`、`ds.intro.eight-perspectives`、`ds.intro.resource-sharing`、`ds.intro.distribution-transparency`（基本含义与中间件）、`ds.intro.access-transparency`、`ds.intro.location-transparency`。
-- **下一步**：`ds.intro.relocation-transparency`（DS §1.2.2：重定位透明性），或先答疑位置透明性。
+- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`、`ds.intro.eight-perspectives`、`ds.intro.resource-sharing`、`ds.intro.distribution-transparency`（基本含义与中间件）、`ds.intro.access-transparency`、`ds.intro.location-transparency`、`ds.intro.relocation-transparency`；已对照引入 `ds.intro.migration-transparency`。
+- **下一步**：`ds.intro.replication-transparency`（DS §1.2.2：复制透明性），或先答疑重定位与迁移。
 - **图表**：电脑连接并授权 `G:\My Drive\books` 时可截原图；否则重画。见计划第 4 节。
 - **背景**：2026-11-17 至 2026-11-20 按旧计划讲过 DS §1.1–§1.3，记录在 [归档](session-log-archive-2026-11.md)。这些讲解没有评估证据，不计入本计划进度。
 
@@ -30,6 +30,20 @@
 ```
 
 ## 记录
+
+## 2026-11-24 — 模块 1：重定位透明性与 migration 的区别
+
+- 知识点 ID：`ds.intro.relocation-transparency`；对照引入 `ds.intro.migration-transparency`
+- 教材出处：DS §1.2.2（印刷页 12–13，Figure 1.3 定义及其后正文）
+- 阶段：讲解
+- 本次范围：使用中的资源移动 → 只改名称映射的不足 → 不可变文件读取的自拟切换流程 → 状态与在途请求 → 与 migration 的教材术语区别 → 实现成本
+- 核心要点：名称稳定不足以保证现有操作连续；系统需要处理已有连接、读取位置与在途请求。图表强调 relocation 的 while in use；v4.02 正文另以系统发起 relocation 与用户发起 mobility 区分，不应简化为 migration 只能离线。
+- 案例（Hadoop / Cassandra，learning-hub 自拟）：HDFS Balancer 的块移动、Cassandra 拓扑变化中的 streaming；说明这些是移动场景，不据此承诺任意操作零中断。自拟只读不可变文件先复制、验证、切换新请求并排空旧请求的方案。
+- 图表：无教材图；自拟阶段表及术语对照表。
+- 英语融入与 inbox 新增：relocation transparency、migration transparency、in-flight request；教材 while in use 省略结构解析。
+- 能力证据：无（仅讲解；未评估）
+- 剩余疑问：待学习者反馈
+- 下一步：`ds.intro.replication-transparency`（DS §1.2.2：复制透明性），或继续重定位与迁移答疑。
 
 ## 2026-11-24 — 模块 1：位置透明性
 
