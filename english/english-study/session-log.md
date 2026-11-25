@@ -37,3 +37,10 @@ Use this file for concise, meaningful learning events. Keep the detailed current
 
 
 - Learning preference update (2026-11-18): adjust each item's review frequency by current comprehension level and last review date; lower levels recur sooner, higher levels less often. Keep the established passage → Chinese translation → item-by-item explanation workflow unchanged. See `learning-plan.md` for intervals and due-item selection.
+
+
+## 2026-11-24 — Batch explanation preference and checkpoint
+- Learner requested all explanations in a batch in one response, rather than one word per turn. Updated learning-plan.md and instructions/study.md; retain the English passage → Chinese translation → documented explanation and feedback workflow, with 15 entries by default.
+- Current batch: shakedown, enforce, ceiling, threshold, rollover, counterpart, inconclusive, splice, cross-reference, refute, qualify, curate, creepy, sanctimonious, convergence.
+- Learner's original glosses, in passage order: 1. 不知道; 2. 实施，执行; 3. 上限; 4. 门槛，阈值; 5. 携带前进; 6. 同行; 7. 不确定的; 8. 拼接; 9. 互相参考; 10. 反对，反驳; 11. 证实，论证; 12. 不知道; 13. 奇怪的，诡异的; 14. 符合道德的，有正义感的; 15. 统一的，.
+- Detailed explanation delivered for shakedown only. Next: explain the remaining 14 together with individual translation feedback. No new learner attempt or mastery change from this presentation-preference update.
