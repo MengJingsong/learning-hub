@@ -98,3 +98,9 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] lost update
 - [phrase] exclusive access
 - [vocab] serializability
+- [phrase] failure transparency
+- [vocab] indistinguishable
+- [vocab] unresponsive
+- [vocab] idempotent
+- [vocab] deduplication
+- [phrase] side effect
