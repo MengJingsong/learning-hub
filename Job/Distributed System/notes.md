@@ -4,8 +4,6 @@
 
 ### 分布透明性的程度 / Degree of Distribution Transparency
 
-**教材 / Source:** DS §1.2.2, pp. 14–15; Note 1.2, p. 15.
-
 - **透明性不是越高越好。** 完全的分布透明性既无法实现，也未必符合应用需求。  
   **Transparency is not always better at a higher degree.** Full distribution transparency is neither achievable nor always desirable.
 - **透明性不能消除物理成本。** 远程调用仍然存在传播延迟、处理延迟和网络开销。  
