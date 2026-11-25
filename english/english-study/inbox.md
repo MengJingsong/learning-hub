@@ -117,3 +117,4 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] separate policy from mechanism
 - [vocab] self-configurable
 - [vocab] savage
+- [vocab] premise
