@@ -19,9 +19,15 @@
 - **设计应权衡透明性与性能、可靠性及可理解性。** 决定哪些分布细节应隐藏，哪些应暴露。  
   **Design should balance transparency with performance, reliability, and understandability.** Decide which distribution details to hide and which to expose.
 
-**补充概念 / Additional concept — Copy-before-use principle:** 先复制到本地再使用可减少远程实时访问，但会引入版本管理、更新传播和并发修改问题。  
-Copying data locally before use reduces dependence on real-time remote access, but introduces versioning, update propagation, and concurrent-modification concerns.
+### 开放性 / Openness
 
-**术语 / Key terms:** propagation delay（传播延迟）；processing delay（处理延迟）；distribution transparency（分布透明性）；copy-before-use principle（先复制再使用原则）。
+- **开放性要求组件易于使用、集成、添加和替换。**  
+  **Openness makes components easy to use, integrate, add, and replace.**
+- **互操作性关注不同实现能否协作；可移植性关注应用能否不修改就迁移到另一个兼容系统。**  
+  **Interoperability is about different implementations working together; portability is about running an application on another compatible system without modification.**
+- **接口规范不仅要定义语法，还要尽可能明确语义；好的规范应完整且中立。**  
+  **Interface specifications must address semantics as well as syntax; good specifications should be complete and neutral.**
+- **分离策略与机制能提高灵活性，但过多机制和参数会增加配置复杂度。**  
+  **Separating policy from mechanism improves flexibility, but too many mechanisms and parameters increase configuration complexity.**
 
-**复习问题 / Check:** 为什么分布透明性不可能完全实现，也不一定值得最大化？ / Why is full distribution transparency impossible and not always worth maximizing?
+**术语 / Key terms:** interoperability（互操作性）；portability（可移植性）；extensibility（可扩展性）；semantics（语义）；policy（策略）；mechanism（机制）。
