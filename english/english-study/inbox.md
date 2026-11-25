@@ -83,3 +83,6 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] access transparency
 - [phrase] data representation
 - [phrase] byte order
+- [phrase] location transparency
+- [phrase] logical name
+- [phrase] name resolution
