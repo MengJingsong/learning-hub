@@ -4,8 +4,8 @@
 
 ## 当前 checkpoint
 
-- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`、`ds.intro.eight-perspectives`、`ds.intro.resource-sharing`、`ds.intro.distribution-transparency`（基本含义与中间件）。
-- **下一步**：`ds.intro.access-transparency`（DS §1.2.2：访问透明性），或先答疑分布透明性的基本含义。
+- **状态**：模块 1 进行中；已讲解 `ds.intro.distributed-vs-decentralized`、`ds.intro.why-distinction-matters`、`ds.intro.eight-perspectives`、`ds.intro.resource-sharing`、`ds.intro.distribution-transparency`（基本含义与中间件）、`ds.intro.access-transparency`。
+- **下一步**：`ds.intro.location-transparency`（DS §1.2.2：位置透明性），或先答疑访问透明性。
 - **图表**：电脑连接并授权 `G:\My Drive\books` 时可截原图；否则重画。见计划第 4 节。
 - **背景**：2026-11-17 至 2026-11-20 按旧计划讲过 DS §1.1–§1.3，记录在 [归档](session-log-archive-2026-11.md)。这些讲解没有评估证据，不计入本计划进度。
 
@@ -30,6 +30,20 @@
 ```
 
 ## 记录
+
+## 2026-11-24 — 模块 1：访问透明性
+
+- 知识点 ID：`ds.intro.access-transparency`
+- 教材出处：DS §1.2.2，访问透明性段落（印刷页 11–12）；本课未引用 DDIA
+- 阶段：讲解
+- 本次范围：数据表示与访问机制两类差异 → 整数端序及规范化编码的分步案例 → 统一接口与适配 → Hadoop FileSystem、Cassandra native protocol → 与位置透明性及语义边界的区别
+- 核心要点：访问透明性隐藏表示和访问机制差异；双方仍须遵守协议；字节传递成功不等于正确解释数据；访问透明性不保证位置、性能或故障透明性。
+- 案例（Hadoop / Cassandra，learning-hub 自拟）：Hadoop FileSystem 的公共访问抽象；Cassandra native protocol 的数据序列化约定；自拟 32 位整数 1 的大小端表示和编码/解码流程。产品事实参考 Apache 官方资料。
+- 图表：无教材图；使用自拟数据表示表和 access/location 对照表，本课不展开 Figure 1.3 全表。
+- 英语融入与 inbox 新增：access transparency、data representation、byte order；原句拆解 deals with hiding ... and the way that ...。
+- 能力证据：无（仅讲解；Mastery 保持未评估）
+- 剩余疑问：待学习者反馈
+- 下一步：`ds.intro.location-transparency`（DS §1.2.2：位置透明性），或继续本课答疑。
 
 ## 2026-11-23 — 模块 1：分布透明性的基本含义与中间件
 
