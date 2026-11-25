@@ -89,3 +89,6 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [phrase] relocation transparency
 - [phrase] migration transparency
 - [phrase] in-flight request
+- [phrase] replication transparency
+- [vocab] replica
+- [phrase] stale read
