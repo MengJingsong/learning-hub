@@ -104,3 +104,8 @@ Items here are **not yet part of the formal study corpus** and should not be use
 - [vocab] idempotent
 - [vocab] deduplication
 - [phrase] side effect
+- [phrase] propagation delay
+- [phrase] processing delay
+- [phrase] make distribution explicit
+- [phrase] poorly understood semantics
+- [phrase] copy-before-use principle
