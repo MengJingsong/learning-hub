@@ -5,10 +5,22 @@
 ## 学习计划
 
 - [分布式系统学习计划](Distributed-Systems-Learning-Plan.md)：结合 van Steen 与 Tanenbaum《Distributed Systems》第 4 版和 Kleppmann《Designing Data-Intensive Applications》，按主题组织的学习路线、双语讲解规则、图表规则，以及 Hadoop 与 Cassandra 贯穿案例。
-- [Review Notes](notes.md)：中英双语的精简复习笔记，按知识点保存核心定义、结论、边界、易混点和英文表达。 / Concise bilingual review notes organized by topic, covering key definitions, takeaways, limitations, common confusions, and useful English expressions.
+- [Review Notes](notes.md)：中英双语核心结论，供快速复习。
 - [Session Log](session-log.md)：每次讲解的记录和当前 checkpoint。
 - [Mastery](mastery.md)：评估证据。
 - [Session Log 归档（2026-11）](session-log-archive-2026-11.md)：旧计划下的讲解记录，只作背景。
+
+### Review Notes 使用说明 / Review Notes Guide
+
+`notes.md` 只保留每个知识点最重要的结论，采用中英双语，便于理解概念并练习专业英语表达。完整讲解过程记录在 Session Log，掌握度与评估证据记录在 Mastery。
+
+- 每次完成一个知识点后，补充该知识点的核心结论；不复述课堂过程。
+- 每条结论先中文、后英文，保留教材英文术语，并标注教材章节或页码。
+- 只记录必要的关键机制或限制；避免冗长解释、重复例子和大段问答。
+- 教材结论与自拟工程案例要明确区分；案例仅在确实有助于理解时保留。
+- 默认每个知识点控制在约 3–7 条核心结论；若一个结论已足够，不为凑数量而扩写。
+
+`notes.md` is a concise bilingual reference containing only the essential takeaways. Lesson details belong in Session Log; mastery and assessment evidence belong in Mastery.
 
 从 [instructions/router.md](instructions/router.md) 查找学习、复习与测试指令。优先链接已有 [CS 资料](../CS/README.md)，新专题笔记可直接放在本目录；不自动复制或迁移旧资料。模拟面试及答题表现走 [interview](../interview/README.md)。返回 [Job](../README.md)。
 
