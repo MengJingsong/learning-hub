@@ -86,5 +86,5 @@ Choose each item's next review date from its current assessed comprehension leve
 
 - Current batch in passage order: shakedown, enforce, ceiling, threshold, rollover, counterpart, inconclusive, splice, cross-reference, refute, qualify, curate, creepy, sanctimonious, convergence.
 - The learner supplied Chinese glosses for all 15 entries; preserve the response in session-log.md for translation feedback.
-- Only shakedown has received its detailed second-pass explanation in this batch. The next `继续` should explain all remaining 14 entries together, using the durable notes and the learner's glosses. Do not start a new passage yet.
+- Completed this batch's detailed second-pass explanation and individual feedback across the shakedown response and the following 14-item batch response. Next `继续`: select the next English-only passage, prioritizing due weak items alongside uncovered entries; do not repeat this explanation pass.
 - Batch delivery changes presentation only; preserve individual explanations, translation feedback, and evidence-based mastery rules.
